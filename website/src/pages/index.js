@@ -38,8 +38,8 @@ const features = [
     icon: 'briefcase',
     description: (
       <>
-      <Link to="/docs/about/guarantees/">Add</Link> or <Link to="/docs/about/guarantees/">Edit</Link> a new <Link to="/docs/about/guarantees/">listing</Link> and how to <Link to="/docs/about/guarantees/">publish</Link> it. Learn how to set your <Link to="/docs/about/guarantees/">rates</Link>,  <Link to="/docs/about/guarantees/">dates and times</Link> you want to using from your <Link to="/docs/about/guarantees/">calendar</Link>.
-      View <Link to="/docs/about/guarantees/">previous</Link> or <Link to="/docs/about/guarantees/">upcoming</Link> Shift information or download and view your <Link to="/docs/about/guarantees/">invoices</Link>
+      <Link to="/docs/shifts/listing/create">Add</Link> or <Link to="/docs/shifts/listing/edit">Edit</Link> a new <Link to="/docs/shifts/listings">listing</Link> and how to <Link to="/docs/shifts/listing/publish">publish</Link> it. Learn how to set your <Link to="/docs/shifts/rates">rates</Link>,  <Link to="/docs/shifts/calendar/dates">dates and times</Link> you want to using from your <Link to="/docs/shifts/calendar">calendar</Link>.
+      View <Link to="/docs/shifts/listing/previous">previous</Link> or <Link to="/docs/shifts/listing/upcoming">upcoming</Link> Shift information or download and view your <Link to="/docs/shifts/invoice">invoices</Link>
       </>
     ),
   },

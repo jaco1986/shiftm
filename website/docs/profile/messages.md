@@ -1,6 +1,6 @@
 ---
 last_modified_on: "2020-06-01"
-title: Inbox
+title: Inboxs
 description: What is your profile and how do you create one.
 ---
 

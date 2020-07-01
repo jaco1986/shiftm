@@ -27,7 +27,7 @@ module.exports = {
         { to: "releases/", label: "Download", position: "right" },
       ],
     },
-    image: "img/open-graph.png",
+
     prism: {
       theme: require("prism-react-renderer/themes/github"),
       darkTheme: require("prism-react-renderer/themes/dracula"),
