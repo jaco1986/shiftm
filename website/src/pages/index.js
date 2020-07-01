@@ -78,7 +78,7 @@ description: (
         icon: 'help-circle',
         description: (
           <>
-          Need <Link to="/docs/about/guarantees/">help</Link>? Have a look at our <Link to="/docs/about/guarantees/">FAQ</Link> or follow one of our <Link to="/guides/getting-started/">Guides</Link>? Would you like to get in touch with <Link to="/docs/about/guarantees/">support</Link>? <a href={"mailto:support@shiftm.com"}>Email</a>  us now!
+          Need <Link to="/docs/about/guarantees/">help</Link>? Have a look at our <Link to="/docs/about/guarantees/">FAQ</Link> or follow one of our <Link to="/guides/getting-started/">Guides</Link>? Would you like to get in touch with <Link to="/docs/about/support/">support</Link>? <a href={"mailto:support@shiftm.com"}>Email</a>  us now!
           </>
     ),
   },

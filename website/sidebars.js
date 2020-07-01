@@ -6,6 +6,7 @@ module.exports = {
       items: [
         "about",
         "about/what-is-shiftm",
+        "about/support",        
         "about/terms_and_cond",
         "about/privacy",
         "about/safety",
