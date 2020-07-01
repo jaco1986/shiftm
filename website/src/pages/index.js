@@ -28,8 +28,8 @@ const features = [
     icon: 'user',
     description: (
       <>
-      Create your <Link to="/docs/about/guarantees/">Account</Link> and set your <Link to="/docs/about/guarantees/">profile picture</Link>. Upload your <Link to="/docs/about/guarantees/">verification documents</Link>,
-      learn about our <Link to="/docs/about/guarantees/">trust and verification</Link> process, view your <Link to="/docs/about/guarantees/">reviews</Link> or read your <Link to="/docs/about/guarantees/">messages</Link>.
+      Create your <Link to="/docs/profile/your_profile/">Account</Link> and set your <Link to="/docs/profile/picture">profile picture</Link>. Upload your <Link to="/docs/profile/verification_documents/">verification documents</Link>,
+      learn about our <Link to="/docs/about/trust_and_verificaton/">trust and verification</Link> process, view your <Link to="/docs/profile/reviews/">reviews</Link> or read your messages from your <Link to="/docs/profile/messages/">inbox</Link>.
     </>
     ),
   },
@@ -69,7 +69,7 @@ icon: 'book-open',
 description: (
   <>
   Read our  <Link to="/docs/about/terms_and_cond/">Terms & Conditions</Link> and our statement about <Link to="/docs/about/privacy/">Privacy</Link> and our <Link to="/docs/about/safety/">Safety</Link> measures.
-  Learn more about why <Link to="/docs/about/guarantees/">verification documents</Link> is required and how to <Link to="/docs/about/guarantees/">report</Link> a user and/or abuse.
+  Learn more about why <Link to="/docs/profile/verification_documents/">verification documents</Link> is required and how to <Link to="/docs/about/guarantees/">report</Link> a user and/or abuse.
   </>
     ),
   },
@@ -78,7 +78,7 @@ description: (
         icon: 'help-circle',
         description: (
           <>
-          Need <Link to="/docs/about/guarantees/">help</Link>? Have a look at our <Link to="/docs/about/guarantees/">FAQ</Link> or <Link to="/docs/about/guarantees/">Shifts</Link>? Would you like to get in touch with <Link to="/docs/about/guarantees/">support</Link>? <a href={"mailto:support@shiftm.com"}>Email</a>  us now!
+          Need <Link to="/docs/about/guarantees/">help</Link>? Have a look at our <Link to="/docs/about/guarantees/">FAQ</Link> or follow one of our <Link to="/guides/getting-started/">Guides</Link>? Would you like to get in touch with <Link to="/docs/about/guarantees/">support</Link>? <a href={"mailto:support@shiftm.com"}>Email</a>  us now!
           </>
     ),
   },

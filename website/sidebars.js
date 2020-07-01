@@ -16,19 +16,12 @@ module.exports = {
       type: 'category',
       label: 'Profile',
       items: [
-        "about",
-        "profile/create",
-        "about/concepts",
-        {
-          type: 'category',
-          label: 'Data Model',
-          items: [
-            "about/data-model",
-            "about/data-model/log",
-            "about/data-model/metric",
-          ]
-        },
-        "about/guarantees",
+        "profile/your_profile",
+        "profile/messages",
+        "profile/picture",
+        "profile/reviews",
+        "profile/verification_documents",
+        "about/trust_and_verificaton",
       ],
     },
     {
