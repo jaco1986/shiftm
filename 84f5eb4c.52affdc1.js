@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[514],{670:function(s){s.exports=JSON.parse('{"allTagsPath":"/highlights/tags","slug":"provider-aws","name":"provider: aws","count":1,"permalink":"/highlights/tags/provider-aws"}')}}]);

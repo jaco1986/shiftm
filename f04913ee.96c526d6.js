@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[897],{1056:function(e){e.exports=JSON.parse('{"allTagsPath":"/highlights/tags","slug":"type-enhancement","name":"type: enhancement","count":7,"permalink":"/highlights/tags/type-enhancement"}')}}]);

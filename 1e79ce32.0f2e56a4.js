@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[118],{273:function(s){s.exports=JSON.parse('{"allTagsPath":"/guides/tags","slug":"sink-statsd","name":"sink: statsd","count":3,"permalink":"/guides/tags/sink-statsd"}')}}]);

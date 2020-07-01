@@ -11,7 +11,7 @@
 
 <title data-react-helmet="true">Metric Event | Docs | Shift&#x27;M Support</title>
 
-<meta data-react-helmet="true" http-equiv="x-ua-compatible" content="ie=edge"><meta data-react-helmet="true" property="og:title" content="Shift&#x27;M Support"><meta data-react-helmet="true" property="og:image" content="https://jaco1986.github.io/img/open-graph.png"><meta data-react-helmet="true" property="twitter:image" content="https://jaco1986.github.io/img/open-graph.png"><meta data-react-helmet="true" name="twitter:image:alt" content="Image for Shift&#x27;M Support"><meta data-react-helmet="true" name="twitter:site" content="@vectordotdev"><meta data-react-helmet="true" name="twitter:creator" content="@vectordotdev"><meta data-react-helmet="true" name="twitter:card" content="summary"><meta data-react-helmet="true" name="description" content="A detailed guide on Vector&#x27;s internal metric data model."><meta data-react-helmet="true" property="og:description" content="A detailed guide on Vector&#x27;s internal metric data model."><meta data-react-helmet="true" property="og:url" content="https://jaco1986.github.io/docs/about/data-model/metric">
+<meta data-react-helmet="true" http-equiv="x-ua-compatible" content="ie=edge"><meta data-react-helmet="true" property="og:title" content="Shift&#x27;M Support"><meta data-react-helmet="true" name="twitter:card" content="summary"><meta data-react-helmet="true" name="description" content="A detailed guide on Vector&#x27;s internal metric data model."><meta data-react-helmet="true" property="og:description" content="A detailed guide on Vector&#x27;s internal metric data model."><meta data-react-helmet="true" property="og:url" content="https://jaco1986.github.io/docs/about/data-model/metric">
 
 <link data-react-helmet="true" rel="shortcut icon" href="/favicon.ico"><link data-react-helmet="true" rel="canonical" href="https://vector.dev/docs/about/data-model/metric/">
 
@@ -19,27 +19,27 @@
 <link rel="stylesheet" href="/styles.e3815c54.css">
 
 
-<link rel="preload" href="/styles.c7889ac6.js" as="script">
+<link rel="preload" href="/styles.7eddd512.js" as="script">
 
-<link rel="preload" href="/runtime~main.fbc71f0d.js" as="script">
+<link rel="preload" href="/runtime~main.94fda44e.js" as="script">
 
-<link rel="preload" href="/main.7ca810e5.js" as="script">
+<link rel="preload" href="/main.da0d10a5.js" as="script">
 
-<link rel="preload" href="/common.986d0602.js" as="script">
+<link rel="preload" href="/common.abbf962d.js" as="script">
 
-<link rel="preload" href="/3.70e6c0a0.js" as="script">
+<link rel="preload" href="/2.675e7c1d.js" as="script">
 
-<link rel="preload" href="/4.c71eb10d.js" as="script">
+<link rel="preload" href="/4.e038473c.js" as="script">
 
-<link rel="preload" href="/1be78505.ea7d5101.js" as="script">
+<link rel="preload" href="/1be78505.caaed8db.js" as="script">
 
-<link rel="preload" href="/20ac7829.210f62b9.js" as="script">
+<link rel="preload" href="/20ac7829.06f56472.js" as="script">
 
-<link rel="preload" href="/17896441.ad265b5a.js" as="script">
+<link rel="preload" href="/17896441.f27c5c93.js" as="script">
 
-<link rel="preload" href="/2.415e5bbe.js" as="script">
+<link rel="preload" href="/3.0547bca9.js" as="script">
 
-<link rel="preload" href="/2d9418f1.58be62f9.js" as="script">
+<link rel="preload" href="/2d9418f1.b25f733d.js" as="script">
 
 </head>
 <body>
@@ -59,30 +59,30 @@ Vector&#x27;s internal gauge type represents changes to that value. Gauges shoul
 used to track fluctuations in values, like current memory or CPU usage.</p><ul class="connected-list"><li class="field-required" required=""><div class="badges"><span class="badge badge--secondary">double</span><span class="badge badge--primary with-info-icon" title="This is a popular that we recommend for getting started">common</span><span class="badge badge--danger">required</span></div><h4><a aria-hidden="true" tabindex="-1" class="anchor" id="value-1"></a><a aria-hidden="true" tabindex="-1" class="hash-link" href="#value-1" title="Direct link to heading">#</a>value</h4><p>A specific point-in-time value for the gauge.</p><ul class="info"><li>No default</li><li><div class="show-more">View examples</div></li></ul></li></ul><ul class="info"><li>No default</li></ul></li><li class="field-required" required=""><div class="badges"><span class="badge badge--secondary">string</span><span class="badge badge--secondary with-info-icon" title="This option is an enumation and only allows specific values">enum</span><span class="badge badge--primary with-info-icon" title="This is a popular that we recommend for getting started">common</span><span class="badge badge--danger">required</span></div><h3><a aria-hidden="true" tabindex="-1" class="anchor" id="kind"></a><a aria-hidden="true" tabindex="-1" class="hash-link" href="#kind" title="Direct link to heading">#</a>kind</h3><p>The metric value kind. This determines how the value is merged downstream if
 metrics are aggregated.</p><ul class="info"><li>No default</li><li>Enum, must be one of: <code class="with-info-icon" title="The value is an absolute, stand-alone value. It can be used individually.">&quot;absolute&quot;</code> <code class="with-info-icon" title="The value is incremental and is used to form a holistic value by merging with other incremental values. Individually it does not tell the whole story.">&quot;incremental&quot;</code> </li><li><div class="show-more">View examples</div></li></ul></li><li class="field-required" required=""><div class="badges"><span class="badge badge--secondary">string</span><span class="badge badge--primary with-info-icon" title="This is a popular that we recommend for getting started">common</span><span class="badge badge--danger">required</span></div><h3><a aria-hidden="true" tabindex="-1" class="anchor" id="name"></a><a aria-hidden="true" tabindex="-1" class="hash-link" href="#name" title="Direct link to heading">#</a>name</h3><p>The metric name.</p><ul class="info"><li>No default</li><li><div class="show-more">View examples</div></li></ul></li><li><div class="badges"><span class="badge badge--secondary">struct</span><span class="badge badge--secondary">optional</span></div><h3><a aria-hidden="true" tabindex="-1" class="anchor" id="set"></a><a aria-hidden="true" tabindex="-1" class="hash-link" href="#set" title="Direct link to heading">#</a>set</h3><p>A set represents a count of unique values, AKA the cardinality.</p><ul class="connected-list"><li class="field-required" required=""><div class="badges"><span class="badge badge--secondary">[string]</span><span class="badge badge--primary with-info-icon" title="This is a popular that we recommend for getting started">common</span><span class="badge badge--danger">required</span></div><h4><a aria-hidden="true" tabindex="-1" class="anchor" id="values-2"></a><a aria-hidden="true" tabindex="-1" class="hash-link" href="#values-2" title="Direct link to heading">#</a>values</h4><p>The list of unique values.</p><ul class="info"><li>No default</li><li><div class="show-more">View examples</div></li></ul></li></ul><ul class="info"><li>No default</li></ul></li><li class="field-required" required=""><div class="badges"><span class="badge badge--secondary">map</span><span class="badge badge--primary with-info-icon" title="This is a popular that we recommend for getting started">common</span><span class="badge badge--danger">required</span></div><h3><a aria-hidden="true" tabindex="-1" class="anchor" id="tags"></a><a aria-hidden="true" tabindex="-1" class="hash-link" href="#tags" title="Direct link to heading">#</a>tags</h3><p>Tags that add additional metadata or context to the metric. These are simple
 key/value pairs in <code>string</code> format and cannot be nested.</p><ul class="info"><li>No default</li><li><div class="show-more">View examples</div></li></ul></li><li class="field-required" required=""><div class="badges"><span class="badge badge--secondary">timestamp</span><span class="badge badge--primary with-info-icon" title="This is a popular that we recommend for getting started">common</span><span class="badge badge--danger">required</span></div><h3><a aria-hidden="true" tabindex="-1" class="anchor" id="timestamp"></a><a aria-hidden="true" tabindex="-1" class="hash-link" href="#timestamp" title="Direct link to heading">#</a>timestamp</h3><p>The metric timestamp, representing when the metric was created/ingested within
-Vector.</p><ul class="info"><li>No default</li><li><div class="show-more">View examples</div></li></ul></li></ul><h2><a aria-hidden="true" tabindex="-1" class="anchor" id="components"></a><a aria-hidden="true" tabindex="-1" class="hash-link" href="#components" title="Direct link to heading">#</a>Components</h2><a class="jump-to jump-to--undefined" href="/components/?event-types[]=metric"><div class="jump-to--inner"><div class="jump-to--inner-2"><div class="jump-to--main">View all metric compatible components</div><div class="jump-to--right"><i class="feather icon-chevron-right arrow"></i></div></div></div></a></div></article></div></div><div class="rightCol_38kP"><div class="table-of-contents tableOfContents_tVyB"><div class="section"><div class="title">Contents</div><ul class="contents"><li><a href="#description" class="contents__link">Description</a></li><li><a href="#examples" class="contents__link">Examples</a></li><li><a href="#schema" class="contents__link">Schema</a><ul><li><a href="#aggregated_histogram" class="contents__link">aggregated_histogram</a></li><li><a href="#aggregated_summary" class="contents__link">aggregated_summary</a></li><li><a href="#counter" class="contents__link">counter</a></li><li><a href="#distribution" class="contents__link">distribution</a></li><li><a href="#gauge" class="contents__link">gauge</a></li><li><a href="#kind" class="contents__link">kind</a></li><li><a href="#name" class="contents__link">name</a></li><li><a href="#set" class="contents__link">set</a></li><li><a href="#tags" class="contents__link">tags</a></li><li><a href="#timestamp" class="contents__link">timestamp</a></li></ul></li><li><a href="#components" class="contents__link">Components</a></li></ul></div><div class="section"><div class="title">Resources</div><ul class="contents"></ul></div></div></div></div></div></main></div></div><footer class="footer"><div class="container"><div class="row footer__links"><div class="col footer__col"><h4 class="footer__title">About</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item" href="/docs/about/what-is-shiftm/">What is Shift&#x27;M?</a></li><li class="footer__item"><a class="footer__link-item" href="/community/#team">Terms and Conditions</a></li><li class="footer__item"><a class="footer__link-item" to="https://shiftm.com/contact" href="https://shiftm.com/contact">Contact Us</a></li><li class="footer__item"><a class="footer__link-item" href="/mailing_list/">Mailing List</a></li></ul></div><div class="col footer__col"><h4 class="footer__title">Mobile</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://www.apple.com/ios/app-store">App Store</a></li><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://play.google.com/store?hl=en">Play Store</a></li></ul></div><div class="col footer__col"><h4 class="footer__title">Community</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://facebook.com/shiftmhealthcare">Facebook</a></li><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://instagram.com/shiftm_">Instagram</a></li><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://twitter.com/ShiftM_">Twitter</a></li><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://linkedIn.com/company/Shift-m">LinkedIn</a></li></ul></div></div><div class="text--center"><div class="margin-bottom--sm"><a href="https://shiftm.com" target="_blank" rel="noopener noreferrer" class="footerLogoLink_3L_r"></a></div>Copyright © 2020 Shift&#x27;M B.V<br></div></div></footer>
+Vector.</p><ul class="info"><li>No default</li><li><div class="show-more">View examples</div></li></ul></li></ul><h2><a aria-hidden="true" tabindex="-1" class="anchor" id="components"></a><a aria-hidden="true" tabindex="-1" class="hash-link" href="#components" title="Direct link to heading">#</a>Components</h2><a class="jump-to jump-to--undefined" href="/components/?event-types[]=metric"><div class="jump-to--inner"><div class="jump-to--inner-2"><div class="jump-to--main">View all metric compatible components</div><div class="jump-to--right"><i class="feather icon-chevron-right arrow"></i></div></div></div></a></div></article></div></div><div class="rightCol_38kP"><div class="table-of-contents tableOfContents_tVyB"><div class="section"><div class="title">Contents</div><ul class="contents"><li><a href="#description" class="contents__link">Description</a></li><li><a href="#examples" class="contents__link">Examples</a></li><li><a href="#schema" class="contents__link">Schema</a><ul><li><a href="#aggregated_histogram" class="contents__link">aggregated_histogram</a></li><li><a href="#aggregated_summary" class="contents__link">aggregated_summary</a></li><li><a href="#counter" class="contents__link">counter</a></li><li><a href="#distribution" class="contents__link">distribution</a></li><li><a href="#gauge" class="contents__link">gauge</a></li><li><a href="#kind" class="contents__link">kind</a></li><li><a href="#name" class="contents__link">name</a></li><li><a href="#set" class="contents__link">set</a></li><li><a href="#tags" class="contents__link">tags</a></li><li><a href="#timestamp" class="contents__link">timestamp</a></li></ul></li><li><a href="#components" class="contents__link">Components</a></li></ul></div><div class="section"><div class="title">Resources</div><ul class="contents"></ul></div></div></div></div></div></main></div></div><footer class="footer"><div class="container"><div class="row footer__links"><div class="col col--5 footer__col"><div class="margin-bottom--md"></div><div class="margin-bottom--md"><div class="mailing-list"><form action="https://shiftm.us18.list-manage.com/subscribe/post" method="post" class="mailing-list--form"><input type="hidden" name="u" value="ef3f45d9742db70a70fd6e4c4"><input type="hidden" name="id" value="82fab539e5"><input type="email" class="input input--undefined" name="EMAIL" placeholder="your@email.com" style="width:150px"><button class="button button--primary button--undefined" type="submit">Subscribe</button></form></div></div></div><div class="col footer__col"><h4 class="footer__title">About</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item" href="/docs/about/what-is-shiftm/">What is Shift&#x27;M?</a></li><li class="footer__item"><a class="footer__link-item" href="/community/#team">Terms and Conditions</a></li><li class="footer__item"><a class="footer__link-item" to="https://shiftm.com/contact" href="https://shiftm.com/contact">Contact Us</a></li><li class="footer__item"><a class="footer__link-item" href="/mailing_list/">Mailing List</a></li></ul></div><div class="col footer__col"><h4 class="footer__title">Mobile</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://www.apple.com/ios/app-store">App Store</a></li><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://play.google.com/store?hl=en">Play Store</a></li></ul></div><div class="col footer__col"><h4 class="footer__title">Community</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://facebook.com/shiftmhealthcare">Facebook</a></li><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://instagram.com/shiftm_">Instagram</a></li><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://twitter.com/ShiftM_">Twitter</a></li><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://linkedIn.com/company/Shift-m">LinkedIn</a></li></ul></div></div><div class="text--center"><div class="margin-bottom--sm"><a href="https://shiftm.com" target="_blank" rel="noopener noreferrer" class="footerLogoLink_3L_r"></a></div>Copyright © 2020 Shift&#x27;M B.V<br></div></div></footer>
 </div>
 
-<script src="/styles.c7889ac6.js"></script>
+<script src="/styles.7eddd512.js"></script>
 
-<script src="/runtime~main.fbc71f0d.js"></script>
+<script src="/runtime~main.94fda44e.js"></script>
 
-<script src="/main.7ca810e5.js"></script>
+<script src="/main.da0d10a5.js"></script>
 
-<script src="/common.986d0602.js"></script>
+<script src="/common.abbf962d.js"></script>
 
-<script src="/3.70e6c0a0.js"></script>
+<script src="/2.675e7c1d.js"></script>
 
-<script src="/4.c71eb10d.js"></script>
+<script src="/4.e038473c.js"></script>
 
-<script src="/1be78505.ea7d5101.js"></script>
+<script src="/1be78505.caaed8db.js"></script>
 
-<script src="/20ac7829.210f62b9.js"></script>
+<script src="/20ac7829.06f56472.js"></script>
 
-<script src="/17896441.ad265b5a.js"></script>
+<script src="/17896441.f27c5c93.js"></script>
 
-<script src="/2.415e5bbe.js"></script>
+<script src="/3.0547bca9.js"></script>
 
-<script src="/2d9418f1.58be62f9.js"></script>
+<script src="/2d9418f1.b25f733d.js"></script>
 
 
 </body>

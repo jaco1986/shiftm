@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[177],{332:function(s){s.exports=JSON.parse('{"allTagsPath":"/highlights/tags","slug":"domain-transforms","name":"domain: transforms","count":8,"permalink":"/highlights/tags/domain-transforms"}')}}]);

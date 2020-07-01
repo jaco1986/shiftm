@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[851],{1010:function(s){s.exports=JSON.parse('{"allTagsPath":"/guides/tags","slug":"sink-influxdb-logs","name":"sink: influxdb_logs","count":10,"permalink":"/guides/tags/sink-influxdb-logs"}')}}]);

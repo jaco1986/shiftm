@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[401],{556:function(s){s.exports=JSON.parse('{"allTagsPath":"/guides/tags","slug":"sink-sematext-logs","name":"sink: sematext_logs","count":10,"permalink":"/guides/tags/sink-sematext-logs"}')}}]);

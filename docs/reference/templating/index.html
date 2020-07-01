@@ -11,7 +11,7 @@
 
 <title data-react-helmet="true">Templating | Docs | Shift&#x27;M Support</title>
 
-<meta data-react-helmet="true" http-equiv="x-ua-compatible" content="ie=edge"><meta data-react-helmet="true" property="og:title" content="Shift&#x27;M Support"><meta data-react-helmet="true" property="og:image" content="https://jaco1986.github.io/img/open-graph.png"><meta data-react-helmet="true" property="twitter:image" content="https://jaco1986.github.io/img/open-graph.png"><meta data-react-helmet="true" name="twitter:image:alt" content="Image for Shift&#x27;M Support"><meta data-react-helmet="true" name="twitter:site" content="@vectordotdev"><meta data-react-helmet="true" name="twitter:creator" content="@vectordotdev"><meta data-react-helmet="true" name="twitter:card" content="summary"><meta data-react-helmet="true" name="description" content="Learn Vector&#x27;s templating syntax used to creat dynamic values in Vector&#x27;s configuration."><meta data-react-helmet="true" property="og:description" content="Learn Vector&#x27;s templating syntax used to creat dynamic values in Vector&#x27;s configuration."><meta data-react-helmet="true" property="og:url" content="https://jaco1986.github.io/docs/reference/templating">
+<meta data-react-helmet="true" http-equiv="x-ua-compatible" content="ie=edge"><meta data-react-helmet="true" property="og:title" content="Shift&#x27;M Support"><meta data-react-helmet="true" name="twitter:card" content="summary"><meta data-react-helmet="true" name="description" content="Learn Vector&#x27;s templating syntax used to creat dynamic values in Vector&#x27;s configuration."><meta data-react-helmet="true" property="og:description" content="Learn Vector&#x27;s templating syntax used to creat dynamic values in Vector&#x27;s configuration."><meta data-react-helmet="true" property="og:url" content="https://jaco1986.github.io/docs/reference/templating">
 
 <link data-react-helmet="true" rel="shortcut icon" href="/favicon.ico"><link data-react-helmet="true" rel="canonical" href="https://vector.dev/docs/reference/templating/">
 
@@ -19,25 +19,25 @@
 <link rel="stylesheet" href="/styles.e3815c54.css">
 
 
-<link rel="preload" href="/styles.c7889ac6.js" as="script">
+<link rel="preload" href="/styles.7eddd512.js" as="script">
 
-<link rel="preload" href="/runtime~main.fbc71f0d.js" as="script">
+<link rel="preload" href="/runtime~main.94fda44e.js" as="script">
 
-<link rel="preload" href="/main.7ca810e5.js" as="script">
+<link rel="preload" href="/main.da0d10a5.js" as="script">
 
-<link rel="preload" href="/common.986d0602.js" as="script">
+<link rel="preload" href="/common.abbf962d.js" as="script">
 
-<link rel="preload" href="/3.70e6c0a0.js" as="script">
+<link rel="preload" href="/2.675e7c1d.js" as="script">
 
-<link rel="preload" href="/4.c71eb10d.js" as="script">
+<link rel="preload" href="/4.e038473c.js" as="script">
 
-<link rel="preload" href="/1be78505.ea7d5101.js" as="script">
+<link rel="preload" href="/1be78505.caaed8db.js" as="script">
 
-<link rel="preload" href="/20ac7829.210f62b9.js" as="script">
+<link rel="preload" href="/20ac7829.06f56472.js" as="script">
 
-<link rel="preload" href="/17896441.ad265b5a.js" as="script">
+<link rel="preload" href="/17896441.f27c5c93.js" as="script">
 
-<link rel="preload" href="/c5d8074b.4c657cab.js" as="script">
+<link rel="preload" href="/c5d8074b.e266f884.js" as="script">
 
 </head>
 <body>
@@ -62,28 +62,28 @@ you can escape the event field syntax like so:</p><div class="mdxCodeBlock_iHAB"
 is open to add this functionality. In the interim, you can use the
 <a href="/docs/reference/transforms/lua/"><code>lua</code> transform</a> to set a default value:</p><div class="mdxCodeBlock_iHAB"><div class="codeBlockContent_3RXF"><button type="button" aria-label="Copy code to clipboard" class="copyButton_1PCb">Copy</button><pre class="prism-code language-toml codeBlock_1wn8"><div class="codeBlockLines_3HrO" style="color:#393A34;background-color:#f6f8fa"><div class="token-line" style="color:#393A34"><span class="token punctuation" style="color:#393A34">[</span><span class="token table class-name">transforms.set_defaults</span><span class="token punctuation" style="color:#393A34">]</span><span class="token plain"></span></div><div class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token comment" style="color:#999988;font-style:italic"># REQUIRED</span><span class="token plain"></span></div><div class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token key property" style="color:#36acaa">type</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">=</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">&quot;lua&quot;</span><span class="token plain"></span></div><div class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token key property" style="color:#36acaa">inputs</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">=</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">[</span><span class="token string" style="color:#e3116c">&quot;my-source-id&quot;</span><span class="token punctuation" style="color:#393A34">]</span><span class="token plain"></span></div><div class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token key property" style="color:#36acaa">source</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">=</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">&quot;&quot;&quot;</span></div><div class="token-line" style="color:#393A34"><span class="token string" style="color:#e3116c">if event[&quot;my_field&quot;] == nil then</span></div><div class="token-line" style="color:#393A34"><span class="token string" style="color:#e3116c">  event[&quot;my_field&quot;] = &quot;default&quot;</span></div><div class="token-line" style="color:#393A34"><span class="token string" style="color:#e3116c">end</span></div><div class="token-line" style="color:#393A34"><span class="token string" style="color:#e3116c">&quot;&quot;&quot;</span></div></div></pre></div></div><h3><a aria-hidden="true" tabindex="-1" class="anchor" id="missing-fields"></a><a aria-hidden="true" tabindex="-1" class="hash-link" href="#missing-fields" title="Direct link to heading">#</a>Missing Fields</h3><p>If a field is missing, a blank string will be inserted in it&#x27;s place. Vector
 will not error, drop the event, or log anything.</p><h3><a aria-hidden="true" tabindex="-1" class="anchor" id="nested-fields"></a><a aria-hidden="true" tabindex="-1" class="hash-link" href="#nested-fields" title="Direct link to heading">#</a>Nested Fields</h3><p>Nested fields can be accessed using Vector&#x27;s
-<a href="/docs/reference/field-path-notation/">field notation syntax</a>:</p><div class="mdxCodeBlock_iHAB"><div class="codeBlockContent_3RXF"><button type="button" aria-label="Copy code to clipboard" class="copyButton_1PCb">Copy</button><pre class="prism-code language-text codeBlock_1wn8"><div class="codeBlockLines_3HrO" style="color:#393A34;background-color:#f6f8fa"><div class="token-line" style="color:#393A34"><span class="token plain">option = &quot;{{ parent.child }}&quot;</span></div></div></pre></div></div></div></article></div></div><div class="rightCol_38kP"><div class="table-of-contents tableOfContents_tVyB"><div class="section"><div class="title">Support</div><div><a class="text--warning" title="This component is in beta and is not recommended for production environments. Click to learn more." href="/docs/about/guarantees/#beta"><i class="feather icon-alert-triangle"></i> Beta Status</a></div></div><div class="section"><div class="title">Contents</div><ul class="contents"><li><a href="#example" class="contents__link">Example</a></li><li><a href="#syntax" class="contents__link">Syntax</a><ul><li><a href="#event-fields" class="contents__link">Event Fields</a></li><li><a href="#strftime-specifiers" class="contents__link">Strftime Specifiers</a></li><li><a href="#escaping" class="contents__link">Escaping</a></li></ul></li><li><a href="#how-it-works" class="contents__link">How It Works</a><ul><li><a href="#array-values" class="contents__link">Array Values</a></li><li><a href="#fallback-values" class="contents__link">Fallback Values</a></li><li><a href="#missing-fields" class="contents__link">Missing Fields</a></li><li><a href="#nested-fields" class="contents__link">Nested Fields</a></li></ul></li></ul></div><div class="section"><div class="title">Resources</div><ul class="contents"></ul></div></div></div></div></div></main></div></div><footer class="footer"><div class="container"><div class="row footer__links"><div class="col footer__col"><h4 class="footer__title">About</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item" href="/docs/about/what-is-shiftm/">What is Shift&#x27;M?</a></li><li class="footer__item"><a class="footer__link-item" href="/community/#team">Terms and Conditions</a></li><li class="footer__item"><a class="footer__link-item" to="https://shiftm.com/contact" href="https://shiftm.com/contact">Contact Us</a></li><li class="footer__item"><a class="footer__link-item" href="/mailing_list/">Mailing List</a></li></ul></div><div class="col footer__col"><h4 class="footer__title">Mobile</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://www.apple.com/ios/app-store">App Store</a></li><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://play.google.com/store?hl=en">Play Store</a></li></ul></div><div class="col footer__col"><h4 class="footer__title">Community</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://facebook.com/shiftmhealthcare">Facebook</a></li><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://instagram.com/shiftm_">Instagram</a></li><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://twitter.com/ShiftM_">Twitter</a></li><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://linkedIn.com/company/Shift-m">LinkedIn</a></li></ul></div></div><div class="text--center"><div class="margin-bottom--sm"><a href="https://shiftm.com" target="_blank" rel="noopener noreferrer" class="footerLogoLink_3L_r"></a></div>Copyright © 2020 Shift&#x27;M B.V<br></div></div></footer>
+<a href="/docs/reference/field-path-notation/">field notation syntax</a>:</p><div class="mdxCodeBlock_iHAB"><div class="codeBlockContent_3RXF"><button type="button" aria-label="Copy code to clipboard" class="copyButton_1PCb">Copy</button><pre class="prism-code language-text codeBlock_1wn8"><div class="codeBlockLines_3HrO" style="color:#393A34;background-color:#f6f8fa"><div class="token-line" style="color:#393A34"><span class="token plain">option = &quot;{{ parent.child }}&quot;</span></div></div></pre></div></div></div></article></div></div><div class="rightCol_38kP"><div class="table-of-contents tableOfContents_tVyB"><div class="section"><div class="title">Support</div><div><a class="text--warning" title="This component is in beta and is not recommended for production environments. Click to learn more." href="/docs/about/guarantees/#beta"><i class="feather icon-alert-triangle"></i> Beta Status</a></div></div><div class="section"><div class="title">Contents</div><ul class="contents"><li><a href="#example" class="contents__link">Example</a></li><li><a href="#syntax" class="contents__link">Syntax</a><ul><li><a href="#event-fields" class="contents__link">Event Fields</a></li><li><a href="#strftime-specifiers" class="contents__link">Strftime Specifiers</a></li><li><a href="#escaping" class="contents__link">Escaping</a></li></ul></li><li><a href="#how-it-works" class="contents__link">How It Works</a><ul><li><a href="#array-values" class="contents__link">Array Values</a></li><li><a href="#fallback-values" class="contents__link">Fallback Values</a></li><li><a href="#missing-fields" class="contents__link">Missing Fields</a></li><li><a href="#nested-fields" class="contents__link">Nested Fields</a></li></ul></li></ul></div><div class="section"><div class="title">Resources</div><ul class="contents"></ul></div></div></div></div></div></main></div></div><footer class="footer"><div class="container"><div class="row footer__links"><div class="col col--5 footer__col"><div class="margin-bottom--md"></div><div class="margin-bottom--md"><div class="mailing-list"><form action="https://shiftm.us18.list-manage.com/subscribe/post" method="post" class="mailing-list--form"><input type="hidden" name="u" value="ef3f45d9742db70a70fd6e4c4"><input type="hidden" name="id" value="82fab539e5"><input type="email" class="input input--undefined" name="EMAIL" placeholder="your@email.com" style="width:150px"><button class="button button--primary button--undefined" type="submit">Subscribe</button></form></div></div></div><div class="col footer__col"><h4 class="footer__title">About</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item" href="/docs/about/what-is-shiftm/">What is Shift&#x27;M?</a></li><li class="footer__item"><a class="footer__link-item" href="/community/#team">Terms and Conditions</a></li><li class="footer__item"><a class="footer__link-item" to="https://shiftm.com/contact" href="https://shiftm.com/contact">Contact Us</a></li><li class="footer__item"><a class="footer__link-item" href="/mailing_list/">Mailing List</a></li></ul></div><div class="col footer__col"><h4 class="footer__title">Mobile</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://www.apple.com/ios/app-store">App Store</a></li><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://play.google.com/store?hl=en">Play Store</a></li></ul></div><div class="col footer__col"><h4 class="footer__title">Community</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://facebook.com/shiftmhealthcare">Facebook</a></li><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://instagram.com/shiftm_">Instagram</a></li><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://twitter.com/ShiftM_">Twitter</a></li><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://linkedIn.com/company/Shift-m">LinkedIn</a></li></ul></div></div><div class="text--center"><div class="margin-bottom--sm"><a href="https://shiftm.com" target="_blank" rel="noopener noreferrer" class="footerLogoLink_3L_r"></a></div>Copyright © 2020 Shift&#x27;M B.V<br></div></div></footer>
 </div>
 
-<script src="/styles.c7889ac6.js"></script>
+<script src="/styles.7eddd512.js"></script>
 
-<script src="/runtime~main.fbc71f0d.js"></script>
+<script src="/runtime~main.94fda44e.js"></script>
 
-<script src="/main.7ca810e5.js"></script>
+<script src="/main.da0d10a5.js"></script>
 
-<script src="/common.986d0602.js"></script>
+<script src="/common.abbf962d.js"></script>
 
-<script src="/3.70e6c0a0.js"></script>
+<script src="/2.675e7c1d.js"></script>
 
-<script src="/4.c71eb10d.js"></script>
+<script src="/4.e038473c.js"></script>
 
-<script src="/1be78505.ea7d5101.js"></script>
+<script src="/1be78505.caaed8db.js"></script>
 
-<script src="/20ac7829.210f62b9.js"></script>
+<script src="/20ac7829.06f56472.js"></script>
 
-<script src="/17896441.ad265b5a.js"></script>
+<script src="/17896441.f27c5c93.js"></script>
 
-<script src="/c5d8074b.4c657cab.js"></script>
+<script src="/c5d8074b.e266f884.js"></script>
 
 
 </body>

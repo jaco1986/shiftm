@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[384],{539:function(s){s.exports=JSON.parse('{"allTagsPath":"/highlights/tags","slug":"sink-elasticsearch","name":"sink: elasticsearch","count":2,"permalink":"/highlights/tags/sink-elasticsearch"}')}}]);

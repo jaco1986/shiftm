@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[289],{444:function(s){s.exports=JSON.parse('{"allTagsPath":"/guides/tags","slug":"sink-aws-kinesis-streams","name":"sink: aws_kinesis_streams","count":10,"permalink":"/guides/tags/sink-aws-kinesis-streams"}')}}]);
