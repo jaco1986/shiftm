@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[228],{383:function(s){s.exports=JSON.parse('{"allTagsPath":"/highlights/tags","slug":"source-vector","name":"source: vector","count":5,"permalink":"/highlights/tags/source-vector"}')}}]);

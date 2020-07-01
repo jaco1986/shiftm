@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[924],{1083:function(a){a.exports=JSON.parse('{"allTagsPath":"/highlights/tags","slug":"platform-armv-7","name":"platform: armv7","count":1,"permalink":"/highlights/tags/platform-armv-7"}')}}]);
