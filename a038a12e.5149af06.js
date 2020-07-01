@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[606],{762:function(s){s.exports=JSON.parse('{"allTagsPath":"/highlights/tags","slug":"transform-add-fields","name":"transform: add_fields","count":1,"permalink":"/highlights/tags/transform-add-fields"}')}}]);

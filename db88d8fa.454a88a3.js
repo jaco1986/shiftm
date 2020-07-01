@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[819],{978:function(s){s.exports=JSON.parse('{"allTagsPath":"/highlights/tags","slug":"sink-pulsar","name":"sink: pulsar","count":1,"permalink":"/highlights/tags/sink-pulsar"}')}}]);

@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[933],{1092:function(s){s.exports=JSON.parse('{"allTagsPath":"/highlights/tags","slug":"platform-nixos","name":"platform: nixos","count":1,"permalink":"/highlights/tags/platform-nixos"}')}}]);

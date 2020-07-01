@@ -19,27 +19,27 @@
 <link rel="stylesheet" href="/styles.e3815c54.css">
 
 
-<link rel="preload" href="/styles.c93581d1.js" as="script">
+<link rel="preload" href="/styles.c7889ac6.js" as="script">
 
-<link rel="preload" href="/runtime~main.055cf0aa.js" as="script">
+<link rel="preload" href="/runtime~main.3e18c44a.js" as="script">
 
-<link rel="preload" href="/main.b3836656.js" as="script">
+<link rel="preload" href="/main.60c2c36d.js" as="script">
 
-<link rel="preload" href="/common.88aaf496.js" as="script">
+<link rel="preload" href="/common.986d0602.js" as="script">
 
-<link rel="preload" href="/3.f4548b51.js" as="script">
+<link rel="preload" href="/3.70e6c0a0.js" as="script">
 
-<link rel="preload" href="/4.7fb3c8ce.js" as="script">
+<link rel="preload" href="/4.c71eb10d.js" as="script">
 
-<link rel="preload" href="/1be78505.5c623c15.js" as="script">
+<link rel="preload" href="/1be78505.ea7d5101.js" as="script">
 
-<link rel="preload" href="/20ac7829.aef67ed0.js" as="script">
+<link rel="preload" href="/20ac7829.210f62b9.js" as="script">
 
-<link rel="preload" href="/17896441.0ad649c8.js" as="script">
+<link rel="preload" href="/17896441.ad265b5a.js" as="script">
 
-<link rel="preload" href="/2.bfa88313.js" as="script">
+<link rel="preload" href="/2.415e5bbe.js" as="script">
 
-<link rel="preload" href="/b85ea11a.a0e657d8.js" as="script">
+<link rel="preload" href="/b85ea11a.04034d75.js" as="script">
 
 </head>
 <body>
@@ -173,27 +173,27 @@ the <a href="#start_at_beginning"><code>start_at_beginning</code></a> option to 
 read position will resume from the last checkpoint.</p></div></article></div></div><div class="rightCol_38kP"><div class="table-of-contents tableOfContents_tVyB"><div class="section"><div class="title">Support</div><div><a class="text--primary" title="This component has passed reliability standards that make it production ready. Click to learn more." href="/docs/about/guarantees/#prod-ready"><i class="feather icon-award"></i> Prod-Ready Status</a></div><div><a class="text--warning" title="This component makes a best-effort delivery guarantee, and in rare cases can lose data. Click to learn more." href="/docs/about/guarantees/#best-effort"><i class="feather icon-shield-off"></i> Best-Effort Delivery</a></div><div><a title="This component works on the these event types." href="/docs/about/data-model/"><i class="feather icon-database"></i> <span class="text--primary">Log</span><span>, </span><del class="text--warning">Metric</del></a></div><div><a title="This component works on the Linux, MacOS, Windows operating systems." href="/docs/setup/installation/operating-systems/"><i class="feather icon-cpu"></i> <span class="text--primary">Linux</span><span>, </span><span class="text--primary">MacOS</span><span>, </span><span class="text--primary">Windows</span></a></div></div><div class="section"><div class="title">Contents</div><ul class="contents"><li><a href="#requirements" class="contents__link">Requirements</a></li><li><a href="#configuration" class="contents__link">Configuration</a><ul><li><a href="#data_dir" class="contents__link">data_dir</a></li><li><a href="#exclude" class="contents__link">exclude</a></li><li><a href="#file_key" class="contents__link">file_key</a></li><li><a href="#fingerprinting" class="contents__link">fingerprinting</a></li><li><a href="#glob_minimum_cooldown" class="contents__link">glob_minimum_cooldown</a></li><li><a href="#host_key" class="contents__link">host_key</a></li><li><a href="#ignore_older" class="contents__link">ignore_older</a></li><li><a href="#include" class="contents__link">include</a></li><li><a href="#max_line_bytes" class="contents__link">max_line_bytes</a></li><li><a href="#max_read_bytes" class="contents__link">max_read_bytes</a></li><li><a href="#multiline" class="contents__link">multiline</a></li><li><a href="#oldest_first" class="contents__link">oldest_first</a></li><li><a href="#start_at_beginning" class="contents__link">start_at_beginning</a></li></ul></li><li><a href="#fields" class="contents__link">Fields</a><ul><li><a href="#file" class="contents__link">file</a></li><li><a href="#host" class="contents__link">host</a></li><li><a href="#message" class="contents__link">message</a></li><li><a href="#timestamp" class="contents__link">timestamp</a></li></ul></li><li><a href="#how-it-works" class="contents__link">How It Works</a><ul><li><a href="#auto-discovery" class="contents__link">Auto Discovery</a></li><li><a href="#checkpointing" class="contents__link">Checkpointing</a></li><li><a href="#compressed-files" class="contents__link">Compressed Files</a></li><li><a href="#context" class="contents__link">Context</a></li><li><a href="#environment-variables" class="contents__link">Environment Variables</a></li><li><a href="#file-deletion" class="contents__link">File Deletion</a></li><li><a href="#file-read-order" class="contents__link">File Read Order</a></li><li><a href="#file-rotation" class="contents__link">File Rotation</a></li><li><a href="#fingerprinting-1" class="contents__link">Fingerprinting</a></li><li><a href="#globbing" class="contents__link">Globbing</a></li><li><a href="#line-delimiters" class="contents__link">Line Delimiters</a></li><li><a href="#multi-line-messages" class="contents__link">Multi-Line Messages</a></li><li><a href="#read-position" class="contents__link">Read Position</a></li></ul></li></ul></div><div class="section"><div class="title">Resources</div><ul class="contents"><li><a href="https://github.com/timberio/vector/issues?q=is%3Aopen+is%3Aissue+label%3A%22source%3A+file%22" class="contents__link" target="_blank"><i class="feather icon-message-circle"></i> View Issues</a></li><li><a href="https://github.com/timberio/vector/tree/master/src/sources/file" class="contents__link" target="_blank"><i class="feather icon-github"></i> View Source</a></li></ul></div></div></div></div></div></main></div></div><footer class="footer"><div class="container"><div class="row footer__links"><div class="col footer__col"><h4 class="footer__title">About</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item" href="/docs/about/what-is-shiftm/">What is Shift&#x27;M?</a></li><li class="footer__item"><a class="footer__link-item" href="/community/#team">Terms and Conditions</a></li><li class="footer__item"><a class="footer__link-item" to="https://shiftm.com/contact" href="https://shiftm.com/contact">Contact Us</a></li><li class="footer__item"><a class="footer__link-item" href="/mailing_list/">Mailing List</a></li></ul></div><div class="col footer__col"><h4 class="footer__title">Mobile</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://www.apple.com/ios/app-store">App Store</a></li><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://play.google.com/store?hl=en">Play Store</a></li></ul></div><div class="col footer__col"><h4 class="footer__title">Community</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://facebook.com/shiftmhealthcare">Facebook</a></li><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://instagram.com/shiftm_">Instagram</a></li><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://twitter.com/ShiftM_">Twitter</a></li><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://linkedIn.com/company/Shift-m">LinkedIn</a></li></ul></div></div><div class="text--center"><div class="margin-bottom--sm"><a href="https://shiftm.com" target="_blank" rel="noopener noreferrer" class="footerLogoLink_3L_r"></a></div>Copyright © 2020 Shift&#x27;M B.V<br></div></div></footer>
 </div>
 
-<script src="/styles.c93581d1.js"></script>
+<script src="/styles.c7889ac6.js"></script>
 
-<script src="/runtime~main.055cf0aa.js"></script>
+<script src="/runtime~main.3e18c44a.js"></script>
 
-<script src="/main.b3836656.js"></script>
+<script src="/main.60c2c36d.js"></script>
 
-<script src="/common.88aaf496.js"></script>
+<script src="/common.986d0602.js"></script>
 
-<script src="/3.f4548b51.js"></script>
+<script src="/3.70e6c0a0.js"></script>
 
-<script src="/4.7fb3c8ce.js"></script>
+<script src="/4.c71eb10d.js"></script>
 
-<script src="/1be78505.5c623c15.js"></script>
+<script src="/1be78505.ea7d5101.js"></script>
 
-<script src="/20ac7829.aef67ed0.js"></script>
+<script src="/20ac7829.210f62b9.js"></script>
 
-<script src="/17896441.0ad649c8.js"></script>
+<script src="/17896441.ad265b5a.js"></script>
 
-<script src="/2.bfa88313.js"></script>
+<script src="/2.415e5bbe.js"></script>
 
-<script src="/b85ea11a.a0e657d8.js"></script>
+<script src="/b85ea11a.04034d75.js"></script>
 
 
 </body>

@@ -19,27 +19,27 @@
 <link rel="stylesheet" href="/styles.e3815c54.css">
 
 
-<link rel="preload" href="/styles.c93581d1.js" as="script">
+<link rel="preload" href="/styles.c7889ac6.js" as="script">
 
-<link rel="preload" href="/runtime~main.055cf0aa.js" as="script">
+<link rel="preload" href="/runtime~main.3e18c44a.js" as="script">
 
-<link rel="preload" href="/main.b3836656.js" as="script">
+<link rel="preload" href="/main.60c2c36d.js" as="script">
 
-<link rel="preload" href="/common.88aaf496.js" as="script">
+<link rel="preload" href="/common.986d0602.js" as="script">
 
-<link rel="preload" href="/3.f4548b51.js" as="script">
+<link rel="preload" href="/3.70e6c0a0.js" as="script">
 
-<link rel="preload" href="/4.7fb3c8ce.js" as="script">
+<link rel="preload" href="/4.c71eb10d.js" as="script">
 
-<link rel="preload" href="/1be78505.5c623c15.js" as="script">
+<link rel="preload" href="/1be78505.ea7d5101.js" as="script">
 
-<link rel="preload" href="/20ac7829.aef67ed0.js" as="script">
+<link rel="preload" href="/20ac7829.210f62b9.js" as="script">
 
-<link rel="preload" href="/17896441.0ad649c8.js" as="script">
+<link rel="preload" href="/17896441.ad265b5a.js" as="script">
 
-<link rel="preload" href="/2.bfa88313.js" as="script">
+<link rel="preload" href="/2.415e5bbe.js" as="script">
 
-<link rel="preload" href="/1ac70157.beedd2e5.js" as="script">
+<link rel="preload" href="/1ac70157.dad26b83.js" as="script">
 
 </head>
 <body>
@@ -92,27 +92,27 @@ attempts and backoff rate with the <a href="#retry_attempts"><code>retry_attempt
 <code>retry_backoff_secs</code> options.</p></div></article></div></div><div class="rightCol_38kP"><div class="table-of-contents tableOfContents_tVyB"><div class="section"><div class="title">Support</div><div><a class="text--warning" title="This component is in beta and is not recommended for production environments. Click to learn more." href="/docs/about/guarantees/#beta"><i class="feather icon-alert-triangle"></i> Beta Status</a></div><div><a class="text--primary" title="This component offers an at-least-once delivery guarantee. Click to learn more." href="/docs/about/guarantees/#at-least-once"><i class="feather icon-shield"></i> At-Least-Once</a></div><div><a title="This component works on the these event types." href="/docs/about/data-model/"><i class="feather icon-database"></i> <span class="text--primary">Log</span><span>, </span><del class="text--warning">Metric</del></a></div><div><a title="This component works on the Linux, MacOS, Windows operating systems." href="/docs/setup/installation/operating-systems/"><i class="feather icon-cpu"></i> <span class="text--primary">Linux</span><span>, </span><span class="text--primary">MacOS</span><span>, </span><span class="text--primary">Windows</span></a></div></div><div class="section"><div class="title">Contents</div><ul class="contents"><li><a href="#configuration" class="contents__link">Configuration</a><ul><li><a href="#batch" class="contents__link">batch</a></li><li><a href="#buffer" class="contents__link">buffer</a></li><li><a href="#compression" class="contents__link">compression</a></li><li><a href="#encoding" class="contents__link">encoding</a></li><li><a href="#healthcheck" class="contents__link">healthcheck</a></li><li><a href="#host" class="contents__link">host</a></li><li><a href="#request" class="contents__link">request</a></li><li><a href="#token" class="contents__link">token</a></li></ul></li><li><a href="#how-it-works" class="contents__link">How It Works</a><ul><li><a href="#buffers--batches" class="contents__link">Buffers &amp; Batches</a></li><li><a href="#environment-variables" class="contents__link">Environment Variables</a></li><li><a href="#health-checks" class="contents__link">Health Checks</a></li><li><a href="#obtaining-a-humio-ingestion-token" class="contents__link">Obtaining a Humio ingestion token</a></li><li><a href="#rate-limits" class="contents__link">Rate Limits</a></li><li><a href="#retry-policy" class="contents__link">Retry Policy</a></li></ul></li></ul></div><div class="section"><div class="title">Resources</div><ul class="contents"><li><a href="https://github.com/timberio/vector/issues?q=is%3Aopen+is%3Aissue+label%3A%22sink%3A+humio_logs%22" class="contents__link" target="_blank"><i class="feather icon-message-circle"></i> View Issues</a></li><li><a href="https://github.com/timberio/vector/tree/master/src/sinks/humio_logs.rs" class="contents__link" target="_blank"><i class="feather icon-github"></i> View Source</a></li></ul></div></div></div></div></div></main></div></div><footer class="footer"><div class="container"><div class="row footer__links"><div class="col footer__col"><h4 class="footer__title">About</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item" href="/docs/about/what-is-shiftm/">What is Shift&#x27;M?</a></li><li class="footer__item"><a class="footer__link-item" href="/community/#team">Terms and Conditions</a></li><li class="footer__item"><a class="footer__link-item" to="https://shiftm.com/contact" href="https://shiftm.com/contact">Contact Us</a></li><li class="footer__item"><a class="footer__link-item" href="/mailing_list/">Mailing List</a></li></ul></div><div class="col footer__col"><h4 class="footer__title">Mobile</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://www.apple.com/ios/app-store">App Store</a></li><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://play.google.com/store?hl=en">Play Store</a></li></ul></div><div class="col footer__col"><h4 class="footer__title">Community</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://facebook.com/shiftmhealthcare">Facebook</a></li><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://instagram.com/shiftm_">Instagram</a></li><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://twitter.com/ShiftM_">Twitter</a></li><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://linkedIn.com/company/Shift-m">LinkedIn</a></li></ul></div></div><div class="text--center"><div class="margin-bottom--sm"><a href="https://shiftm.com" target="_blank" rel="noopener noreferrer" class="footerLogoLink_3L_r"></a></div>Copyright © 2020 Shift&#x27;M B.V<br></div></div></footer>
 </div>
 
-<script src="/styles.c93581d1.js"></script>
+<script src="/styles.c7889ac6.js"></script>
 
-<script src="/runtime~main.055cf0aa.js"></script>
+<script src="/runtime~main.3e18c44a.js"></script>
 
-<script src="/main.b3836656.js"></script>
+<script src="/main.60c2c36d.js"></script>
 
-<script src="/common.88aaf496.js"></script>
+<script src="/common.986d0602.js"></script>
 
-<script src="/3.f4548b51.js"></script>
+<script src="/3.70e6c0a0.js"></script>
 
-<script src="/4.7fb3c8ce.js"></script>
+<script src="/4.c71eb10d.js"></script>
 
-<script src="/1be78505.5c623c15.js"></script>
+<script src="/1be78505.ea7d5101.js"></script>
 
-<script src="/20ac7829.aef67ed0.js"></script>
+<script src="/20ac7829.210f62b9.js"></script>
 
-<script src="/17896441.0ad649c8.js"></script>
+<script src="/17896441.ad265b5a.js"></script>
 
-<script src="/2.bfa88313.js"></script>
+<script src="/2.415e5bbe.js"></script>
 
-<script src="/1ac70157.beedd2e5.js"></script>
+<script src="/1ac70157.dad26b83.js"></script>
 
 
 </body>

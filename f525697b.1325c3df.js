@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[914],{1073:function(e){e.exports=JSON.parse('{"allTagsPath":"/highlights/tags","slug":"type-new-feature","name":"type: new feature","count":28,"permalink":"/highlights/tags/type-new-feature"}')}}]);

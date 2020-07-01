@@ -19,21 +19,21 @@
 <link rel="stylesheet" href="/styles.e3815c54.css">
 
 
-<link rel="preload" href="/styles.c93581d1.js" as="script">
+<link rel="preload" href="/styles.c7889ac6.js" as="script">
 
-<link rel="preload" href="/runtime~main.055cf0aa.js" as="script">
+<link rel="preload" href="/runtime~main.3e18c44a.js" as="script">
 
-<link rel="preload" href="/main.b3836656.js" as="script">
+<link rel="preload" href="/main.60c2c36d.js" as="script">
 
-<link rel="preload" href="/common.88aaf496.js" as="script">
+<link rel="preload" href="/common.986d0602.js" as="script">
 
-<link rel="preload" href="/3.f4548b51.js" as="script">
+<link rel="preload" href="/3.70e6c0a0.js" as="script">
 
-<link rel="preload" href="/4.7fb3c8ce.js" as="script">
+<link rel="preload" href="/4.c71eb10d.js" as="script">
 
-<link rel="preload" href="/5d1574ce.2233dd7b.js" as="script">
+<link rel="preload" href="/5d1574ce.afae13b9.js" as="script">
 
-<link rel="preload" href="/4922fda3.9c95c337.js" as="script">
+<link rel="preload" href="/4922fda3.46500cdc.js" as="script">
 
 </head>
 <body>
@@ -43,21 +43,21 @@
 <code>encoding.*</code> sub-options:</p><ul><li><code>encoding.only_fields</code> - Encode only the fields listed.</li><li><code>encoding.except_fields</code> - Encode all fields except the ones listed.</li><li><code>encoding.codec</code> - The codec to use (ex: <code>json</code>).</li><li><code>encoding.timestamp_format</code> - Customize how timestamps are serialized.</li></ul><h2><a aria-hidden="true" tabindex="-1" class="anchor" id="upgrade-guide"></a><a aria-hidden="true" tabindex="-1" class="hash-link" href="#upgrade-guide" title="Direct link to heading">#</a>Upgrade Guide</h2><p>Updrading is easy:</p><div class="mdxCodeBlock_iHAB"><div style="color:#393A34;background-color:#f6f8fa" class="codeBlockTitle_2TQJ">vector.toml</div><div class="codeBlockContent_3RXF"><button type="button" aria-label="Copy code to clipboard" class="copyButton_1PCb copyButtonWithTitle_qt-P">Copy</button><pre class="prism-code language-toml codeBlock_1wn8 codeBlockWithTitle_1f_H"><div class="codeBlockLines_3HrO" style="color:#393A34;background-color:#f6f8fa"><div class="token-line" style="color:#393A34"><span class="token punctuation" style="color:#393A34">[</span><span class="token table class-name">sinks.my-sink</span><span class="token punctuation" style="color:#393A34">]</span><span class="token plain"></span></div><div class="token-line" style="color:#393A34"><span class="token plain">   </span><span class="token key property" style="color:#36acaa">type</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">=</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">&quot;...&quot;</span><span class="token plain"></span></div><div class="token-line" style="color:#393A34"><span class="token plain">-  encoding </span><span class="token punctuation" style="color:#393A34">=</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">&quot;json&quot;</span><span class="token plain"></span></div><div class="token-line" style="color:#393A34"><span class="token plain">+  encoding</span><span class="token punctuation" style="color:#393A34">.</span><span class="token plain">codec </span><span class="token punctuation" style="color:#393A34">=</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">&quot;json&quot;</span><span class="token plain"></span></div><div class="token-line" style="color:#393A34"><span class="token plain">+  encoding</span><span class="token punctuation" style="color:#393A34">.</span><span class="token plain">except_fields </span><span class="token punctuation" style="color:#393A34">=</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">[</span><span class="token string" style="color:#e3116c">&quot;_meta&quot;</span><span class="token punctuation" style="color:#393A34">]</span><span class="token plain"> </span><span class="token comment" style="color:#999988;font-style:italic"># optional</span><span class="token plain"></span></div><div class="token-line" style="color:#393A34"><span class="token plain">+  encoding</span><span class="token punctuation" style="color:#393A34">.</span><span class="token plain">timestamp_format </span><span class="token punctuation" style="color:#393A34">=</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">&quot;rfc3339&quot;</span><span class="token plain"> </span><span class="token comment" style="color:#999988;font-style:italic"># optional</span></div></div></pre></div></div></section><section><h2><a aria-hidden="true" tabindex="-1" class="anchor" id="get"></a><a aria-hidden="true" tabindex="-1" class="hash-link" href="#get" title="Direct link to heading">#</a>Get This Change</h2><p>This change was made available in <a href="/releases/0.9.0/">0.9.0</a>. You can get this change by <a href="/releases/latest/download/">downloading the latest stable release</a>.</p></section><section><h2><a aria-hidden="true" tabindex="-1" class="anchor" id="cta"></a><a aria-hidden="true" tabindex="-1" class="hash-link" href="#cta" title="Direct link to heading">#</a>Like What You See?</h2><div class="row row--squished"><div class="col"><a href="https://twitter.com/vectordotdev" target="_blank" class="panel panel--button panel--undefined panel--undefined"><div class="panel--icon"><i class="feather icon-twitter" title="Twitter"></i></div><div><div class="panel--title">Follow @vectordotdev</div><div class="panel--description">Get real-time updates!</div></div></a></div><div class="col"><a href="https://github.com/timberio/vector" target="_blank" class="panel panel--button panel--undefined panel--undefined"><div class="panel--icon"><i class="feather icon-github"></i></div><div><div class="panel--title">Star timberio/vector</div><div class="panel--description">Star the repo to support us.</div></div></a></div></div></section><div class="margin-vert--xl"><nav class="pagination-nav"><div class="pagination-nav__item"><a class="pagination-nav__link" href="/highlights/2020-03-09-kafka-sink-compression"><h5 class="pagination-nav__link--sublabel">Previous</h5><h4 class="pagination-nav__link--label">« Compression Now Available In The Kafka Sink</h4></a></div><div class="pagination-nav__item pagination-nav__item--next"><a class="pagination-nav__link" href="/highlights/2020-03-04-encoding-whitelist-blacklist"><h5 class="pagination-nav__link--sublabel">Next</h5><h4 class="pagination-nav__link--label">Whitelist &amp; Blacklist Fields When Encoding »</h4></a></div></nav></div></div></article></div><footer class="footer"><div class="container"><div class="row footer__links"><div class="col footer__col"><h4 class="footer__title">About</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item" href="/docs/about/what-is-shiftm/">What is Shift&#x27;M?</a></li><li class="footer__item"><a class="footer__link-item" href="/community/#team">Terms and Conditions</a></li><li class="footer__item"><a class="footer__link-item" to="https://shiftm.com/contact" href="https://shiftm.com/contact">Contact Us</a></li><li class="footer__item"><a class="footer__link-item" href="/mailing_list/">Mailing List</a></li></ul></div><div class="col footer__col"><h4 class="footer__title">Mobile</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://www.apple.com/ios/app-store">App Store</a></li><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://play.google.com/store?hl=en">Play Store</a></li></ul></div><div class="col footer__col"><h4 class="footer__title">Community</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://facebook.com/shiftmhealthcare">Facebook</a></li><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://instagram.com/shiftm_">Instagram</a></li><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://twitter.com/ShiftM_">Twitter</a></li><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://linkedIn.com/company/Shift-m">LinkedIn</a></li></ul></div></div><div class="text--center"><div class="margin-bottom--sm"><a href="https://shiftm.com" target="_blank" rel="noopener noreferrer" class="footerLogoLink_3L_r"></a></div>Copyright © 2020 Shift&#x27;M B.V<br></div></div></footer>
 </div>
 
-<script src="/styles.c93581d1.js"></script>
+<script src="/styles.c7889ac6.js"></script>
 
-<script src="/runtime~main.055cf0aa.js"></script>
+<script src="/runtime~main.3e18c44a.js"></script>
 
-<script src="/main.b3836656.js"></script>
+<script src="/main.60c2c36d.js"></script>
 
-<script src="/common.88aaf496.js"></script>
+<script src="/common.986d0602.js"></script>
 
-<script src="/3.f4548b51.js"></script>
+<script src="/3.70e6c0a0.js"></script>
 
-<script src="/4.7fb3c8ce.js"></script>
+<script src="/4.c71eb10d.js"></script>
 
-<script src="/5d1574ce.2233dd7b.js"></script>
+<script src="/5d1574ce.afae13b9.js"></script>
 
-<script src="/4922fda3.9c95c337.js"></script>
+<script src="/4922fda3.46500cdc.js"></script>
 
 
 </body>

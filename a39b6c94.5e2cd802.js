@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[614],{770:function(a){a.exports=JSON.parse('{"allTagsPath":"/guides/tags","slug":"domain-observability","name":"domain: observability","count":1,"permalink":"/guides/tags/domain-observability"}')}}]);
