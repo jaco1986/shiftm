@@ -1,7 +1,7 @@
 ---
 last_modified_on: "2020-05-14"
-title: Language
-description: Configuring your language preferences
+title: Password
+description: Reset your password
 ---
 
 import Jump from '@site/src/components/Jump';

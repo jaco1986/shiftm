@@ -1,14 +1,12 @@
 ---
-last_modified_on: "2020-05-14"
-title: Language
-description: Configuring your language preferences
+last_modified_on: "2020-06-01"
+title: "Privacy"
+description: "High-level description of the Shift'M platform and functionality."
 ---
 
 import Jump from '@site/src/components/Jump';
 
-import SVG from 'react-inlinesvg';
 
-<SVG src="/img/shiftm_cover.svg" />
 
 Founded in August of 2020 and based in Amsterdam Netherlands, <a href="https://www.shiftm.com">Shift'M</a> is a trusted community marketplace for people healthcare professionals to list or book temporary replacements around the world — online or from a mobile phone.
 
@@ -36,22 +34,3 @@ Whether you need a nurse for a day to cover your sick leave or a dentist assista
 * Shift'M is a global company, operating in over 12 countries...and growing
 
 <Jump to="/guides/getting-started/">Get started</Jump>
-
-
-[docs.data-model.log]: /docs/about/data-model/log/
-[docs.data-model.metric]: /docs/about/data-model/metric/
-[docs.strategies#daemon]: /docs/setup/deployment/strategies/#daemon
-[docs.strategies#sidecar]: /docs/setup/deployment/strategies/#sidecar
-[urls.rust]: https://www.rust-lang.org/
-[urls.vector_performance]: https://vector.dev/#performance
-
-[docs.data-model]: /docs/about/data-model/
-[docs.installation]: /docs/setup/installation/
-[docs.process-management#flags]: /docs/administration/process-management/#flags
-[docs.process-management#starting]: /docs/administration/process-management/#starting
-[docs.reference.env-vars]: /docs/reference/env-vars/
-[docs.reference.templating]: /docs/reference/templating/
-[docs.reference]: /docs/reference/
-[urls.globbing]: https://en.wikipedia.org/wiki/Glob_(programming)
-[urls.strptime_specifiers]: https://docs.rs/chrono/0.4.11/chrono/format/strftime/index.html#specifiers
-[urls.toml]: https://github.com/toml-lang/toml

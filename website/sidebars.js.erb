@@ -21,6 +21,25 @@ module.exports = {
     },
     {
       type: 'category',
+      label: 'Profile',
+      items: [
+        <%= metadata.links.fetch_id("docs.profile.create_profile").to_json %>,
+        <%= metadata.links.fetch_id("docs.what-is-shiftm").to_json %>,
+        <%= metadata.links.fetch_id("docs.concepts").to_json %>,
+        {
+          type: 'category',
+          label: 'Data Model',
+          items: [
+            <%= metadata.links.fetch_id("docs.data-model").to_json %>,
+            <%= metadata.links.fetch_id("docs.data-model.log").to_json %>,
+            <%= metadata.links.fetch_id("docs.data-model.metric").to_json %>,
+          ]
+        },
+        <%= metadata.links.fetch_id("docs.guarantees").to_json %>,
+      ],
+    },
+    {
+      type: 'category',
       label: 'Setup',
       items: [
         <%= metadata.links.fetch_id("docs.setup").to_json %>,

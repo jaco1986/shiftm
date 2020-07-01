@@ -1,7 +1,7 @@
 ---
 last_modified_on: "2020-05-14"
-title: Language
-description: Configuring your language preferences
+title: Dashboard
+description: What is your dashboard and how do you use it
 ---
 
 import Jump from '@site/src/components/Jump';

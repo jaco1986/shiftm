@@ -1,6 +1,6 @@
 ---
 last_modified_on: "2020-06-01"
-title: "What is Shift'M?"
+title: "What is Shift'M"
 description: "High-level description of the Shift'M platform and functionality."
 ---
 
@@ -8,35 +8,32 @@ import Jump from '@site/src/components/Jump';
 
 import SVG from 'react-inlinesvg';
 
-<SVG src="/img/components.svg" />
+<SVG src="/img/shiftm_cover.svg" />
 
-Vector is a lightweight, ultra-fast, [open-source][urls.vector_repo] tool for
-building observability pipelines. Compared to Logstash and friends, Vector
-[improves throughput by ~10X while significanly reducing CPU and memory
-usage][urls.vector_performance].
+Founded in August of 2020 and based in Amsterdam Netherlands, <a href="https://www.shiftm.com">Shift'M</a> is a trusted community marketplace for people healthcare professionals to list or book temporary replacements around the world — online or from a mobile phone.
+
+Whether you need a nurse for a day to cover your sick leave or a dentist assistant for a week so you can go on your dream beach holiday, Shift'M connects healthcare professional to each other, at a perfect price, when you need them.   With our growing community of users, Shift'M is the easiest way for you to find the perfect locum.   
+#### Easy. Reliable. Professional
+
+### Who should use Shift'M
+
+#### Locums
+* Healthcare professionals who want to work as Locums
+* Healthcare professionals who want to earn a bit of extra income
+* Retired? You're welcome too!
+* Any healthcare professional that is registered with their respective body
+
+#### Clients
+* Any business/individual/practice that requires a locum
 
 ### Principles
 
-* **Reliability First.** - Built in [Rust][urls.rust], Vector's primary design goal is reliability.
-* **One Tool. All Data.** - One simple tool gets your [logs][docs.data-model.log], [metrics][docs.data-model.metric], and traces (coming soon) from A to B.
-* **Single Responsibility.** - Vector is a _data router_, it does not plan to become a distributed processing framework.
-
-### Who should use Vector?
-
-* You _SHOULD_ use Vector to replace Logstash, Fluent*, Telegraf, Beats, or similar tools.
-* You _SHOULD_ use Vector as a [daemon][docs.strategies#daemon] or [sidecar][docs.strategies#sidecar].
-* You _SHOULD_ use Vector as a Kafka consumer/producer for observability data.
-* You _SHOULD_ use Vector in resource constrained environments (such as devices).
-* You _SHOULD NOT_ use Vector if you need an advanced distributed stream processing framework.
-* You _SHOULD NOT_ use Vector to replace Kafka. Vector is designed to work with Kafka!
-* You _SHOULD NOT_ use Vector for non-observability data such as analytics data.
+* **Freedom.** - At Shift'M we believe in freedom. Just like our employees has the freedom to choose where they would like to work, we believe our clients should have the freedom to choose who they want as their locum. Unlike agencies where freedom of which locum you work with is seldom your choice.
+* **Choice.** - We also believe in choice. Giving our locums the choice to decide when they want to work, how they want to work. We believe in giving them the choice of how much they earn. To our clients, we also provide the choice. Shift'M provides the information and clients choose, based on that information. We provide the ability to choose your language and choose your currency. The choice is yours.
 
 ### Community
 
-* Vector is **downloaded over 100,000 times per day**.
-* Vector's largest user **processes over 10TB daily**.
-* Vector is **used by multiple fortune 500 companies** with stringent production requirements.
-* Vector has **over 15 active contributors** and growing.
+* Shift'M is a global company, operating in over 12 countries...and growing
 
 <Jump to="/guides/getting-started/">Get started</Jump>
 
@@ -47,4 +44,3 @@ usage][urls.vector_performance].
 [docs.strategies#sidecar]: /docs/setup/deployment/strategies/#sidecar
 [urls.rust]: https://www.rust-lang.org/
 [urls.vector_performance]: https://vector.dev/#performance
-[urls.vector_repo]: 

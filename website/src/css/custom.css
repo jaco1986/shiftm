@@ -2082,6 +2082,7 @@ section {
   padding-bottom: calc((2 * var(--ifm-leading)) - var(--ifm-spacing-vertical));
 }
 
+
 section .sub-title {
   color: var(--ifm-color-emphasis-600);
   font-size: 1.15em;
@@ -2425,6 +2426,7 @@ ul.tabs.rounded li.tab-item.tab-item--active {
 .markdown > h1,
 .markdown > h2 {
   border-top: 1px solid var(--ifm-hr-border-color);
+  color: var(--ifm-color-primary);
   margin-top: calc(var(--ifm-h1-h2-vertical-rhythm-top) * var(--ifm-leading));
   margin-bottom: calc(
     var(--ifm-h1-h2-vertical-rhythm-bottom) * var(--ifm-leading)
@@ -2434,6 +2436,7 @@ ul.tabs.rounded li.tab-item.tab-item--active {
 
 .markdown > h3 {
   margin-top: calc(var(--ifm-h3-vertical-rhythm-top) * var(--ifm-leading));
+  color: var(--ifm-color-primary);
   margin-bottom: calc(
     var(--ifm-h3-vertical-rhythm-bottom) * var(--ifm-leading)
   );
@@ -2441,6 +2444,7 @@ ul.tabs.rounded li.tab-item.tab-item--active {
 
 .markdown > h4 {
   margin-top: calc(var(--ifm-h4-vertical-rhythm-top) * var(--ifm-leading));
+  color: var(--ifm-color-primary);
   margin-bottom: calc(
     var(--ifm-h4-vertical-rhythm-bottom) * var(--ifm-leading)
   );
@@ -2448,6 +2452,7 @@ ul.tabs.rounded li.tab-item.tab-item--active {
 
 .markdown > h5 {
   margin-top: calc(var(--ifm-h5-vertical-rhythm-top) * var(--ifm-leading));
+  color: var(--ifm-color-primary);
   margin-bottom: calc(
     var(--ifm-h5-vertical-rhythm-bottom) * var(--ifm-leading)
   );
@@ -2455,6 +2460,7 @@ ul.tabs.rounded li.tab-item.tab-item--active {
 
 .markdown > h6 {
   margin-top: calc(var(--ifm-h6-vertical-rhythm-top) * var(--ifm-leading));
+  color: var(--ifm-color-primary);
   margin-bottom: calc(
     var(--ifm-h6-vertical-rhythm-bottom) * var(--ifm-leading)
   );

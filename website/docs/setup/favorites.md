@@ -1,7 +1,7 @@
 ---
 last_modified_on: "2020-05-14"
-title: Language
-description: Configuring your language preferences
+title: Favorites
+description: Saving your favorite locums 
 ---
 
 import Jump from '@site/src/components/Jump';

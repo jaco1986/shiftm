@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
 import Heading from '@theme/Heading';
-import InstallationCommand from '@site/src/components/InstallationCommand';
-import Jump from '@site/src/components/Jump';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import SVG from 'react-inlinesvg';
@@ -26,58 +24,62 @@ const AnchoredH2 = Heading('h2');
 
 const features = [
   {
-    title: 'Fast. Really.',
-    icon: 'zap',
+    title: 'Profile',
+    icon: 'user',
     description: (
       <>
-        Built in <a href="https://www.rust-lang.org/">Rust</a>, Vector is <a href="#performance">blistering fast and
-        memory efficient</a>. It's designed to handle the most demanding environments.
+      Create your <Link to="/docs/about/guarantees/">Account</Link> and set your <Link to="/docs/about/guarantees/">profile picture</Link>. Upload your <Link to="/docs/about/guarantees/">verification documents</Link>,
+      learn about our <Link to="/docs/about/guarantees/">trust and verification</Link> process, view your <Link to="/docs/about/guarantees/">reviews</Link> or read your <Link to="/docs/about/guarantees/">messages</Link>.
+    </>
+    ),
+  },
+  {
+    title: 'Shifts',
+    icon: 'briefcase',
+    description: (
+      <>
+      <Link to="/docs/about/guarantees/">Add</Link> or <Link to="/docs/about/guarantees/">Edit</Link> a new <Link to="/docs/about/guarantees/">listing</Link> and how to <Link to="/docs/about/guarantees/">publish</Link> it. Learn how to set your <Link to="/docs/about/guarantees/">rates</Link>,  <Link to="/docs/about/guarantees/">dates and times</Link> you want to using from your <Link to="/docs/about/guarantees/">calendar</Link>.
+      View <Link to="/docs/about/guarantees/">previous</Link> or <Link to="/docs/about/guarantees/">upcoming</Link> Shift information or download and view your <Link to="/docs/about/guarantees/">invoices</Link>
       </>
     ),
   },
   {
-    title: 'Vendor Neutral',
-    icon: 'unlock',
+    title: 'Settings',
+    icon: 'settings',
     description: (
       <>
-        Vector does not favor any storage and fosters a fair, open ecosystem with your best interest in mind. Lock-in free and future proof.
+      Learn how to change your <Link to="/docs/setup/language/">language</Link> preferences or your payment <Link to="/docs/setup/currency/">currency</Link>.
+      Need help with changing your <Link to="/docs/setup/password/">password</Link>? View your <Link to="/docs/setup/dashboard/">dashboard</Link> and find your <Link to="/docs/setup/favorites/">favorite</Link> locums.
       </>
     ),
   },
   {
-    title: 'One Tool',
-    icon: 'codepen',
+    title: 'Payments',
+    icon: 'dollar-sign',
     description: (
       <>
-        Vector aims to be the single, and only, tool needed to get data from A to B, <Link to="/docs/setup/deployment/">deploying</Link> as an <Link to="/docs/setup/deployment/strategies/#daemon">daemon</Link>, <Link to="/docs/setup/deployment/strategies/#sidecar">sidecar</Link>, or <Link to="/docs/setup/deployment/strategies/#service">service</Link>.
+      Set your <Link to="/docs/about/guarantees/">bank account</Link> information in order to receive <Link to="/docs/about/guarantees/">payouts</Link> . View or <Link to="/docs/about/guarantees/">export</Link>  your <Link to="/docs/about/guarantees/">completed</Link>  and <Link to="/docs/about/guarantees/">future</Link>  transactions or download an <Link to="/docs/about/guarantees/">invoice</Link>.
+      We calculate your <Link to="/docs/about/guarantees/">gross earnings</Link> so you don’t have to.
       </>
     ),
   },
   {
-    title: 'All Data',
-    icon: 'shuffle',
-    description: (
-      <>
-        Vector supports <Link to="/docs/about/data-model/log/">logs</Link>, <Link to="/docs/about/data-model/metric/">metrics</Link>, and <Link to="/docs/about/data-model/#event">events</Link>, making it easy to collect and process <i>all</i> observability data.
-      </>
+    title: 'Safety and Legal',
+icon: 'book-open',
+description: (
+  <>
+  Read our  <Link to="/docs/about/terms_and_cond/">Terms & Conditions</Link> and our statement about <Link to="/docs/about/privacy/">Privacy</Link> and our <Link to="/docs/about/safety/">Safety</Link> measures.
+  Learn more about why <Link to="/docs/about/guarantees/">verification documents</Link> is required and how to <Link to="/docs/about/guarantees/">report</Link> a user and/or abuse.
+  </>
     ),
   },
   {
-    title: 'Programmable Transforms',
-    icon: 'code',
-    description: (
-      <>
-        <Link to="/components/?functions[]=program">Programmable transforms</Link> give you the full power of programmable runtimes. Handle complex use cases without limitation.
-      </>
-    ),
-  },
-  {
-    title: 'Clear Guarantees',
-    icon: 'shield',
-    description: (
-      <>
-        Guarantees matter, and Vector is <Link to="/docs/about/guarantees/">clear on it's guarantees</Link>, helping you to make the appropriate trade offs for your use case.
-      </>
+    title: 'Help & Support',
+        icon: 'help-circle',
+        description: (
+          <>
+          Need <Link to="/docs/about/guarantees/">help</Link>? Have a look at our <Link to="/docs/about/guarantees/">FAQ</Link> or <Link to="/docs/about/guarantees/">Shifts</Link>? Would you like to get in touch with <Link to="/docs/about/guarantees/">support</Link>? <a href={"mailto:support@shiftm.com"}>Email</a>  us now!
+          </>
     ),
   },
 ];
@@ -101,7 +103,7 @@ function Features({features}) {
   return (
     <section className={styles.features}>
       <div className="container">
-        <AnchoredH2 id="features">Why Shift'M?</AnchoredH2>
+        <AnchoredH2 id="features">How can we help you?</AnchoredH2>
         {rows}
       </div>
     </section>

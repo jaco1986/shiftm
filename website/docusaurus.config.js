@@ -25,11 +25,6 @@ module.exports = {
         { to: "highlights/", label: "Highlights", position: "right" },
         { to: "community/", label: "Community", position: "right" },
         { to: "releases/", label: "Download", position: "right" },
-        {
-          href: "https://github.com/timberio/vector",
-          label: "GitHub",
-          position: "right",
-        },
       ],
     },
     image: "img/open-graph.png",
@@ -53,6 +48,10 @@ module.exports = {
             {
               label: "Contact Us",
               to: "https://shiftm.com/contact",
+            },
+            {
+              label: "Mailing List",
+              to: "mailing_list/",
             },
           ],
         },
@@ -88,10 +87,6 @@ module.exports = {
               label: 'LinkedIn',
               href: 'https://linkedIn.com/company/Shift-m',
             },
-            {
-              label: "Mailing List",
-              to: "mailing_list/",
-            },
           ],
         },
       ],
@@ -113,7 +108,6 @@ module.exports = {
     [
       "@docusaurus/plugin-content-docs",
       {
-        editUrl: "https://github.com/timberio/vector/edit/master/website/",
         sidebarPath: require.resolve("./sidebars.js"),
       },
     ],
@@ -122,7 +116,7 @@ module.exports = {
       {
         feedOptions: {
           type: "all",
-          copyright: `Copyright © ${new Date().getFullYear()} Timber, Inc.`,
+          copyright: `Copyright © ${new Date().getFullYear()} Shift'M B.V.`,
         },
       },
     ],

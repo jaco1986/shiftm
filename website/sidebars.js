@@ -6,6 +6,18 @@ module.exports = {
       items: [
         "about",
         "about/what-is-shiftm",
+        "about/terms_and_cond",
+        "about/privacy",
+        "about/safety",
+        "meta/glossary",
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Profile',
+      items: [
+        "about",
+        "profile/create",
         "about/concepts",
         {
           type: 'category',
@@ -21,7 +33,7 @@ module.exports = {
     },
     {
       type: 'category',
-      label: 'Setup',
+      label: 'Shifts',
       items: [
         "setup",
         {
@@ -76,10 +88,9 @@ module.exports = {
             },
           ],
         },
-        "setup/configuration",
         {
           type: 'category',
-          label: 'Deployment',
+          label: 'Settings',
           items: [
             "setup/deployment",
             "setup/deployment/strategies",
@@ -90,191 +101,18 @@ module.exports = {
     },
     {
       type: 'category',
-      label: 'Reference',
+      label: 'Settings',
       items: [
-        "reference",
-        {
-          type: 'category',
-          label: 'Sources',
-          items: [
-            "reference/sources",
-            
-              "reference/sources/docker",
-            
-              "reference/sources/file",
-            
-              "reference/sources/generator",
-            
-              "reference/sources/http",
-            
-              "reference/sources/journald",
-            
-              "reference/sources/kafka",
-            
-              "reference/sources/logplex",
-            
-              "reference/sources/prometheus",
-            
-              "reference/sources/socket",
-            
-              "reference/sources/splunk_hec",
-            
-              "reference/sources/statsd",
-            
-              "reference/sources/stdin",
-            
-              "reference/sources/syslog",
-            
-              "reference/sources/vector",
-            
-          ]
-        },
-        {
-          type: 'category',
-          label: 'Transforms',
-          items: [
-            "reference/transforms",
-            
-              "reference/transforms/add_fields",
-            
-              "reference/transforms/add_tags",
-            
-              "reference/transforms/ansi_stripper",
-            
-              "reference/transforms/aws_ec2_metadata",
-            
-              "reference/transforms/coercer",
-            
-              "reference/transforms/concat",
-            
-              "reference/transforms/dedupe",
-            
-              "reference/transforms/filter",
-            
-              "reference/transforms/geoip",
-            
-              "reference/transforms/grok_parser",
-            
-              "reference/transforms/json_parser",
-            
-              "reference/transforms/log_to_metric",
-            
-              "reference/transforms/logfmt_parser",
-            
-              "reference/transforms/lua",
-            
-              "reference/transforms/merge",
-            
-              "reference/transforms/regex_parser",
-            
-              "reference/transforms/remove_fields",
-            
-              "reference/transforms/remove_tags",
-            
-              "reference/transforms/rename_fields",
-            
-              "reference/transforms/sampler",
-            
-              "reference/transforms/split",
-            
-              "reference/transforms/swimlanes",
-            
-              "reference/transforms/tag_cardinality_limit",
-            
-              "reference/transforms/tokenizer",
-            
-              "reference/transforms/wasm",
-            
-          ]
-        },
-        {
-          type: 'category',
-          label: 'Sinks',
-          items: [
-            "reference/sinks",
-            
-              "reference/sinks/aws_cloudwatch_logs",
-            
-              "reference/sinks/aws_cloudwatch_metrics",
-            
-              "reference/sinks/aws_kinesis_firehose",
-            
-              "reference/sinks/aws_kinesis_streams",
-            
-              "reference/sinks/aws_s3",
-            
-              "reference/sinks/blackhole",
-            
-              "reference/sinks/clickhouse",
-            
-              "reference/sinks/console",
-            
-              "reference/sinks/datadog_logs",
-            
-              "reference/sinks/datadog_metrics",
-            
-              "reference/sinks/elasticsearch",
-            
-              "reference/sinks/file",
-            
-              "reference/sinks/gcp_cloud_storage",
-            
-              "reference/sinks/gcp_pubsub",
-            
-              "reference/sinks/gcp_stackdriver_logs",
-            
-              "reference/sinks/honeycomb",
-            
-              "reference/sinks/http",
-            
-              "reference/sinks/humio_logs",
-            
-              "reference/sinks/influxdb_logs",
-            
-              "reference/sinks/influxdb_metrics",
-            
-              "reference/sinks/kafka",
-            
-              "reference/sinks/logdna",
-            
-              "reference/sinks/loki",
-            
-              "reference/sinks/new_relic_logs",
-            
-              "reference/sinks/papertrail",
-            
-              "reference/sinks/prometheus",
-            
-              "reference/sinks/pulsar",
-            
-              "reference/sinks/sematext_logs",
-            
-              "reference/sinks/socket",
-            
-              "reference/sinks/splunk_hec",
-            
-              "reference/sinks/statsd",
-            
-              "reference/sinks/vector",
-            
-          ],
-        },
-        {
-          type: 'category',
-          label: 'Advanced',
-          items: [
-            "reference/env-vars",
-            "reference/field-path-notation",
-            "reference/global-options",
-            "reference/templating",
-            "reference/tests",
-          ]
-        },
+        "setup/dashboard",
+        "setup/currency",
+        "setup/favorites",
+        "setup/language",
+        "setup/password",
       ],
     },
     {
       type: 'category',
-      label: 'Administration',
+      label: 'Payments',
       items: [
         "administration",
         "administration/process-management",
@@ -282,23 +120,6 @@ module.exports = {
         "administration/tuning",
         "administration/updating",
         "administration/validating",
-      ],
-    },
-    {
-      type: 'category',
-      label: 'Meta',
-      items: [
-        "meta/glossary",
-        {
-          type: 'link',
-          label: 'Privacy',
-          href: 'https://github.com/timberio/vector/blob/master/PRIVACY.md'
-        },
-        {
-          type: 'link',
-          label: 'Security',
-          href: 'https://github.com/timberio/vector/security/policy'
-        },
       ],
     },
   ]
