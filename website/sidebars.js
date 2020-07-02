@@ -51,9 +51,8 @@ module.exports = {
               "shifts/calendar/dates",
           ],
         },
-
         "shifts/rates",
-        "shifts/invoice",
+        "payments/invoice",
 
       ],
     },
@@ -71,14 +70,28 @@ module.exports = {
     {
       type: 'category',
       label: 'Payments',
-      items: [
-        "administration",
-        "administration/process-management",
-        "administration/monitoring",
-        "administration/tuning",
-        "administration/updating",
-        "administration/validating",
-      ],
+      items:  [
+              {
+                type: 'category',
+                label: 'Payouts',
+                items: [
+                    "payments/payouts",
+                    "payments/payouts/future",
+                    "payments/payouts/history",
+                ],
+              },
+              {
+                type: 'category',
+                label: 'Reports',
+                items: [
+                    "payments/reports",
+                    "payments/reports/gross_earnings",
+                    "payments/reports/export",
+                ],
+              },
+              "payments/bank_account",
+              "payments/invoice",
+            ],
     },
   ]
 };

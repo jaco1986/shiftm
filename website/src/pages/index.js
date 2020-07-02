@@ -39,7 +39,7 @@ const features = [
     description: (
       <>
       <Link to="/docs/shifts/listing/create">Add</Link> or <Link to="/docs/shifts/listing/edit">Edit</Link> a new <Link to="/docs/shifts/listings">listing</Link> and how to <Link to="/docs/shifts/listing/publish">publish</Link> it. Learn how to set your <Link to="/docs/shifts/rates">rates</Link>,  <Link to="/docs/shifts/calendar/dates">dates and times</Link> you want to using from your <Link to="/docs/shifts/calendar">calendar</Link>.
-      View <Link to="/docs/shifts/listing/previous">previous</Link> or <Link to="/docs/shifts/listing/upcoming">upcoming</Link> Shift information or download and view your <Link to="/docs/shifts/invoice">invoices</Link>
+      View <Link to="/docs/shifts/listing/previous">previous</Link> or <Link to="/docs/shifts/listing/upcoming">upcoming</Link> Shift information or download and view your <Link to="/docs/payments/invoice">invoices</Link>
       </>
     ),
   },
@@ -58,8 +58,8 @@ const features = [
     icon: 'dollar-sign',
     description: (
       <>
-      Set your <Link to="/docs/about/guarantees/">bank account</Link> information in order to receive <Link to="/docs/about/guarantees/">payouts</Link> . View or <Link to="/docs/about/guarantees/">export</Link>  your <Link to="/docs/about/guarantees/">completed</Link>  and <Link to="/docs/about/guarantees/">future</Link>  transactions or download an <Link to="/docs/about/guarantees/">invoice</Link>.
-      We calculate your <Link to="/docs/about/guarantees/">gross earnings</Link> so you don’t have to.
+      Set your <Link to="/docs/payments/bank_account/">bank account</Link> information in order to receive <Link to="/docs/payments/payouts/">payouts</Link> . View or <Link to="/docs/payments/reports/export/">export</Link>  your <Link to="/docs/payments/payouts/history/">completed</Link>  and <Link to="/docs/payments/payouts/future/">future</Link>  transactions or download an <Link to="/docs/payments/invoice/">invoice</Link>.
+      We calculate your <Link to="/docs/payments/reports/gross_earnings/">gross earnings</Link> so you don’t have to.
       </>
     ),
   },
@@ -78,7 +78,7 @@ description: (
         icon: 'help-circle',
         description: (
           <>
-          Need <Link to="/docs/about/guarantees/">help</Link>? Have a look at our <Link to="/docs/about/guarantees/">FAQ</Link> or follow one of our <Link to="/guides/getting-started/">Guides</Link>? Would you like to get in touch with <Link to="/docs/about/support/">support</Link>? <a href={"mailto:support@shiftm.com"}>Email</a>  us now!
+          Need <Link to="/docs/about/what-is-shiftm/">help</Link>? Have a look at our <Link to="/docs/about/faq/">FAQ</Link> or follow one of our <Link to="/guides/getting-started/">Guides</Link>? Would you like to get in touch with <Link to="/docs/about/support/">support</Link>? <a href={"mailto:support@shiftm.com"}>Email</a>  us now!
           </>
     ),
   },
