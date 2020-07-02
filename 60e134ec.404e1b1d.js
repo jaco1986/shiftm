@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[384],{539:function(s){s.exports=JSON.parse('{"allTagsPath":"/highlights/tags","slug":"sink-console","name":"sink: console","count":1,"permalink":"/highlights/tags/sink-console"}')}}]);

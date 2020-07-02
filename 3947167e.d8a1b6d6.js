@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[225],{380:function(s){s.exports=JSON.parse('{"allTagsPath":"/highlights/tags","slug":"domain-buffers","name":"domain: buffers","count":2,"permalink":"/highlights/tags/domain-buffers"}')}}]);

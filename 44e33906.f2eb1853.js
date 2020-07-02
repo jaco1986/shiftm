@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[265],{420:function(s){s.exports=JSON.parse('{"allTagsPath":"/guides/tags","slug":"sink-aws-kinesis-firehose","name":"sink: aws_kinesis_firehose","count":10,"permalink":"/guides/tags/sink-aws-kinesis-firehose"}')}}]);

@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[941],{1100:function(s){s.exports=JSON.parse('{"allTagsPath":"/guides/tags","slug":"domain-sinks","name":"domain: sinks","count":263,"permalink":"/guides/tags/domain-sinks"}')}}]);

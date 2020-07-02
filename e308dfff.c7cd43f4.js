@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[868],{1027:function(e){e.exports=JSON.parse('{"category":{"name":"sources","title":"Sources","description":null,"permalink":"/guides/integrate/sources"}}')}}]);

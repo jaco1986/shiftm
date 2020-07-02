@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[892],{1051:function(s){s.exports=JSON.parse('{"allTagsPath":"/guides/tags","slug":"source-statsd","name":"source: statsd","count":6,"permalink":"/guides/tags/source-statsd"}')}}]);
