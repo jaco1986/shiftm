@@ -218,12 +218,6 @@ operation using this directory are Vector's on-disk buffers. Buffers, by
 default, are memory-based, but if you switch them to disk-based you'll need to
 specify a [`data_dir`](#data_dir).
 
-
-[docs.data-model.log#host]: /docs/about/data-model/log/#host
-[docs.data-model.log#message]: /docs/about/data-model/log/#message
-[docs.data-model.log#source_type]: /docs/about/data-model/log/#source_type
-[docs.data-model.log#timestamp]: /docs/about/data-model/log/#timestamp
-[docs.data-model.log]: /docs/about/data-model/log/
 [docs.sinks]: /docs/reference/sinks/
 [docs.sources]: /docs/reference/sources/
 [docs.transforms]: /docs/reference/transforms/

@@ -306,6 +306,6 @@ You can learn more about the complete syntax in the
 
 
 [docs.configuration#environment-variables]: /docs/setup/configuration/#environment-variables
-[docs.data-model.log]: /docs/about/data-model/log/
+
 [docs.reference.templating]: /docs/reference/templating/
 [urls.strptime_specifiers]: https://docs.rs/chrono/0.4.11/chrono/format/strftime/index.html#specifiers

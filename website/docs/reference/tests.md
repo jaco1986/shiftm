@@ -874,13 +874,7 @@ transform will be checked against a table of conditions.
 </Field>
 </Fields>
 
-
-[docs.data-model.metric#counter]: /docs/about/data-model/metric/#counter
-[docs.data-model.metric#distribution]: /docs/about/data-model/metric/#distribution
-[docs.data-model.metric#gauge]: /docs/about/data-model/metric/#gauge
-[docs.data-model.metric#set]: /docs/about/data-model/metric/#set
-[docs.data-model.metric#tags]: /docs/about/data-model/metric/#tags
-[guides.advanced.unit-testing]: /guides/advanced/unit-testing/
+[guides.advanced.unit-testing]: /guides/advanced/calendar/
 [urls.cidr]: https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing
 [urls.regex]: https://en.wikipedia.org/wiki/Regular_expression
 [urls.rust_regex_syntax]: https://docs.rs/regex/1.3.6/regex/#syntax

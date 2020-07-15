@@ -22,7 +22,7 @@ module.exports = {
       links: [
         { to: "guides/", label: "Guides", position: "left" },
         { to: "docs/", label: "Docs", position: "left" },
-        { to: "highlights/", label: "Highlights", position: "right" },
+        { to: "highlights/", label: "News", position: "right" },
         { to: "community/", label: "Community", position: "right" },
         { to: "releases/", label: "Download", position: "right" },
       ],
@@ -38,7 +38,7 @@ module.exports = {
           title: "About",
           items: [
             {
-              label: "What is Shift'M?",
+              label: "What is Shift'M",
               to: "docs/about/what-is-shiftm/",
             },
             {

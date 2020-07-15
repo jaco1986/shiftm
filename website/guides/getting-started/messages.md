@@ -1,11 +1,11 @@
 ---
 last_modified_on: "2020-04-01"
 $schema: "/.meta/.schemas/guides.json"
-title: Monitoring Vector
-description: How to monitoring and observe Vector in production
-series_position: 4
+title: Your Messages
+description: View your sent and received messages
+series_position: 3
 author_github: https://github.com/binarylogic
-tags: ["type: guide", "domain: observability"]
+tags: ["type: guide", "domain: profile"]
 ---
 
 import Alert from '@site/src/components/Alert';
@@ -20,7 +20,7 @@ performing. This guide will cover how to monitor and observe Vector.
 
      To make changes please edit the template located at:
 
-     website/guides/getting-started/monitoring.md.erb
+     website/guides/getting-started/messages.md.erb
 -->
 
 ## Metrics

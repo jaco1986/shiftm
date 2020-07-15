@@ -1175,8 +1175,8 @@ options.
 
 
 [docs.configuration#environment-variables]: /docs/setup/configuration/#environment-variables
-[docs.data-model.log]: /docs/about/data-model/log/
-[docs.data-model]: /docs/about/data-model/
+
+
 [docs.guarantees]: /docs/about/guarantees/
 [urls.basic_auth]: https://en.wikipedia.org/wiki/Basic_access_authentication
 [urls.loki]: https://grafana.com/oss/loki/

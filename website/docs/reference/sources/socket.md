@@ -578,7 +578,7 @@ options.
 
 
 [docs.configuration#environment-variables]: /docs/setup/configuration/#environment-variables
-[docs.data-model.log]: /docs/about/data-model/log/
+
 [docs.reference.global-options#host_key]: /docs/reference/global-options/#host_key
 [urls.openssl]: https://www.openssl.org/
 [urls.socket]: https://en.wikipedia.org/wiki/Network_socket

@@ -406,6 +406,6 @@ options.
 
 
 [docs.configuration#environment-variables]: /docs/setup/configuration/#environment-variables
-[docs.data-model.log]: /docs/about/data-model/log/
+
 [urls.http]: https://www.w3.org/Protocols/
 [urls.openssl]: https://www.openssl.org/

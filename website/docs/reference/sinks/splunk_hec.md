@@ -1040,8 +1040,8 @@ options.
 
 
 [docs.configuration#environment-variables]: /docs/setup/configuration/#environment-variables
-[docs.data-model.log]: /docs/about/data-model/log/
-[docs.data-model]: /docs/about/data-model/
+
+
 [docs.guarantees]: /docs/about/guarantees/
 [docs.reference.global-options#host_key]: /docs/reference/global-options/#host_key
 [urls.gzip]: https://www.gzip.org/

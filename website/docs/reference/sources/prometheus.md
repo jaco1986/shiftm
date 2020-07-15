@@ -184,5 +184,5 @@ You can learn more in the
 
 
 [docs.configuration#environment-variables]: /docs/setup/configuration/#environment-variables
-[docs.data-model.metric]: /docs/about/data-model/metric/
+
 [urls.prometheus_text_based_exposition_format]: https://github.com/prometheus/docs/blob/master/content/docs/instrumenting/exposition_formats.md#text-based-format

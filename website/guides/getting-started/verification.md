@@ -1,11 +1,10 @@
 ---
-last_modified_on: "2020-06-11"
+last_modified_on: "2020-04-01"
 $schema: "/.meta/.schemas/guides.json"
-title: Deploying Vector
-description: How to deploy Vector to your target environment
-series_position: 3
-author_github: https://github.com/binarylogic
-tags: ["type: tutorial", "domain: operations"]
+title: Complete your verification
+description: How to submit and complete your verification
+series_position: 2
+tags: ["type: guide", "domain: profile"]
 ---
 
 import CodeExplanation from '@site/src/components/CodeExplanation';
@@ -31,7 +30,7 @@ where the magic lies and this is precisely what this guide will touch on.
 
      To make changes please edit the template located at:
 
-     website/guides/getting-started/deploying.md.erb
+     website/guides/getting-started/verification.md.erb
 -->
 
 ## Basic Concepts
@@ -610,16 +609,3 @@ That's it! Simple and to the point. Hit `ctrl+c` to exit.
 </Tabs>
 </TabItem>
 </Tabs>
-
-
-[docs.configuration]: /docs/setup/configuration/
-[docs.installation]: /docs/setup/installation/
-[docs.package_managers.dpkg#versions]: /docs/setup/installation/package-managers/dpkg/#versions
-[docs.package_managers.homebrew]: /docs/setup/installation/package-managers/homebrew/
-[docs.package_managers.msi#versions]: /docs/setup/installation/package-managers/msi/#versions
-[docs.package_managers.nix#versions]: /docs/setup/installation/package-managers/nix/#versions
-[docs.package_managers.rpm#versions]: /docs/setup/installation/package-managers/rpm/#versions
-[docs.platforms.docker#variants]: /docs/setup/installation/platforms/docker/#variants
-[docs.strategies]: /docs/setup/deployment/strategies/
-[docs.topologies]: /docs/setup/deployment/topologies/
-[urls.rust]: https://www.rust-lang.org/

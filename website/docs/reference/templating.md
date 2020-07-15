@@ -143,8 +143,6 @@ option = "{{ parent.child }}"
 ```
 
 
-[docs.data-model.log#timestamp]: /docs/about/data-model/log/#timestamp
-[docs.data-model.log]: /docs/about/data-model/log/
 [docs.global-options#timestamp_key]: /docs/reference/global-options/#timestamp_key
 [docs.reference.field-path-notation]: /docs/reference/field-path-notation/
 [docs.sinks.aws_s3#key_prefix]: /docs/reference/sinks/aws_s3/#key_prefix

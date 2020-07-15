@@ -113,11 +113,11 @@ Shift'M also assists with the collection of Locum revenues from Clients.
 
 ### Is Shift'M a Labour Broker?
 
-No, Shift'M is a web-based platform that facilitates direct contact and transactions between Clients and Locums for the purchase of Locum services. We do not employ Locums, nor do we create the expectation of employment. We further, do not create any expectations of employment between Clients and Locums. Our Locums and Clients accept this upfront by using Shift'M.
+No, Shift'M is a web-based platform that facilitates direct contact and transactions between Clients and Locums for the purchase of Locum services. We do not employ Locums, nor do we create the expectation of employment. We further, do not create any expectations of employment between Clients and Locums. Locums and Clients accept this upfront by accepting and our Terms and Conditions of using Shift'M.
 
 Shift'M acts as Payment Agent between client and locum.
 
-Shift'M does not in any way represent that a locum will be treated as or qualify as employees or will benefit from any employee rights or protections whatsoever now or in the future from locum work secured from Clients on or through Shift'M.
+Shift'M does not in any way represent that a locum will be treated as or qualify as employee or will benefit from any employee rights or protections whatsoever now or in the future from locum work secured from Clients on or through Shift'M.
 
 ### A note on Taxation
 
@@ -151,7 +151,7 @@ Shift'M may make changes to its Terms & Conditions from time to time and at any 
 	<li>Registration is free.</li>
 	<li>Locums on Shift'M are offered at any price set by the Locum themselves.</li>
 	<li>Clients search for or place Job Ads for and select their preferred provider(s) of selected Services.</li>
-	<li>Clients place Bookings for Locum, which, when accepted by Locums, become binding contracts.</li>
+	<li>Clients place Bookings for a Locum, which, when accepted by Locums, become binding contracts.</li>
 	<li>Clients and Locums contract directly between themselves for the provision of Services.</li>
 	<li>Users are prohibited from by-passing the Shift'M platform in any attempt to avoid platform charges.</li>
 </ul>

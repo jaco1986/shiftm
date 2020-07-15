@@ -760,7 +760,7 @@ options.
 
 
 [docs.configuration#environment-variables]: /docs/setup/configuration/#environment-variables
-[docs.data-model.log]: /docs/about/data-model/log/
+
 [docs.reference.global-options#host_key]: /docs/reference/global-options/#host_key
 [docs.sources.socket]: /docs/reference/sources/socket/
 [docs.transforms.regex_parser]: /docs/reference/transforms/regex_parser/

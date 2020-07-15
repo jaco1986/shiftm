@@ -1,7 +1,7 @@
 ---
 last_modified_on: "2020-04-22"
 $schema: "/.meta/.schemas/guides.json"
-title: Managing Schemas in Vector
+title: Notifications
 description: Learn how to manage log schemas with Vector.
 author_github: https://github.com/hoverbear
 tags: ["type: guide"]
@@ -12,7 +12,7 @@ import Assumptions from '@site/src/components/Assumptions';
 
 <Assumptions name="guide">
 
-* You understand the [basic Vector concepts][docs.about.concepts] and understand [how to set up a pipeline][guides.getting-started.your-first-pipeline].
+* You understand the [basic Vector concepts][docs.about.concepts] and understand [how to set up a pipeline][guides.getting-started.your-profile].
 
 </Assumptions>
 
@@ -28,7 +28,7 @@ some logs to the rest of your system. With a little configuration we can teach V
 
      To make changes please edit the template located at:
 
-     website/guides/advanced/schemas.md.erb
+     website/guides/advanced/notifications.md.erb
 -->
 
 ## Overriding Global Field Names
@@ -346,4 +346,4 @@ Where are you deploying Vector? Let us know, maybe we can help optimize it!
 [docs.transforms.json_parser]: /docs/reference/transforms/json_parser/
 [docs.transforms.regex_parser]: /docs/reference/transforms/regex_parser/
 [docs.transforms.split]: /docs/reference/transforms/split/
-[guides.getting-started.your-first-pipeline]: /guides/getting-started/your-first-pipeline/
+[guides.getting-started.your-profile]: /guides/getting-started/your-profile/

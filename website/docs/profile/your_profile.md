@@ -39,5 +39,3 @@ specific requriements enabling interoperability with existing monitoring and
 observability systems.
 
 <Jump to="/docs/profile/create/">Create</Jump>
-<Jump to="/docs/about/data-model/log/">Log</Jump>
-<Jump to="/docs/about/data-model/metric/">Metric</Jump>

@@ -10,6 +10,7 @@ module.exports = {
         "about/terms_and_cond",
         "about/privacy",
         "about/safety",
+        "about/faq",
         "meta/glossary",
       ],
     },

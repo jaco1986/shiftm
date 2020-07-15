@@ -333,8 +333,8 @@ options.
 
 
 [docs.configuration#environment-variables]: /docs/setup/configuration/#environment-variables
-[docs.data-model.log]: /docs/about/data-model/log/
-[docs.data-model.metric]: /docs/about/data-model/metric/
+
+
 [docs.sinks.vector]: /docs/reference/sinks/vector/
 [urls.event_proto]: https://github.com/timberio/vector/blob/master/proto/event.proto
 [urls.openssl]: https://www.openssl.org/

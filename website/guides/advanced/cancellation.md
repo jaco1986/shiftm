@@ -1,10 +1,10 @@
 ---
 last_modified_on: "2020-04-06"
 $schema: "/.meta/.schemas/guides.json"
-title: Custom Aggregations with Lua
-description: Write a custom transform for aggregating log events into metrics using Lua scripting
+title: Dealing with cancellations
+description: Everything you need to know about cancelations and policies.
 author_github: https://github.com/a-rodin
-tags: ["type: guide", "domain: transforms", "transform: lua"]
+tags: ["type: guide", "domain: booking", "transform: lua"]
 ---
 
 While Vector's built-in [transforms][docs.reference.transforms] are fast, sometimes they are not expressive
@@ -19,7 +19,7 @@ counts them, and emits [`counter`][docs.about.data-model.metric#counter] metrics
 
      To make changes please edit the template located at:
 
-     website/guides/advanced/custom-aggregations-with-lua.md.erb
+     website/guides/advanced/cancellation.md.erb
 -->
 
 ## Architectural Overview
@@ -294,7 +294,6 @@ alternatives to centralized logs aggregation.
 
 
 [docs.about.concepts#pipelines]: /docs/about/concepts/#pipelines
-[docs.about.data-model.metric#counter]: /docs/about/data-model/metric/#counter
 [docs.reference.transforms.lua#representation-of-events]: /docs/reference/transforms/lua/#representation-of-events
 [docs.reference.transforms.lua#source]: /docs/reference/transforms/lua/#source
 [docs.reference.transforms.lua]: /docs/reference/transforms/lua/

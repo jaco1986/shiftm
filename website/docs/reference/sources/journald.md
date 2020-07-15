@@ -420,7 +420,7 @@ usermod -aG systemd-journal vector
 
 
 [docs.configuration#environment-variables]: /docs/setup/configuration/#environment-variables
-[docs.data-model.log]: /docs/about/data-model/log/
+
 [docs.global-options#data_dir]: /docs/reference/global-options/#data_dir
 [docs.sources.journald#communication-strategy]: /docs/reference/sources/journald/#communication-strategy
 [docs.sources.journald#user-permissions]: /docs/reference/sources/journald/#user-permissions

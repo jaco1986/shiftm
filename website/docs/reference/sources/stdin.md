@@ -236,6 +236,6 @@ Each line is read until a new line delimiter (the `0xA` byte) is found.
 
 
 [docs.configuration#environment-variables]: /docs/setup/configuration/#environment-variables
-[docs.data-model.log]: /docs/about/data-model/log/
+
 [docs.reference.global-options#host_key]: /docs/reference/global-options/#host_key
 [urls.stdin]: https://en.wikipedia.org/wiki/Standard_streams#Standard_input_(stdin)

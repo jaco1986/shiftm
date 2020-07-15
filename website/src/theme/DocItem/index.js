@@ -113,12 +113,6 @@ function Statuses({deliveryGuarantee, eventTypes, operatingSystems, status, unsu
             <i className="feather icon-shield"></i> At-Least-Once
           </Link>
         </div>}
-      {eventTypes &&
-        <div>
-          <Link to="/docs/about/data-model/" title={`This component works on the these event types.`}>
-            <i className="feather icon-database"></i> <SupportedEventTypes values={eventTypes} />
-          </Link>
-        </div>}
       {operatingSystems && unsupportedOperatingSystems &&
         <div>
           <Link to="/docs/setup/installation/operating-systems/" title={`This component works on the ${operatingSystems.join(", ")} operating systems.`}>

@@ -419,7 +419,7 @@ event-by-event basis. It does not batch data.
 
 
 [docs.configuration#environment-variables]: /docs/setup/configuration/#environment-variables
-[docs.data-model.log]: /docs/about/data-model/log/
-[docs.data-model]: /docs/about/data-model/
+
+
 [urls.papertrail]: https://www.papertrail.com/
 [urls.papertrail_syslog]: https://help.papertrailapp.com/kb/how-it-works/http-api/#submitting-log-messages

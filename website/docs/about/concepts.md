@@ -52,7 +52,7 @@ to you.
 
 ### Sinks
 
-A "sink" is a destination for [events][docs.data-model]. Each sink's
+. Each sink's
 design and transmission method is dictated by the downstream service it is
 interacting with. For example, the [`socket` sink][docs.sinks.socket] will
 stream individual events, while the [`aws_s3` sink][docs.sinks.aws_s3] will
@@ -63,10 +63,9 @@ buffer and flush data.
 ## Events
 
 All items (both logs and metrics) passing through Vector are known as an
-"event", which is explained in detail in the [data model][docs.data-model]
+"event", which is explained in detail in the
 section.
 
-<Jump to="/docs/about/data-model/">View data model</Jump>
 
 ## Pipelines
 
@@ -78,7 +77,7 @@ pipeline in the [configuration section][docs.configuration].
 
 
 [docs.configuration]: /docs/setup/configuration/
-[docs.data-model]: /docs/about/data-model/
+
 [docs.sinks.aws_s3]: /docs/reference/sinks/aws_s3/
 [docs.sinks.socket]: /docs/reference/sinks/socket/
 [docs.sources.file]: /docs/reference/sources/file/

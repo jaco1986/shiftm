@@ -936,8 +936,8 @@ attempts and backoff rate with the [`retry_attempts`](#retry_attempts) and
 
 
 [docs.configuration#environment-variables]: /docs/setup/configuration/#environment-variables
-[docs.data-model.log]: /docs/about/data-model/log/
-[docs.data-model]: /docs/about/data-model/
+
+
 [docs.guarantees]: /docs/about/guarantees/
 [docs.monitoring#logs]: /docs/administration/monitoring/#logs
 [docs.transforms.add_fields]: /docs/reference/transforms/add_fields/

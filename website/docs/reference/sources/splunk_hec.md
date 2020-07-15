@@ -427,7 +427,7 @@ options.
 
 
 [docs.configuration#environment-variables]: /docs/setup/configuration/#environment-variables
-[docs.data-model.log]: /docs/about/data-model/log/
+
 [urls.openssl]: https://www.openssl.org/
 [urls.splunk_hec_event_endpoint]: https://docs.splunk.com/Documentation/Splunk/8.0.0/RESTREF/RESTinput#services.2Fcollector.2Fevent
 [urls.splunk_hec_protocol]: https://docs.splunk.com/Documentation/Splunk/8.0.0/Data/HECRESTendpoints

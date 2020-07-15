@@ -653,8 +653,8 @@ options.
 
 
 [docs.configuration#environment-variables]: /docs/setup/configuration/#environment-variables
-[docs.data-model.log]: /docs/about/data-model/log/
-[docs.data-model]: /docs/about/data-model/
+
+
 [urls.datadog]: https://www.datadoghq.com
 [urls.datadog_logs_endpoints]: https://docs.datadoghq.com/logs/log_collection/?tab=tcpussite#datadog-logs-endpoints
 [urls.openssl]: https://www.openssl.org/

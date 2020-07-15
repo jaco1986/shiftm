@@ -495,8 +495,8 @@ options.
 
 
 [docs.configuration#environment-variables]: /docs/setup/configuration/#environment-variables
-[docs.data-model.log]: /docs/about/data-model/log/
-[docs.data-model.metric]: /docs/about/data-model/metric/
-[docs.data-model]: /docs/about/data-model/
+
+
+
 [docs.sources.vector]: /docs/reference/sources/vector/
 [urls.openssl]: https://www.openssl.org/

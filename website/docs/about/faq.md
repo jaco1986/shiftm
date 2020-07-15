@@ -1,7 +1,7 @@
 ---
 last_modified_on: "2020-06-01"
-title: "What is Shift'M"
-description: "High-level description of the Shift'M platform and functionality."
+title: "Frequently Asked Questions"
+description: "Have a question? Read our FAQ's for answers."
 ---
 
 import Jump from '@site/src/components/Jump';
@@ -38,8 +38,8 @@ Whether you need a nurse for a day to cover your sick leave or a dentist assista
 <Jump to="/guides/getting-started/">Get started</Jump>
 
 
-[docs.data-model.log]: /docs/about/data-model/log/
-[docs.data-model.metric]: /docs/about/data-model/metric/
+
+
 [docs.strategies#daemon]: /docs/setup/deployment/strategies/#daemon
 [docs.strategies#sidecar]: /docs/setup/deployment/strategies/#sidecar
 [urls.rust]: https://www.rust-lang.org/

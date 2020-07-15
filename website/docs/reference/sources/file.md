@@ -934,7 +934,7 @@ read position will resume from the last checkpoint.
 
 
 [docs.configuration#environment-variables]: /docs/setup/configuration/#environment-variables
-[docs.data-model.log]: /docs/about/data-model/log/
+
 [docs.global-options#data_dir]: /docs/reference/global-options/#data_dir
 [docs.reference.global-options#host_key]: /docs/reference/global-options/#host_key
 [docs.reference.global-options#message_key]: /docs/reference/global-options/#message_key

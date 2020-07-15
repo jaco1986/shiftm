@@ -17,6 +17,6 @@ your topology, ultimately flowing into a [sink][docs.sinks].
 <VectorComponents titles={false} sinks={false} sources={false} />
 
 
-[docs.data-model.log]: /docs/about/data-model/log/
-[docs.data-model.metric]: /docs/about/data-model/metric/
+
+
 [docs.sinks]: /docs/reference/sinks/

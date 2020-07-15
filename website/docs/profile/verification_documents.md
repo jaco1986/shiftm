@@ -138,7 +138,7 @@ Head over to the [components section][pages.components] and use the guarantee
 filters.
 
 
-[docs.data-model]: /docs/about/data-model/
+
 [docs.sinks]: /docs/reference/sinks/
 [pages.components]: /components/
 [urls.vector_bug_issues]: https://github.com/timberio/vector/issues?q=is%3Aopen+is%3Aissue+label%3A%22type%3A+bug%22

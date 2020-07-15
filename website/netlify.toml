@@ -218,7 +218,7 @@
 
 [[redirects]]
   from = "/docs/setup/guides/advanced-configs/"
-  to = "/guides/advanced/managing-complex-configs/"
+  to = "/guides/advanced/listings/"
   status = 301
   force = true
 
@@ -236,7 +236,7 @@
 
 [[redirects]]
   from = "/docs/setup/guides/unit-testing"
-  to = "/guides/advanced/unit-testing/"
+  to = "/guides/advanced/calendar/"
   status = 301
   force = true
 

@@ -19,9 +19,9 @@ section is meant to house high-quality guides that will be maintained and
 updated continuously. To kick this new section off we've added the following:
 
 <Jump to="/guides/getting-started/" iconLeft="book">Getting Started Series</Jump>
-<Jump to="/guides/advanced/custom-aggregations-with-lua/" leftIcon="book-open">Custom Aggregations With Lua</Jump>
-<Jump to="/guides/advanced/parsing-csv-logs-with-lua/" leftIcon="book-open">Parsing CSV Logs With Lua</Jump>
-<Jump to="/guides/advanced/parsing-csv-logs-with-lua/" leftIcon="book-open">Unit Testing Your Configs</Jump>
+<Jump to="/guides/advanced/cancellation/" leftIcon="book-open">Custom Aggregations With Lua</Jump>
+<Jump to="/guides/advanced/bookings/" leftIcon="book-open">Parsing CSV Logs With Lua</Jump>
+<Jump to="/guides/advanced/bookings/" leftIcon="book-open">Unit Testing Your Configs</Jump>
 
 
 [pages.docs]: /docs//

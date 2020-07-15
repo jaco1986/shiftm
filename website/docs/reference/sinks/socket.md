@@ -734,8 +734,8 @@ options.
 
 
 [docs.configuration#environment-variables]: /docs/setup/configuration/#environment-variables
-[docs.data-model.log]: /docs/about/data-model/log/
-[docs.data-model]: /docs/about/data-model/
+
+
 [urls.openssl]: https://www.openssl.org/
 [urls.socket]: https://en.wikipedia.org/wiki/Network_socket
 [urls.tcp]: https://en.wikipedia.org/wiki/Transmission_Control_Protocol

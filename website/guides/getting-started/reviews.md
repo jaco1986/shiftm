@@ -1,11 +1,10 @@
 ---
 last_modified_on: "2020-04-01"
 $schema: "/.meta/.schemas/guides.json"
-title: Structuring Your Log Data
-description: How to parse log data in Vector
-series_position: 2
-author_github: https://github.com/Jeffail
-tags: ["type: tutorial", "domain: config"]
+title: Reviews
+description: Find out everything about the Review process.
+series_position: 4
+tags: ["type: guide", "domain: profile"]
 ---
 
 import Alert from '@site/src/components/Alert';
@@ -42,7 +41,7 @@ And have them coming out the other end in a structured format like this:
 
      To make changes please edit the template located at:
 
-     website/guides/getting-started/structuring.md.erb
+     website/guides/getting-started/reviews.md.erb
 -->
 
 ## Tutorial
@@ -336,10 +335,9 @@ trying to recruit you as their hacker, but it won't mean much if you can't
 deploy Vector. Onto the next guide!
 
 
-[docs.data-model]: /docs/about/data-model/
 [docs.reference.global-options#log_schema]: /docs/reference/global-options/#log_schema
 [docs.sinks.elasticsearch]: /docs/reference/sinks/elasticsearch/
 [docs.sources.socket]: /docs/reference/sources/socket/
 [docs.transforms.regex_parser]: /docs/reference/transforms/regex_parser/
 [docs.transforms]: /docs/reference/transforms/
-[guides.advanced.unit_testing]: /guides/advanced/unit-testing/
+[guides.advanced.unit_testing]: /guides/advanced/calendar/

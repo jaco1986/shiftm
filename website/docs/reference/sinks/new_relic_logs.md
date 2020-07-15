@@ -793,8 +793,8 @@ attempts and backoff rate with the [`retry_attempts`](#retry_attempts) and
 
 
 [docs.configuration#environment-variables]: /docs/setup/configuration/#environment-variables
-[docs.data-model.log]: /docs/about/data-model/log/
-[docs.data-model]: /docs/about/data-model/
+
+
 [docs.guarantees]: /docs/about/guarantees/
 [urls.gzip]: https://www.gzip.org/
 [urls.new_new_relic_logs_sink_issue]: https://github.com/timberio/vector/issues/new?labels=sink%3A+new_relic_logs

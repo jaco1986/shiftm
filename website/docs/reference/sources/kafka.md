@@ -712,7 +712,7 @@ this dependency is packaged with Vector, meaning you do not need to install it.
 
 
 [docs.configuration#environment-variables]: /docs/setup/configuration/#environment-variables
-[docs.data-model.log]: /docs/about/data-model/log/
+
 [urls.kafka]: https://kafka.apache.org/
 [urls.librdkafka]: https://github.com/edenhill/librdkafka
 [urls.librdkafka_config]: https://github.com/edenhill/librdkafka/blob/master/CONFIGURATION.md

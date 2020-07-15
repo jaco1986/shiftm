@@ -415,13 +415,6 @@ ability to provide safeguards around this. We encourage you to add to that
 discussion with your use case if you find this to be a problem.
 
 
-[docs.configuration#environment-variables]: /docs/setup/configuration/#environment-variables
-[docs.data-model.metric#aggregated_histogram]: /docs/about/data-model/metric/#aggregated_histogram
-[docs.data-model.metric#counter]: /docs/about/data-model/metric/#counter
-[docs.data-model.metric#distribution]: /docs/about/data-model/metric/#distribution
-[docs.data-model.metric#gauge]: /docs/about/data-model/metric/#gauge
-[docs.data-model.metric#set]: /docs/about/data-model/metric/#set
-[docs.data-model.metric]: /docs/about/data-model/metric/
 [urls.issue_387]: https://github.com/timberio/vector/issues/387
 [urls.issue_710]: https://github.com/timberio/vector/issues/710
 [urls.prometheus]: https://prometheus.io/

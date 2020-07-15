@@ -540,7 +540,7 @@ that we use to determine if an event is partial via the
 
 
 [docs.configuration#environment-variables]: /docs/setup/configuration/#environment-variables
-[docs.data-model.log]: /docs/about/data-model/log/
+
 [docs.installation.platforms]: /docs/setup/installation/platforms/
 [docs.sources.docker#docker-logging-drivers]: /docs/reference/sources/docker/#docker-logging-drivers
 [docs.sources.journald]: /docs/reference/sources/journald/

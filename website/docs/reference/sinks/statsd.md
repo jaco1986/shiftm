@@ -163,5 +163,5 @@ event-by-event basis. It does not batch data.
 
 
 [docs.configuration#environment-variables]: /docs/setup/configuration/#environment-variables
-[docs.data-model.metric]: /docs/about/data-model/metric/
+
 [urls.statsd]: https://github.com/statsd/statsd

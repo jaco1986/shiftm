@@ -220,5 +220,5 @@ data model page for more info.
 
 
 [docs.configuration#environment-variables]: /docs/setup/configuration/#environment-variables
-[docs.data-model.metric]: /docs/about/data-model/metric/
+
 [urls.statsd_udp_protocol]: https://github.com/b/statsd_spec

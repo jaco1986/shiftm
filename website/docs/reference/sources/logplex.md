@@ -353,6 +353,6 @@ options.
 
 
 [docs.configuration#environment-variables]: /docs/setup/configuration/#environment-variables
-[docs.data-model.log]: /docs/about/data-model/log/
+
 [urls.logplex_protocol]: https://github.com/heroku/logplex/blob/master/doc/README.http_drains.md
 [urls.openssl]: https://www.openssl.org/

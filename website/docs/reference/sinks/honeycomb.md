@@ -616,8 +616,8 @@ attempts and backoff rate with the [`retry_attempts`](#retry_attempts) and
 
 
 [docs.configuration#environment-variables]: /docs/setup/configuration/#environment-variables
-[docs.data-model.log]: /docs/about/data-model/log/
-[docs.data-model]: /docs/about/data-model/
+
+
 [docs.guarantees]: /docs/about/guarantees/
 [urls.honeycomb]: https://honeycomb.io
 [urls.honeycomb_batch]: https://docs.honeycomb.io/api/events/#batched-events

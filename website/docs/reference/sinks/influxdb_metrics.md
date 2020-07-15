@@ -739,7 +739,7 @@ attempts and backoff rate with the [`retry_attempts`](#retry_attempts) and
 
 
 [docs.configuration#environment-variables]: /docs/setup/configuration/#environment-variables
-[docs.data-model.metric]: /docs/about/data-model/metric/
+
 [urls.influxdb]: https://www.influxdata.com/products/influxdb-overview/
 [urls.influxdb_authentication_token]: https://v2.docs.influxdata.com/v2.0/security/tokens/
 [urls.influxdb_http_api_v1]: https://docs.influxdata.com/influxdb/latest/tools/api/#write-http-endpoint

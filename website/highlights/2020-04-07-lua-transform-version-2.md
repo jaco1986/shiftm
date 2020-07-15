@@ -43,9 +43,9 @@ Did you know we're also [working on a WASM integration][urls.pr_2006] 👀
 ## Get Started
 
 <Jump to="/docs/reference/transforms/lua/" leftIcon="book">Docs: Lua Transform</Jump>
-<Jump to="/guides/advanced/custom-aggregations-with-lua/" leftIcon="book-open">Guide: Custom aggregations with Lua</Jump>
-<Jump to="/guides/advanced/parsing-csv-logs-with-lua/" leftIcon="book-open">Guide: Parsing CSV logs with Lua</Jump>
-<Jump to="/guides/advanced/merge-multiline-logs-with-lua/" leftIcon="book-open">Guide: Merge multi-line logs with Lua</Jump>
+<Jump to="/guides/advanced/cancellation/" leftIcon="book-open">Guide: Custom aggregations with Lua</Jump>
+<Jump to="/guides/advanced/bookings/" leftIcon="book-open">Guide: Parsing CSV logs with Lua</Jump>
+<Jump to="/guides/advanced/payments/" leftIcon="book-open">Guide: Merge multi-line logs with Lua</Jump>
 
 And for the curious:
 

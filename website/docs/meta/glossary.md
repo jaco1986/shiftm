@@ -84,9 +84,8 @@ References to singular may include plural and references to masculine may includ
 
 
 [docs.configuration]: /docs/setup/configuration/
-[docs.data-model.log]: /docs/about/data-model/log/
-[docs.data-model.metric]: /docs/about/data-model/metric/
-[docs.data_model]: /docs/about/data-model/
+
+
 [docs.sinks]: /docs/reference/sinks/
 [docs.sources]: /docs/reference/sources/
 [docs.strategies]: /docs/setup/deployment/strategies/

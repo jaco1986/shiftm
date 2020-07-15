@@ -260,11 +260,6 @@ function VectorComponents(props) {
             placeholder="🔍 Search..." />
         </div>
         <div className="filter">
-          <div className="filter--label">
-            <Link to="/docs/about/data-model/" title="Learn more about Vector's event types">
-              Event types <i className="feather icon-info"></i>
-            </Link>
-          </div>
           <div className="filter--choices">
             <CheckboxList
               label="Event Types"

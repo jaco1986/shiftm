@@ -17,6 +17,6 @@ or outputting, this data.
 <VectorComponents titles={false} sources={false} transforms={false} />
 
 
-[docs.data-model.log]: /docs/about/data-model/log/
-[docs.data-model.metric]: /docs/about/data-model/metric/
-[docs.data-model]: /docs/about/data-model/
+
+
+

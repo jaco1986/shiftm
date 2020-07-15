@@ -514,6 +514,6 @@ attempts and backoff rate with the [`retry_attempts`](#retry_attempts) and
 
 
 [docs.configuration#environment-variables]: /docs/setup/configuration/#environment-variables
-[docs.data-model.metric]: /docs/about/data-model/metric/
+
 [urls.datadog]: https://www.datadoghq.com
 [urls.new_datadog_metrics_sink_issue]: https://github.com/timberio/vector/issues/new?labels=sink%3A+datadog_metrics

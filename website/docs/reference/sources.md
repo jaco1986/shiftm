@@ -22,7 +22,7 @@ over the network, like the [`vector`][docs.sources.vector],
 <VectorComponents titles={false} sinks={false} transforms={false} />
 
 
-[docs.data-model]: /docs/about/data-model/
+
 [docs.sources.file]: /docs/reference/sources/file/
 [docs.sources.socket]: /docs/reference/sources/socket/
 [docs.sources.stdin]: /docs/reference/sources/stdin/

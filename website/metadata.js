@@ -12,9 +12,9 @@ module.exports = {
         {
           "author_github": "https://github.com/Jeffail",
           "description": null,
-          "id": "/advanced/managing-complex-configs",
+          "id": "/advanced/listings",
           "last_modified_on": null,
-          "path": "website/guides/advanced/managing-complex-configs.md",
+          "path": "website/guides/advanced/listings.md",
           "series_position": null,
           "title": "Building & Managing Complex Configs"
         },
@@ -23,7 +23,7 @@ module.exports = {
           "description": null,
           "id": "/advanced/custom-aggregations-with-lua",
           "last_modified_on": null,
-          "path": "website/guides/advanced/custom-aggregations-with-lua.md",
+          "path": "website/guides/advanced/cancellation.md",
           "series_position": null,
           "title": "Custom Aggregations with Lua"
         },
@@ -32,7 +32,7 @@ module.exports = {
           "description": null,
           "id": "/advanced/schemas",
           "last_modified_on": null,
-          "path": "website/guides/advanced/schemas.md",
+          "path": "website/guides/advanced/notifications.md",
           "series_position": null,
           "title": "Managing Schemas in Vector"
         },
@@ -41,7 +41,7 @@ module.exports = {
           "description": null,
           "id": "/advanced/merge-multiline-logs-with-lua",
           "last_modified_on": null,
-          "path": "website/guides/advanced/merge-multiline-logs-with-lua.md",
+          "path": "website/guides/advanced/payments.md",
           "series_position": null,
           "title": "Merge multi-line logs with Lua"
         },
@@ -50,7 +50,7 @@ module.exports = {
           "description": null,
           "id": "/advanced/parsing-csv-logs-with-lua",
           "last_modified_on": null,
-          "path": "website/guides/advanced/parsing-csv-logs-with-lua.md",
+          "path": "website/guides/advanced/bookings.md",
           "series_position": null,
           "title": "Parsing CSV logs with Lua"
         },
@@ -59,7 +59,7 @@ module.exports = {
           "description": null,
           "id": "/advanced/troubleshooting",
           "last_modified_on": null,
-          "path": "website/guides/advanced/troubleshooting.md",
+          "path": "website/guides/advanced/support.md",
           "series_position": null,
           "title": "Troubleshooting"
         },
@@ -68,14 +68,14 @@ module.exports = {
           "description": null,
           "id": "/advanced/unit-testing",
           "last_modified_on": null,
-          "path": "website/guides/advanced/unit-testing.md",
+          "path": "website/guides/advanced/calendar.md",
           "series_position": null,
           "title": "Unit Testing Your Configs"
         }
       ],
       "name": "advanced",
       "series": false,
-      "title": "Advanced"
+      "title": "Listings"
     },
     "getting-started": {
       "children": {
@@ -87,45 +87,45 @@ module.exports = {
           "description": null,
           "id": "/getting-started/deploying",
           "last_modified_on": null,
-          "path": "website/guides/getting-started/deploying.md",
+          "path": "website/guides/getting-started/verification.md",
           "series_position": null,
           "title": "Deploying Vector"
         },
         {
           "author_github": "https://github.com/Jeffail",
           "description": null,
-          "id": "/getting-started/your-first-pipeline",
+          "id": "/getting-started/your-profile",
           "last_modified_on": null,
-          "path": "website/guides/getting-started/your-first-pipeline.md",
+          "path": "website/guides/getting-started/your-profile.md",
           "series_position": null,
           "title": "Hello World. Your First Vector Pipeline."
         },
         {
           "author_github": "https://github.com/binarylogic",
           "description": null,
-          "id": "/getting-started/monitoring",
+          "id": "/getting-started/messages",
           "last_modified_on": null,
-          "path": "website/guides/getting-started/monitoring.md",
+          "path": "website/guides/getting-started/messages.md",
           "series_position": null,
-          "title": "Monitoring Vector"
+          "title": "You have mail!"
         },
         {
           "author_github": "https://github.com/binarylogic",
           "description": null,
-          "id": "/getting-started/next-steps",
+          "id": "/getting-started/password",
           "last_modified_on": null,
-          "path": "website/guides/getting-started/next-steps.md",
+          "path": "website/guides/getting-started/password.md",
           "series_position": null,
-          "title": "Next Steps"
+          "title": "Change your password"
         },
         {
           "author_github": "https://github.com/Jeffail",
           "description": null,
-          "id": "/getting-started/structuring",
+          "id": "/getting-started/reviews",
           "last_modified_on": null,
-          "path": "website/guides/getting-started/structuring.md",
+          "path": "website/guides/getting-started/reviews.md",
           "series_position": null,
-          "title": "Structuring Your Log Data"
+          "title": "Wow! A review"
         }
       ],
       "name": "getting-started",

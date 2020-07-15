@@ -28,8 +28,6 @@ Vector defines subtypes for events. This is necessary to establish domain
 specific requriements enabling interoperability with existing monitoring and
 observability systems.
 
-<Jump to="/docs/about/data-model/log/">Log</Jump>
-<Jump to="/docs/about/data-model/metric/">Metric</Jump>
 
 ## FAQ
 
@@ -47,6 +45,3 @@ Finally, a sophisticated data model that accounts for the various data types
 allows for _correct_ interoperability between observability systems. For
 example, a pipeline with a `statsd` source and a `prometheus` sink would not
 be possible without the correct internal metrics data types.
-
-
-

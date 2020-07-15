@@ -10,9 +10,9 @@ import SVG from 'react-inlinesvg';
 
 <SVG src="/img/shiftm_cover.svg" />
 
-Founded in August of 2020 and based in Amsterdam Netherlands, <a href="https://www.shiftm.com">Shift'M</a> is a trusted community marketplace for people healthcare professionals to list or book temporary replacements around the world — online or from a mobile phone.
+Founded in August of 2020 and based in Amsterdam Netherlands, <a href="https://www.shiftm.com">Shift'M</a> is a trusted community marketplace for healthcare professionals to list or book temporary replacements around the world — online or from a mobile phone.
 
-Whether you need a nurse for a day to cover your sick leave or a dentist assistant for a week so you can go on your dream beach holiday, Shift'M connects healthcare professional to each other, at a perfect price, when you need them.   With our growing community of users, Shift'M is the easiest way for you to find the perfect locum.   
+Whether you need a nurse for a day to cover your sick leave or a dentist assistant for a week so you can go on your dream beach holiday, Shift'M connects healthcare professionals to each other, at a matching price, when you need them.   With our growing community of users, Shift'M is the easiest way for you to find the perfect locum.   
 #### Easy. Reliable. Professional
 
 ### Who should use Shift'M
@@ -28,8 +28,8 @@ Whether you need a nurse for a day to cover your sick leave or a dentist assista
 
 ### Principles
 
-* **Freedom.** - At Shift'M we believe in freedom. Just like our employees has the freedom to choose where they would like to work, we believe our clients should have the freedom to choose who they want as their locum. Unlike agencies where freedom of which locum you work with is seldom your choice.
-* **Choice.** - We also believe in choice. Giving our locums the choice to decide when they want to work, how they want to work. We believe in giving them the choice of how much they earn. To our clients, we also provide the choice. Shift'M provides the information and clients choose, based on that information. We provide the ability to choose your language and choose your currency. The choice is yours.
+* **Freedom.** - At Shift'M we believe in freedom. Just like our employees have the freedom to choose where they would like to work, we believe our clients should have the freedom to choose who they want as their locum. This differentiates us from agencies where the freedom to work with a locum of your choice is limited.
+* **Choice.** - We also believe in choice. Giving our locums the choice to decide when they want to work. How they want to work. This allows locums to write their own paychecks. To our clients, we also provide the choice. Shift'M provides the information and clients choose, based on that information. We provide the ability to choose your language and choose your currency. The choice is yours.
 
 ### Community
 
@@ -38,8 +38,8 @@ Whether you need a nurse for a day to cover your sick leave or a dentist assista
 <Jump to="/guides/getting-started/">Get started</Jump>
 
 
-[docs.data-model.log]: /docs/about/data-model/log/
-[docs.data-model.metric]: /docs/about/data-model/metric/
+
+
 [docs.strategies#daemon]: /docs/setup/deployment/strategies/#daemon
 [docs.strategies#sidecar]: /docs/setup/deployment/strategies/#sidecar
 [urls.rust]: https://www.rust-lang.org/

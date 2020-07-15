@@ -40,7 +40,6 @@ Why is this useful?
    to the downstream service's "host" field.
 
 
-[docs.data-model.log]: /docs/about/data-model/log/
 [docs.global-options#host_key]: /docs/reference/global-options/#host_key
 [docs.global-options#log_schema]: /docs/reference/global-options/#log_schema
 [docs.global-options#message_key]: /docs/reference/global-options/#message_key
