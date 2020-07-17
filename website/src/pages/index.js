@@ -49,7 +49,7 @@ const features = [
     description: (
       <>
       Learn how to change your <Link to="/docs/setup/language/">language</Link> preferences or your payment <Link to="/docs/setup/currency/">currency</Link>.
-      Need help with changing your <Link to="/docs/setup/password/">password</Link>? View your <Link to="/docs/setup/dashboard/">dashboard</Link> and find your <Link to="/docs/setup/favorites/">favorite</Link> locums.
+      Need help with changing your <Link to="/docs/setup/password/">password</Link>? View your <Link to="/docs/profile/your_profile/">profile</Link> and find your <Link to="/docs/setup/favorites/">favorite</Link> locums.
       </>
     ),
   },

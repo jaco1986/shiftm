@@ -69,7 +69,6 @@ module.exports = {
       type: 'category',
       label: 'Settings',
       items: [
-        "setup/dashboard",
         "setup/currency",
         "setup/favorites",
         "setup/language",

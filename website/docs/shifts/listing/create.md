@@ -1,39 +1,34 @@
 ---
 last_modified_on: "2020-05-14"
 title: Create Listing
-description: Reset your password
+description: How to create a listing
 ---
 
 import Jump from '@site/src/components/Jump';
 
 import SVG from 'react-inlinesvg';
 
-<SVG src="/img/shiftm_cover.svg" />
+#### How do I create a listing?
 
-Founded in August of 2020 and based in Amsterdam Netherlands, <a href="https://www.shiftm.com">Shift'M</a> is a trusted community marketplace for people healthcare professionals to list or book temporary replacements around the world — online or from a mobile phone.
+* Go to Your Listings on shiftm.com
+* Select the Add new listings button
+* Follow the steps
 
-Whether you need a nurse for a day to cover your sick leave or a dentist assistant for a week so you can go on your dream beach holiday, Shift'M connects healthcare professional to each other, at a perfect price, when you need them.   With our growing community of users, Shift'M is the easiest way for you to find the perfect locum.   
-#### Easy. Reliable. Professional
+Your listing won't be public until you have published your listing. You can only publish your listing once you have completed all of the required information.
 
-### Who should use Shift'M
 
-#### Locums
-* Healthcare professionals who want to work as Locums
-* Healthcare professionals who want to earn a bit of extra income
-* Retired? You're welcome too!
-* Any healthcare professional that is registered with their respective body
+#### Can I change my listing name?
 
-#### Clients
-* Any business/individual/practice that requires a locum
+* Go to Your Listings on shiftm.com
+* Select the listing you want to change
+* Next to the listing you want to edit, click Edit
+* Select Step 1, then click Change
+* Follow the steps
 
-### Principles
+There are a couple of other things to know about editing your listing:
 
-* **Freedom.** - At Shift'M we believe in freedom. Just like our employees has the freedom to choose where they would like to work, we believe our clients should have the freedom to choose who they want as their locum. Unlike agencies where freedom of which locum you work with is seldom your choice.
-* **Choice.** - We also believe in choice. Giving our locums the choice to decide when they want to work, how they want to work. We believe in giving them the choice of how much they earn. To our clients, we also provide the choice. Shift'M provides the information and clients choose, based on that information. We provide the ability to choose your language and choose your currency. The choice is yours.
-
-### Community
-
-* Shift'M is a global company, operating in over 12 countries...and growing
+Edits only apply to reservations booked after you make the changes; they don't apply to upcoming reservations that were already accepted.
+While you edit, your changes will be automatically saved.
 
 <Jump to="/guides/advanced/listings/">Guide: Listings</Jump>
 

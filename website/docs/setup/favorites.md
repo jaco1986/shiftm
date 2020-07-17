@@ -1,39 +1,44 @@
 ---
 last_modified_on: "2020-05-14"
 title: Favorites
-description: Saving your favorite locums 
+description: Saving your favorite locums
 ---
 
 import Jump from '@site/src/components/Jump';
 
 import SVG from 'react-inlinesvg';
 
-<SVG src="/img/shiftm_cover.svg" />
+#### How do I save a favorite locum?
+To keep track of locums you like, you can save them.
 
-Founded in August of 2020 and based in Amsterdam Netherlands, <a href="https://www.shiftm.com">Shift'M</a> is a trusted community marketplace for people healthcare professionals to list or book temporary replacements around the world — online or from a mobile phone.
+To save from a listing page:
 
-Whether you need a nurse for a day to cover your sick leave or a dentist assistant for a week so you can go on your dream beach holiday, Shift'M connects healthcare professional to each other, at a perfect price, when you need them.   With our growing community of users, Shift'M is the easiest way for you to find the perfect locum.   
-#### Easy. Reliable. Professional
+On a listing you want to save, click Save on the main photo, next to the Share button.
 
-### Who should use Shift'M
+#### Click Create a new list
+* Give your new list a name (for example, “My favourite Nurses” or “My Replacement List”).
+* Click Create
+* To add more locums to this list, click Save on a listing page, or the heart  on listings you see in search results for a particular profession, and choose your list.
 
-#### Locums
-* Healthcare professionals who want to work as Locums
-* Healthcare professionals who want to earn a bit of extra income
-* Retired? You're welcome too!
-* Any healthcare professional that is registered with their respective body
+#### How do I manage my list of saved homes?
+After you've created a saved list to keep track of locums you like, you can share it with others, add and remove locums, or delete the list altogether.
 
-#### Clients
-* Any business/individual/practice that requires a locum
+#### Remove a listing from a list
+To remove a listing from your saved list:
 
-### Principles
+* On shiftm.com, click Saved at the top of the page
+* Click View Wish List and select the listing you want to remove
+* Click the heart  on the listing you want to remove
+* Confirm that you want to remove the listing
+* Delete a Saved list
 
-* **Freedom.** - At Shift'M we believe in freedom. Just like our employees has the freedom to choose where they would like to work, we believe our clients should have the freedom to choose who they want as their locum. Unlike agencies where freedom of which locum you work with is seldom your choice.
-* **Choice.** - We also believe in choice. Giving our locums the choice to decide when they want to work, how they want to work. We believe in giving them the choice of how much they earn. To our clients, we also provide the choice. Shift'M provides the information and clients choose, based on that information. We provide the ability to choose your language and choose your currency. The choice is yours.
+#### To delete a Saved list:
 
-### Community
+* On shift.com, click Saved at the top of the page
+* Click View Wish List and select the list you want to remove
+* Click Delete this list
+* Confirm that you want to delete the list
 
-* Shift'M is a global company, operating in over 12 countries...and growing
 
 <Jump to="/guides/getting-started/">Get started</Jump>
 

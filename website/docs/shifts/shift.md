@@ -1,6 +1,7 @@
 ---
 last_modified_on: "2020-05-14"
 title: What is a Shift
+sidebar_label: hidden
 description: Reset your password
 ---
 

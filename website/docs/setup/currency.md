@@ -8,32 +8,24 @@ import Jump from '@site/src/components/Jump';
 
 import SVG from 'react-inlinesvg';
 
-<SVG src="/img/shiftm_cover.svg" />
+#### Can I change the any currency on Shift'M?
+Yes. At the top right corner of the menu you can change the currency. The current currency will be shown. Click the name and you can change to your desired currency.
 
-Founded in August of 2020 and based in Amsterdam Netherlands, <a href="https://www.shiftm.com">Shift'M</a> is a trusted community marketplace for people healthcare professionals to list or book temporary replacements around the world — online or from a mobile phone.
+#### Can I pay with any currency?
+When you enter your payment information, you can choose to pay with one of the various currencies we support. You can also change your default currency at any time by changing currency on one of the pages where the currency selector is available. Depending on your selected payment method, there may be some currencies that will not be available.
 
-Whether you need a nurse for a day to cover your sick leave or a dentist assistant for a week so you can go on your dream beach holiday, Shift'M connects healthcare professional to each other, at a perfect price, when you need them.   With our growing community of users, Shift'M is the easiest way for you to find the perfect locum.   
-#### Easy. Reliable. Professional
+#### Can I choose my payout currency?
+The currency you’re paid in is based on the country and method you selected when you first added your payout method. This can be different from the local currency of your listing. You cannot change a payout method’s currency once you’ve added it, but you can set up a new payout method in a different currency at any time.
 
-### Who should use Shift'M
+#### Exchange rates and currency conversion
+We will display prices on Shift'M in the currency you select. If you choose to change the currency at any point while booking, we will display the price in the new currency you select.
 
-#### Locums
-* Healthcare professionals who want to work as Locums
-* Healthcare professionals who want to earn a bit of extra income
-* Retired? You're welcome too!
-* Any healthcare professional that is registered with their respective body
+#### Bookings will be completed with the displayed price and currency as selected by you.
+If you choose to make or receive payments in a currency different from the designated currency of your payment method, your credit or bank card issuer may apply a currency conversion rate or fees to your payment. Please contact your bank or credit card issuer to learn more about what fees may apply. Shift'M is not responsible for these fees.
 
-#### Clients
-* Any business/individual/practice that requires a locum
+#### Cross-border fees
+If extra fees appear on your bank statement, or the amount charged differs from what appeared on the Shift'M checkout page, contact your credit or bank card issuer. If your bank considers Shift'M processing entity as international, you may be charged cross-border fees by your bank even if the charge was processed in the original currency of your payment method. If the fees were added by your card-issuing bank, Shift'M can't refund them.
 
-### Principles
-
-* **Freedom.** - At Shift'M we believe in freedom. Just like our employees has the freedom to choose where they would like to work, we believe our clients should have the freedom to choose who they want as their locum. Unlike agencies where freedom of which locum you work with is seldom your choice.
-* **Choice.** - We also believe in choice. Giving our locums the choice to decide when they want to work, how they want to work. We believe in giving them the choice of how much they earn. To our clients, we also provide the choice. Shift'M provides the information and clients choose, based on that information. We provide the ability to choose your language and choose your currency. The choice is yours.
-
-### Community
-
-* Shift'M is a global company, operating in over 12 countries...and growing
 
 <Jump to="/guides/getting-started/">Get started</Jump>
 
