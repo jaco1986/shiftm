@@ -137,7 +137,7 @@ which will keep you in the loop if this ever changes.
 Head over to the [components section][pages.components] and use the guarantee
 filters.
 
-
+<Jump to="/guides/getting-started/messages//">Tutorial: Messages</Jump>
 
 [docs.sinks]: /docs/reference/sinks/
 [pages.components]: /components/

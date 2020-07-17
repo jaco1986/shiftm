@@ -8,32 +8,40 @@ import Jump from '@site/src/components/Jump';
 
 import SVG from 'react-inlinesvg';
 
-<SVG src="/img/shiftm_cover.svg" />
+<SVG src="/img/shiftm4.svg" />
 
-Founded in August of 2020 and based in Amsterdam Netherlands, <a href="https://www.shiftm.com">Shift'M</a> is a trusted community marketplace for people healthcare professionals to list or book temporary replacements around the world — online or from a mobile phone.
+### Your safety is our priority
 
-Whether you need a nurse for a day to cover your sick leave or a dentist assistant for a week so you can go on your dream beach holiday, Shift'M connects healthcare professional to each other, at a perfect price, when you need them.   With our growing community of users, Shift'M is the easiest way for you to find the perfect locum.   
-#### Easy. Reliable. Professional
 
-### Who should use Shift'M
+#### Verification Checks
+Shift'M verifies all registered locums with their respective professional body. We provide a "verified" check on the users profile to provide security that the locum has the registration to practice. We verify registrations yearly and will remove any "verification" check if registration lapses, is cancelled or removed due to malpractice.
 
-#### Locums
-* Healthcare professionals who want to work as Locums
-* Healthcare professionals who want to earn a bit of extra income
-* Retired? You're welcome too!
-* Any healthcare professional that is registered with their respective body
+#### Secure Messaging
+Our secure messaging tool lets you get to know a client or locum and ask questions about specialities or experience ahead of time. After the locum is booked, you can use it to easily message back-and-forth to coordinate things like arrival procedures and parking.
 
-#### Clients
-* Any business/individual/practice that requires a locum
+#### Reviews
+If you’re curious about what others thought of a potential locum, client, or experience, all you have to do is look at their reviews. Clients and locums can only review each other after a Shift, so you know the feedback you’re seeing is based on actual experiences.
 
-### Principles
+### Profiles
 
-* **Freedom.** - At Shift'M we believe in freedom. Just like our employees has the freedom to choose where they would like to work, we believe our clients should have the freedom to choose who they want as their locum. Unlike agencies where freedom of which locum you work with is seldom your choice.
-* **Choice.** - We also believe in choice. Giving our locums the choice to decide when they want to work, how they want to work. We believe in giving them the choice of how much they earn. To our clients, we also provide the choice. Shift'M provides the information and clients choose, based on that information. We provide the ability to choose your language and choose your currency. The choice is yours.
+Everyone on Shift'M has a profile to help other users get to know each other. To book a locum or list as a locum, you’ll be asked to provide Shift'M with your full name, date of birth, phone number, payment information, and email address.
+
+### Secure Payments
+
+Our secure platform ensures your money gets to the locum, that’s why we ask you to always pay through Shift'M and never wire/transfer/EFT money or pay someone directly.
+
+### Account Protection
+
+We take a number of measures to safeguard your Shift'M account, like sending you account alerts when changes are made.
+
+
+### Scam Prevention
+
+Always pay and communicate directly through the Shift'M website or app. As long as you stay on Shift'M throughout the entire process — from communication, to booking, to payment — you’re protected by our multi-layer defense strategy.
 
 ### Community
 
-* Shift'M is a global company, operating in over 12 countries...and growing
+* Shift'M is a global company, operating in over 12 countries. Shift'M relies on the community to provide accurate information, through reviews, regarding their experiences with other users.
 
 <Jump to="/guides/getting-started/">Get started</Jump>
 

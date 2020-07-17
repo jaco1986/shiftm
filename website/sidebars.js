@@ -10,6 +10,7 @@ module.exports = {
         "about/terms_and_cond",
         "about/privacy",
         "about/safety",
+        "about/trust_and_verificaton",
         "about/faq",
         "meta/glossary",
       ],
@@ -21,9 +22,16 @@ module.exports = {
         "profile/your_profile",
         "profile/messages",
         "profile/picture",
-        "profile/reviews",
+        {
+          type: 'category',
+          label: 'Reviews',
+          items: [
+            "profile/reviews",
+                  "profile/reviews/forclients",
+                  "profile/reviews/forlocums",
+          ],
+        },
         "profile/verification_documents",
-        "about/trust_and_verificaton",
       ],
     },
     {

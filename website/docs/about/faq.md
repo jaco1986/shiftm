@@ -8,32 +8,37 @@ import Jump from '@site/src/components/Jump';
 
 import SVG from 'react-inlinesvg';
 
-<SVG src="/img/shiftm_cover.svg" />
 
-Founded in August of 2020 and based in Amsterdam Netherlands, <a href="https://www.shiftm.com">Shift'M</a> is a trusted community marketplace for people healthcare professionals to list or book temporary replacements around the world — online or from a mobile phone.
+<SVG src="/img/shiftm5.svg" />
 
-Whether you need a nurse for a day to cover your sick leave or a dentist assistant for a week so you can go on your dream beach holiday, Shift'M connects healthcare professional to each other, at a perfect price, when you need them.   With our growing community of users, Shift'M is the easiest way for you to find the perfect locum.   
-#### Easy. Reliable. Professional
 
-### Who should use Shift'M
+#### Is Shift'M an agency?
+No, Shift’M is merely the facilitating platform that enables Clients to view Locum Profiles, engage with and transact online directly for their Services. Shift'M also assists with the collection of revenues for Locum from Clients.
 
-#### Locums
-* Healthcare professionals who want to work as Locums
-* Healthcare professionals who want to earn a bit of extra income
-* Retired? You're welcome too!
-* Any healthcare professional that is registered with their respective body
+#### Is Shift’M a Labor Broker?
+No, Shift’M is a web-based platform that facilitates direct contact and transactions between Clients and Locums for the purchase of Locum services. We do not employ Locums, nor do we create the expectation of employment. We further, do not create any expectations of employment between Clients and Locums.
 
-#### Clients
-* Any business/individual/practice that requires a locum
+#### Are Shift'M Locums, Employees?
+No, By using Shift’M, Locums contract directly with Clients in respect of their Services. Shift’M is merely the facilitating platform that enables Clients to view Locum Profiles, engage with and transact online directly for their Services
 
-### Principles
+#### Can I still sign up if I'm not registered with a professional body?
+We do allow you to sign up and create a profile, but for some professions registration is required. Your profile will still be visible, but clients will be able to see that you are not verified.
 
-* **Freedom.** - At Shift'M we believe in freedom. Just like our employees has the freedom to choose where they would like to work, we believe our clients should have the freedom to choose who they want as their locum. Unlike agencies where freedom of which locum you work with is seldom your choice.
-* **Choice.** - We also believe in choice. Giving our locums the choice to decide when they want to work, how they want to work. We believe in giving them the choice of how much they earn. To our clients, we also provide the choice. Shift'M provides the information and clients choose, based on that information. We provide the ability to choose your language and choose your currency. The choice is yours.
+#### I have just completed my Shift, but I have not received payment
+The payouts normally take 1-2 days to pay out from the service provider and will be release 24hrs after your Shift starts.
 
-### Community
+#### How long does the verification process take?
+Verification normally takes one day to complete, depending on the information provided. Please upload and submit your receipt or registration number in your profile and we'll process it as soon as possible.
 
-* Shift'M is a global company, operating in over 12 countries...and growing
+#### Can I cancel my booking?
+Yes, you can always cancel your booking. Your booking can be cancelled from your profile. Please note that the cancellation policy does apply and you would need to comply with the selected policy of the locum you chose.
+
+#### Do i need to submit timesheets to get paid?
+No, you don't need to submit any timesheets. Payment occurs 24 hours after your Shift ended.
+
+#### Do i need to pay a monthly subscription to use Shift'M?
+No, Shift'M has no monthly subscriptions.
+
 
 <Jump to="/guides/getting-started/">Get started</Jump>
 

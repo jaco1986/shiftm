@@ -3,7 +3,6 @@ last_modified_on: "2020-04-19"
 $schema: "/.meta/.schemas/guides.json"
 title: Creating & Editing Your Listing
 description: Create your listing and publish it!
-author_github: https://github.com/Jeffail
 tags: ["type: guide", "domain: listing"]
 ---
 

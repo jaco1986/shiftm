@@ -9,33 +9,20 @@ import Jump from '@site/src/components/Jump';
 
 import SVG from 'react-inlinesvg';
 
-<SVG src="/img/shiftm_cover.svg" />
 
-Founded in August of 2020 and based in Amsterdam Netherlands, <a href="https://www.shiftm.com">Shift'M</a> is a trusted community marketplace for people healthcare professionals to list or book temporary replacements around the world — online or from a mobile phone.
+Manage your account settings, including making changes to your password, profile, and notifications.
 
-Whether you need a nurse for a day to cover your sick leave or a dentist assistant for a week so you can go on your dream beach holiday, Shift'M connects healthcare professional to each other, at a perfect price, when you need them.   With our growing community of users, Shift'M is the easiest way for you to find the perfect locum.   
-#### Easy. Reliable. Professional
 
-### Who should use Shift'M
+Your profile is a great way for others to learn more about you before they interact with you. When your profile is robust, it helps others feel that you're reliable, authentic, and committed to the community of Shift'M. Whether you're a locum or a client, the more complete your profile is, the more Shifts you're likely to get.
 
-#### Locums
-* Healthcare professionals who want to work as Locums
-* Healthcare professionals who want to earn a bit of extra income
-* Retired? You're welcome too!
-* Any healthcare professional that is registered with their respective body
+We require all locums to have a profile photo, and most clients upload a profile photo before starting their first booking.
 
-#### Clients
-* Any business/individual/practice that requires a locum
+A great profile often includes:
+* At least one profile photo that shows your face. Some locums require clients to have a profile photo, but client profile photos are not displayed until after a booking is confirmed.
+* Multiple verifications
+* A description of at least 50 words highlighting why you decided to join the Shift'M community, or anything else you think someone would want to know.
 
-### Principles
+To view someone's profile, just click their profile avatar or photo.
 
-* **Freedom.** - At Shift'M we believe in freedom. Just like our employees has the freedom to choose where they would like to work, we believe our clients should have the freedom to choose who they want as their locum. Unlike agencies where freedom of which locum you work with is seldom your choice.
-* **Choice.** - We also believe in choice. Giving our locums the choice to decide when they want to work, how they want to work. We believe in giving them the choice of how much they earn. To our clients, we also provide the choice. Shift'M provides the information and clients choose, based on that information. We provide the ability to choose your language and choose your currency. The choice is yours.
 
-## Event Types
-
-Vector defines subtypes for events. This is necessary to establish domain
-specific requriements enabling interoperability with existing monitoring and
-observability systems.
-
-<Jump to="/docs/profile/create/">Create</Jump>
+<Jump to="/guides/getting-started/your-profile/">Create Profile</Jump>

@@ -25,41 +25,7 @@ async function generateHighlights(highlightDir, { siteConfig, siteDir }, options
         cwd: highlightDir,
     });
     const highlights = [];
-    await Promise.all(highlightFiles.map(async (relativeSource) => {
-        const source = path_1.default.join(highlightDir, relativeSource);
-        const aliasedSource = utils_1.aliasedSitePath(source, siteDir);
-        const fileString = await fs_extra_1.default.readFile(source, 'utf-8');
-        const readingStats = reading_time_1.default(fileString);
-        const { frontMatter, content, excerpt } = utils_1.parse(fileString);
-        const fileName = path_1.default.basename(relativeSource);
-        const fileNameMatch = fileName.match(FILENAME_PATTERN);
-        if (frontMatter.draft && process.env.NODE_ENV === 'production') {
-            return;
-        }
-        let date = fileNameMatch ? new Date(fileNameMatch[1]) : new Date(Date.now());
-        let description = frontMatter.description || excerpt;
-        let id = frontMatter.id || frontMatter.title;
-        let linkName = relativeSource.replace(/\.mdx?$/, '');
-        let tags = frontMatter.tags || [];
-        let title = frontMatter.title || linkName;
-        highlights.push({
-            id: id,
-            metadata: {
-                date: date,
-                description: description,
-                permalink: utils_1.normalizeUrl([
-                    baseUrl,
-                    routeBasePath,
-                    frontMatter.id || linkName,
-                ]),
-                readingTime: readingStats.text,
-                source: aliasedSource,
-                tags: tags,
-                title: title,
-                truncated: (truncateMarker === null || truncateMarker === void 0 ? void 0 : truncateMarker.test(content)) || false,
-            },
-        });
-    }));
+
     return highlights.sort((a, b) => b.metadata.date.getTime() - a.metadata.date.getTime());
 }
 exports.generateHighlights = generateHighlights;
