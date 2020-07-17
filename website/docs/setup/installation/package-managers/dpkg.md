@@ -314,4 +314,4 @@ Vector's DPKG source files are located in
 [urls.dpkg]: https://wiki.debian.org/dpkg
 [urls.systemd]: https://systemd.io/
 [urls.vector_debian_source_files]: https://github.com/timberio/vector/tree/master/distribution/debian
-[urls.vector_releases]: https://vector.dev/releases/latest/
+[urls.vector_releases]: https://help.shiftm.com/releases/latest/

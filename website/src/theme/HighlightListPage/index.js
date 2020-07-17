@@ -48,9 +48,9 @@ function HighlightListPage(props) {
     <Layout title="Highlights" description="The latest Vector features and updates.">
       <header className="hero hero--clean">
         <div className="container container--xs">
-          <h1>Vector Highlights</h1>
+          <h1>Shift'M News</h1>
           <div className="hero--subtitle">
-            New features &amp; updates. Follow <a href="https://twitter.com/vectordotdev" target="_blank"> <i className="feather icon-twitter"></i> @vectordotdev</a> for real-time updates!
+            New features &amp; updates. Follow <a href="https://twitter.com/ShiftM_" target="_blank"> <i className="feather icon-twitter"></i> @ShiftM_</a> for real-time updates!
           </div>
           <div className="hero--search">
             <input

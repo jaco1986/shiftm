@@ -148,7 +148,7 @@ flexibility of Vector:
 [urls.etsy]: https://www.etsy.com
 [urls.rust]: https://www.rust-lang.org/
 [urls.statsd]: https://github.com/statsd/statsd
-[urls.vector_performance]: https://vector.dev/#performance
+[urls.vector_performance]: https://shiftm.com/#performance
 [urls.vector_repo]: https://github.com/timberio/vector
 [urls.vector_stars]: https://github.com/timberio/vector/stargazers
-[urls.vector_website]: https://vector.dev
+[urls.vector_website]: https://shiftm.com

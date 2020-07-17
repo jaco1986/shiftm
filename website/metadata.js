@@ -2612,22 +2612,6 @@ module.exports = {
   "highlights": [
     {
       "author_github": "https://github.com/binarylogic",
-      "date": "2019-10-21",
-      "description": "The `encoding` option is now required for these sinks",
-      "hide_on_release_notes": false,
-      "id": "2019-10-21-require-encoding-option-for-console-and-file-sinks",
-      "path": "website/highlights/2019-10-21-require-encoding-option-for-console-and-file-sinks.md",
-      "permalink": "/highlights/2019-10-21-require-encoding-option-for-console-and-file-sinks/",
-      "tags": [
-        "type: breaking change",
-        "domain: sinks",
-        "sink: console",
-        "sink: file"
-      ],
-      "title": "Require `encoding` option for console and file sinks"
-    },
-    {
-      "author_github": "https://github.com/binarylogic",
       "date": "2019-11-19",
       "description": "These architectures are widely used in embeded devices & servers",
       "hide_on_release_notes": false,
@@ -11500,27 +11484,6 @@ module.exports = {
           "type": "chore"
         },
         {
-          "author": "Luke Steensen",
-          "breaking_change": true,
-          "date": "2019-10-21 16:54:41 +0000",
-          "deletions_count": 61,
-          "description": "Require `encoding` option for console and file sinks",
-          "files_count": 17,
-          "highlight_permalink": "/highlights/2019-10-21-require-encoding-option-for-console-and-file-sinks/",
-          "insertions_count": 116,
-          "message": "fix(config)!: Require `encoding` option for console and file sinks (#1033)",
-          "pr_number": 1033,
-          "scopes": [
-            {
-              "component": {
-              },
-              "name": "config"
-            }
-          ],
-          "sha": "616d14abf59ac6e29c356fbf43e108dd7a438d35",
-          "type": "fix"
-        },
-        {
           "author": "Yeonghoon Park",
           "breaking_change": false,
           "date": "2019-10-23 06:22:55 +0000",
@@ -15921,22 +15884,6 @@ module.exports = {
       "deletions_count": 9213,
       "description": "",
       "highlights": [
-        {
-          "author_github": "https://github.com/binarylogic",
-          "date": "2019-10-21",
-          "description": "The `encoding` option is now required for these sinks",
-          "hide_on_release_notes": false,
-          "id": "2019-10-21-require-encoding-option-for-console-and-file-sinks",
-          "path": "website/highlights/2019-10-21-require-encoding-option-for-console-and-file-sinks.md",
-          "permalink": "/highlights/2019-10-21-require-encoding-option-for-console-and-file-sinks/",
-          "tags": [
-            "type: breaking change",
-            "domain: sinks",
-            "sink: console",
-            "sink: file"
-          ],
-          "title": "Require `encoding` option for console and file sinks"
-        },
         {
           "author_github": "https://github.com/binarylogic",
           "date": "2019-11-19",
@@ -21281,11 +21228,11 @@ module.exports = {
           "breaking_change": false,
           "date": "2020-01-31 13:55:36 +0000",
           "deletions_count": 9,
-          "description": "Update Twitter handle to vectordotdev",
+          "description": "Update Twitter handle to ShiftM_",
           "files_count": 6,
           "highlight_permalink": null,
           "insertions_count": 9,
-          "message": "chore(website): Update Twitter handle to vectordotdev (#1664)",
+          "message": "chore(website): Update Twitter handle to ShiftM_ (#1664)",
           "pr_number": 1664,
           "scopes": [
             {

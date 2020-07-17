@@ -14,7 +14,7 @@ import { useLocation } from 'react-router-dom';
 import './styles.css';
 
 // purposefully hardcoded to protect against people copying our site
-const VECTOR_HOST = 'https://vector.dev';
+const VECTOR_HOST = 'https://shiftm.com';
 
 function Layout(props) {
   const {siteConfig = {}} = useDocusaurusContext();
@@ -71,10 +71,10 @@ function Layout(props) {
             <meta name="twitter:image:alt" content={`Image for ${metaTitle}`} />
           )}
           {metaImage && (
-            <meta name="twitter:site" content="@vectordotdev" />
+            <meta name="twitter:site" content="@ShiftM_" />
           )}
           {metaImage && (
-            <meta name="twitter:creator" content="@vectordotdev" />
+            <meta name="twitter:creator" content="@ShiftM_" />
           )}
           {canonURL && (
             <meta property="og:url" content={canonURL} />

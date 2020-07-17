@@ -169,4 +169,4 @@ Vector's Homebrew source files are located in
 [urls.homebrew]: https://brew.sh/
 [urls.homebrew_services]: https://github.com/Homebrew/homebrew-services
 [urls.vector_homebrew_source_files]: https://github.com/timberio/homebrew-brew/blob/master/Formula/vector.rb
-[urls.vector_releases]: https://vector.dev/releases/latest/
+[urls.vector_releases]: https://help.shiftm.com/releases/latest/

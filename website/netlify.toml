@@ -4,7 +4,7 @@
 
 [[redirects]]
   from = "https://vector-project.netlify.com/*"
-  to = "https://vector.dev/:splat"
+  to = "https://shiftm.com/:splat"
   status = 301
   force = true
 
@@ -44,61 +44,61 @@
 
 [[redirects]]
   from = "https://docs.vector.dev/correctness"
-  to = "https://vector.dev/#correctness"
+  to = "https://shiftm.com/#correctness"
   status = 301
   force = true
 
 [[redirects]]
   from = "https://docs.vector.dev/performance"
-  to = "https://vector.dev/#performance"
+  to = "https://shiftm.com/#performance"
   status = 301
   force = true
 
 [[redirects]]
   from = "https://docs.vector.dev/usage/administration"
-  to = "https://vector.dev/docs/administration/"
+  to = "https://help.shiftm.com/docs/administration/"
   status = 301
   force = true
 
 [[redirects]]
   from = "https://docs.vector.dev/usage/administration/stopping"
-  to = "https://vector.dev/docs/administration/process-management/#stopping"
+  to = "https://help.shiftm.com/docs/administration/process-management/#stopping"
   status = 301
   force = true
 
 [[redirects]]
   from = "https://docs.vector.dev/usage/administration/reloading"
-  to = "https://vector.dev/docs/administration/process-management/#reloading"
+  to = "https://help.shiftm.com/docs/administration/process-management/#reloading"
   status = 301
   force = true
 
 [[redirects]]
   from = "https://docs.vector.dev/usage/administration/starting"
-  to = "https://vector.dev/docs/administration/process-management/#starting"
+  to = "https://help.shiftm.com/docs/administration/process-management/#starting"
   status = 301
   force = true
 
 [[redirects]]
   from = "https://docs.vector.dev/usage/administration/*"
-  to = "https://vector.dev/docs/administration/:splat"
+  to = "https://help.shiftm.com/docs/administration/:splat"
   status = 301
   force = true
 
 [[redirects]]
   from = "https://docs.vector.dev/usage/configuration"
-  to = "https://vector.dev/docs/setup/configuration/"
+  to = "https://help.shiftm.com/docs/setup/configuration/"
   status = 301
   force = true
 
 [[redirects]]
   from = "https://docs.vector.dev/usage/configuration/*"
-  to = "https://vector.dev/docs/reference/:splat"
+  to = "https://help.shiftm.com/docs/reference/:splat"
   status = 301
   force = true
 
 [[redirects]]
   from = "https://docs.vector.dev/*"
-  to = "https://vector.dev/docs/:splat"
+  to = "https://help.shiftm.com/docs/:splat"
   status = 301
   force = true
 
@@ -164,13 +164,13 @@
 
 [[redirects]]
   from = "/docs/about/correctness"
-  to = "https://vector.dev/#correctness"
+  to = "https://shiftm.com/#correctness"
   status = 301
   force = true
 
 [[redirects]]
   from = "/docs/about/performance"
-  to = "https://vector.dev/#performance"
+  to = "https://shiftm.com/#performance"
   status = 301
   force = true
 

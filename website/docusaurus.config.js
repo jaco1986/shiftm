@@ -42,7 +42,7 @@ module.exports = {
             },
             {
               label: "Terms and Conditions",
-              to: "community/#team",
+              to: "docs/about/terms_and_cond/",
             },
             {
               label: "Contact Us",

@@ -7,12 +7,12 @@ function CTA({github, inline, size, style}) {
 
   return <div className="row row--squished">
     <div className="col">
-      <a href="https://twitter.com/vectordotdev" target="_blank" className={classes}>
+      <a href="https://twitter.com/ShiftM_" target="_blank" className={classes}>
         <div className="panel--icon">
           <i className="feather icon-twitter" title="Twitter"></i>
         </div>
         <div>
-          <div className="panel--title">Follow @vectordotdev</div>
+          <div className="panel--title">Follow @ShiftM_</div>
           <div className="panel--description">Get real-time updates!</div>
         </div>
       </a>

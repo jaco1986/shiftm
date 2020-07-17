@@ -160,5 +160,5 @@ Vector should use very little memory. For average pipelines Vector uses around
 
 
 [docs.sources]: /docs/reference/sources/
-[urls.vector_performance]: https://vector.dev/#performance
+[urls.vector_performance]: https://shiftm.com/#performance
 [urls.vector_roadmap]: https://github.com/timberio/vector/milestones?direction=asc&sort=due_date&state=open

@@ -153,7 +153,7 @@ flexibility of Vector:
 [urls.kafka]: https://kafka.apache.org/
 [urls.rust]: https://www.rust-lang.org/
 [urls.stdin]: https://en.wikipedia.org/wiki/Standard_streams#Standard_input_(stdin)
-[urls.vector_performance]: https://vector.dev/#performance
+[urls.vector_performance]: https://shiftm.com/#performance
 [urls.vector_repo]: https://github.com/timberio/vector
 [urls.vector_stars]: https://github.com/timberio/vector/stargazers
-[urls.vector_website]: https://vector.dev
+[urls.vector_website]: https://shiftm.com

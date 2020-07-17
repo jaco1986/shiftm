@@ -36,7 +36,7 @@ While we strongly encourage all locums to keep their calendars up to date, consi
 [docs.strategies#daemon]: /docs/setup/deployment/strategies/#daemon
 [docs.strategies#sidecar]: /docs/setup/deployment/strategies/#sidecar
 [urls.rust]: https://www.rust-lang.org/
-[urls.vector_performance]: https://vector.dev/#performance
+[urls.vector_performance]: https://shiftm.com/#performance
 
 
 [docs.installation]: /docs/setup/installation/
