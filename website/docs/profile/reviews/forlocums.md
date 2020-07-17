@@ -7,7 +7,7 @@ description: Review information for Locums.
 import Alert from '@site/src/components/Alert';
 import Jump from '@site/src/components/Jump';
 
-#### How do star ratings work for stays?
+#### How do star ratings work for Shifts?
 In addition to written reviews, clients can submit an overall star rating for their locum.
 
 #### Why did I get a review that says I canceled?

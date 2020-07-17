@@ -8,7 +8,7 @@ import Alert from '@site/src/components/Alert';
 import Jump from '@site/src/components/Jump';
 
 #### How long do I have to write a review after a trip has ended?
-You have 14 days after checkout to write a review for a trip.
+You have 14 days after Shift ends to write a review.
 
 To see your reservations and reviews:
 * Go to Profile on shiftm.com
