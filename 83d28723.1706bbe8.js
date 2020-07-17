@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[439],{556:function(s){s.exports=JSON.parse('{"allTagsPath":"/guides/tags","slug":"source-stdin","name":"source: stdin","count":26,"permalink":"/guides/tags/source-stdin"}')}}]);

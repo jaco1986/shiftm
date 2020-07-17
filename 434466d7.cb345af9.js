@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[259],{414:function(a){a.exports=JSON.parse('{"allTagsPath":"/highlights/tags","slug":"sink-papertrail","name":"sink: papertrail","count":1,"permalink":"/highlights/tags/sink-papertrail"}')}}]);

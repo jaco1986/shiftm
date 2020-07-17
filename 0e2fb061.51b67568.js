@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[52],{203:function(t){t.exports=JSON.parse('{"category":{"name":"getting-started","title":"Getting Started","description":"Take Vector from zero to production in under 10 minutes.","permalink":"/guides/getting-started"}}')}}]);

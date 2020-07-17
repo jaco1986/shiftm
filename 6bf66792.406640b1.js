@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[436],{592:function(s){s.exports=JSON.parse('{"allTagsPath":"/highlights/tags","slug":"sink-tcp","name":"sink: tcp","count":1,"permalink":"/highlights/tags/sink-tcp"}')}}]);
