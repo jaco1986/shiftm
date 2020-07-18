@@ -160,13 +160,13 @@ There is no guide accompanying this RFC, it only minimally touches user facing s
 
 ## Doc Level Proposal
 
-> **Placement:** Insert into [Log Event](https://vector.dev/docs/about/data-model/log/#types)'s [Types](https://vector.dev/docs/about/data-model/log/#types) section
+> **Placement:** Insert into [Log Event](https://help.shiftm.com/docs/about/data-model/log/#types)'s [Types](https://help.shiftm.com/docs/about/data-model/log/#types) section
 
 ### Bytes
 
 An arbitrary sequence of bytes (not necessarily UTF-8), bounded by system memory.
 
-> **Placement:** Modify the [Coercer transform](https://vector.dev/docs/reference/transforms/coercer/#field-name) Types section.
+> **Placement:** Modify the [Coercer transform](https://help.shiftm.com/docs/reference/transforms/coercer/#field-name) Types section.
 
 ```bash
 Enum, must be one of: "bool" "float" "int" "string" "timestamp", "bytes"

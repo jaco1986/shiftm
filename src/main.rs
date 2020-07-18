@@ -91,7 +91,7 @@ enum SubCommand {
     List(list::Opts),
 
     /// Run Vector config unit tests, then exit. This command is experimental and therefore subject to change.
-    /// For guidance on how to write unit tests check out: https://vector.dev/docs/setup/guides/unit-testing/
+    /// For guidance on how to write unit tests check out: https://help.shiftm.com/docs/setup/guides/unit-testing/
     Test(unit_test::Opts),
 }
 

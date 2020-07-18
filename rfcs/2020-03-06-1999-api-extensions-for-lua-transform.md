@@ -26,7 +26,7 @@ This RFC proposes a new API for the `lua` transform.
 
 ## Motivation
 
-Currently, the [`lua` transform](https://vector.dev/docs/reference/transforms/lua/) has some limitations in its API. In particular, the following features are missing:
+Currently, the [`lua` transform](https://help.shiftm.com/docs/reference/transforms/lua/) has some limitations in its API. In particular, the following features are missing:
 
 *   **Nested Fields**
 
@@ -81,7 +81,7 @@ Currently, the [`lua` transform](https://vector.dev/docs/reference/transforms/lu
 
 *   **Control Flow**
 
-    It should be possible to define channels for output events, similarly to how it is done in [`swimlanes`](https://vector.dev/docs/reference/transforms/swimlanes/) transform.
+    It should be possible to define channels for output events, similarly to how it is done in [`swimlanes`](https://help.shiftm.com/docs/reference/transforms/swimlanes/) transform.
 
     See [#1942](https://github.com/timberio/vector/issues/1942).
 
@@ -488,7 +488,7 @@ Events produced by the transforms through calling an emitting function can have 
 
 Both log and metrics events are encoded using [external tagging](https://serde.rs/enum-representations.html#externally-tagged).
 
-* [Log events](https://vector.dev/docs/about/data-model/log/) could be seen as tables created using
+* [Log events](https://help.shiftm.com/docs/about/data-model/log/) could be seen as tables created using
 
     ```lua
     {
@@ -498,9 +498,9 @@ Both log and metrics events are encoded using [external tagging](https://serde.r
     }
     ```
 
-    The content of the `log` field corresponds to the usual [log event](https://vector.dev/docs/about/data-model/log/#examples) structure, with possible nesting of the fields.
+    The content of the `log` field corresponds to the usual [log event](https://help.shiftm.com/docs/about/data-model/log/#examples) structure, with possible nesting of the fields.
 
-    If a log event is created by the user inside the transform is a table, then, if default fields named according to the [global schema](https://vector.dev/docs/reference/global-options/#log_schema) are not present in such a table, then they are automatically added to the event. This rule does not apply to events having `userdata` type.
+    If a log event is created by the user inside the transform is a table, then, if default fields named according to the [global schema](https://help.shiftm.com/docs/reference/global-options/#log_schema) are not present in such a table, then they are automatically added to the event. This rule does not apply to events having `userdata` type.
 
     **Example 1**
     > The global schema is configured so that `message_key` is `"message"`, `timestamp_key` is `"timestamp"`, and `host_key` is is `"instance_id"`.
@@ -522,7 +522,7 @@ Both log and metrics events are encoded using [external tagging](https://serde.r
     > and then emitted through an emitting function, Vector would examine its fields and add `timestamp` containing the current timestamp and `instance_id` field with the current hostname.
 
     **Example 2**
-    > The global schema has [default settings](https://vector.dev/docs/reference/global-options/#log_schema).
+    > The global schema has [default settings](https://help.shiftm.com/docs/reference/global-options/#log_schema).
     >
     > A log event created by `stdin` source is passed to the `process` hook inside the transform, where it appears to have `userdata` type. The Lua code inside the transform deletes the `timestamp` field by setting it to `nil`:
     >
@@ -532,7 +532,7 @@ Both log and metrics events are encoded using [external tagging](https://serde.r
     >
     > And then emits the event. In that case Vector would not automatically insert the `timestamp` field.
 
-* [Metric events](https://vector.dev/docs/about/data-model/metric/) could be seen as tables created using
+* [Metric events](https://help.shiftm.com/docs/about/data-model/metric/) could be seen as tables created using
 
     ```lua
     {
@@ -542,7 +542,7 @@ Both log and metrics events are encoded using [external tagging](https://serde.r
     }
     ```
 
-    The content of the `metric` field matches the [metric data model](https://vector.dev/docs/about/data-model/metric). The values use [external tagging](https://serde.rs/enum-representations.html#externally-tagged) with respect to the metric type, see the examples.
+    The content of the `metric` field matches the [metric data model](https://help.shiftm.com/docs/about/data-model/metric). The values use [external tagging](https://serde.rs/enum-representations.html#externally-tagged) with respect to the metric type, see the examples.
 
     In case when the metric events are created as tables in user-defined code, the following default values are assumed if they are not provided:
 
@@ -552,7 +552,7 @@ Both log and metrics events are encoded using [external tagging](https://serde.r
     | `kind`      | `absolute`    |
     | `tags`      | empty map     |
 
-    Furthermore, for [`aggregated_histogram`](https://vector.dev/docs/about/data-model/metric/#aggregated_histogram) the `count` field inside the `value` map can be omitted.
+    Furthermore, for [`aggregated_histogram`](https://help.shiftm.com/docs/about/data-model/metric/#aggregated_histogram) the `count` field inside the `value` map can be omitted.
 
 
     **Example: `counter`**
@@ -621,7 +621,7 @@ Both log and metrics events are encoded using [external tagging](https://serde.r
     >     }
     >   }
     > }
-    > Note that the field [`count`](https://vector.dev/docs/about/data-model/metric/#count) is not required because it can be inferred by Vector automatically by summing up the values from `counts`.
+    > Note that the field [`count`](https://help.shiftm.com/docs/about/data-model/metric/#count) is not required because it can be inferred by Vector automatically by summing up the values from `counts`.
 
     **Example: `aggregated_summary`**
     > The minimal Lua code required to create an aggregated summary metric is the following:
@@ -645,14 +645,14 @@ The mapping between Vector data types and Lua data types is the following:
 
 | Vector Type | Lua Type | Comment |
 | :----------- | :-------- | :------- |
-| [`String`](https://vector.dev/docs/about/data-model/log/#strings) | [`string`](https://www.lua.org/pil/2.4.html) ||
-| [`Integer`](https://vector.dev/docs/about/data-model/log/#ints) | [`integer`](https://docs.rs/rlua/0.17.0/rlua/type.Integer.html) ||
-| [`Float`](https://vector.dev/docs/about/data-model/log/#floats) | [`number`](https://docs.rs/rlua/0.17.0/rlua/type.Number.html) ||
-| [`Boolean`](https://vector.dev/docs/about/data-model/log/#booleans) | [`boolean`](https://www.lua.org/pil/2.2.html) ||
-| [`Timestamp`](https://vector.dev/docs/about/data-model/log/#timestamps) | [`userdata`](https://www.lua.org/pil/28.1.html) | There is no dedicated timestamp type in Lua. However, there is a standard library function [`os.date`](https://www.lua.org/manual/5.1/manual.html#pdf-os.date) which returns a table with fields `year`, `month`, `day`, `hour`, `min`, `sec`, and some others. Other standard library functions, such as [`os.time`](https://www.lua.org/manual/5.1/manual.html#pdf-os.time), support tables with these fields as arguments. Because of that, Vector timestamps passed to the transform are represented as `userdata` with the same set of accessible fields. In order to have one-to-one correspondence between Vector timestamps and Lua timestamps, `os.date` function from the standard library is patched to return not a table, but `userdata` with the same set of fields as it usually would return instead. This approach makes it possible to have both compatibility with the standard library functions and a dedicated data type for timestamps. |
-| [`Null`](https://vector.dev/docs/about/data-model/log/#null-values) | empty string | In Lua setting a table field to `nil` means deletion of this field. Furthermore, settin an array element to `nil` leads to deletion of this element. In order to avoid inconsistencies, already present `Null` values are visible represented as empty strings from Lua code, and it is impossible to create a new `Null` value in the user-defined code. |
-| [`Map`](https://vector.dev/docs/about/data-model/log/#maps) | [`userdata`](https://www.lua.org/pil/28.1.html) or [`table`](https://www.lua.org/pil/2.5.html) | Maps which are parts of events passed to the transform from Vector have `userdata` type. User-created maps have `table` type. Both types are converted to Vector's `Map` type when they are emitted from the transform. |
-| [`Array`](https://vector.dev/docs/about/data-model/log/#arrays) | [`sequence`](https://www.lua.org/pil/11.1.html) | Sequences in Lua are a special case of tables. Because of that fact, the indexes can in principle start from any number. However, the convention in Lua is to to start indexes from 1 instead of 0, so Vector should adhere it. |
+| [`String`](https://help.shiftm.com/docs/about/data-model/log/#strings) | [`string`](https://www.lua.org/pil/2.4.html) ||
+| [`Integer`](https://help.shiftm.com/docs/about/data-model/log/#ints) | [`integer`](https://docs.rs/rlua/0.17.0/rlua/type.Integer.html) ||
+| [`Float`](https://help.shiftm.com/docs/about/data-model/log/#floats) | [`number`](https://docs.rs/rlua/0.17.0/rlua/type.Number.html) ||
+| [`Boolean`](https://help.shiftm.com/docs/about/data-model/log/#booleans) | [`boolean`](https://www.lua.org/pil/2.2.html) ||
+| [`Timestamp`](https://help.shiftm.com/docs/about/data-model/log/#timestamps) | [`userdata`](https://www.lua.org/pil/28.1.html) | There is no dedicated timestamp type in Lua. However, there is a standard library function [`os.date`](https://www.lua.org/manual/5.1/manual.html#pdf-os.date) which returns a table with fields `year`, `month`, `day`, `hour`, `min`, `sec`, and some others. Other standard library functions, such as [`os.time`](https://www.lua.org/manual/5.1/manual.html#pdf-os.time), support tables with these fields as arguments. Because of that, Vector timestamps passed to the transform are represented as `userdata` with the same set of accessible fields. In order to have one-to-one correspondence between Vector timestamps and Lua timestamps, `os.date` function from the standard library is patched to return not a table, but `userdata` with the same set of fields as it usually would return instead. This approach makes it possible to have both compatibility with the standard library functions and a dedicated data type for timestamps. |
+| [`Null`](https://help.shiftm.com/docs/about/data-model/log/#null-values) | empty string | In Lua setting a table field to `nil` means deletion of this field. Furthermore, settin an array element to `nil` leads to deletion of this element. In order to avoid inconsistencies, already present `Null` values are visible represented as empty strings from Lua code, and it is impossible to create a new `Null` value in the user-defined code. |
+| [`Map`](https://help.shiftm.com/docs/about/data-model/log/#maps) | [`userdata`](https://www.lua.org/pil/28.1.html) or [`table`](https://www.lua.org/pil/2.5.html) | Maps which are parts of events passed to the transform from Vector have `userdata` type. User-created maps have `table` type. Both types are converted to Vector's `Map` type when they are emitted from the transform. |
+| [`Array`](https://help.shiftm.com/docs/about/data-model/log/#arrays) | [`sequence`](https://www.lua.org/pil/11.1.html) | Sequences in Lua are a special case of tables. Because of that fact, the indexes can in principle start from any number. However, the convention in Lua is to to start indexes from 1 instead of 0, so Vector should adhere it. |
 
 ### Configuration
 
@@ -660,9 +660,9 @@ The new configuration options are the following:
 
 | Option Name | Required | Example | Description |
 | :--------- | :--------: | :------- | :-------- |
-| `version` | yes | `2` | In order to use the proposed API, the config has to contain `version` option set to `2`. If it is not provided, Vector assumes that [API version 1](https://vector.dev/docs/reference/transforms/lua/) is used. |
+| `version` | yes | `2` | In order to use the proposed API, the config has to contain `version` option set to `2`. If it is not provided, Vector assumes that [API version 1](https://help.shiftm.com/docs/reference/transforms/lua/) is used. |
 | `search_dirs` | no | `["/etc/vector/lua"]` | A list of directories where [`require`](https://www.lua.org/pil/8.1.html) function would look at if called from any part of the Lua code. |
-| `source` | no | `example_module = require("example_module")` | Lua source evaluated when the transform is created. It can call `require` function or define variables and handler functions inline. It is **not** called for each event like the [`source` parameter in version 1 of the transform](https://vector.dev/docs/reference/transforms/lua/#source) |
+| `source` | no | `example_module = require("example_module")` | Lua source evaluated when the transform is created. It can call `require` function or define variables and handler functions inline. It is **not** called for each event like the [`source` parameter in version 1 of the transform](https://help.shiftm.com/docs/reference/transforms/lua/#source) |
 | `hooks`.`init` | no | `example_function` or `function (emit) ... end` | Contains a Lua expression evaluating to `init` hook function. |
 | `hooks`.`shutdown` | no | `example_function` or `function (emit) ... end` | Contains a Lua expression evaluating to `shutdown` hook function. |
 | `hooks`.`process` | yes | `example_function` or `function (event, emit) ... end` | Contains a Lua expression evaluating to `shutdown` hook function. |
@@ -679,7 +679,7 @@ The implementation of `lua` transform supports only log events. Processing of lo
 
 Events have type [`userdata`](https://www.lua.org/pil/28.1.html) with custom [metamethods](https://www.lua.org/pil/13.html), so they are views to Vector's events. Thus passing an event to Lua has zero cost, so only when fields are actually accessed the data is copied to Lua.
 
-The fields are accessed through string indexes using [Vector's field path notation](https://vector.dev/docs/about/data-model/log/).
+The fields are accessed through string indexes using [Vector's field path notation](https://help.shiftm.com/docs/about/data-model/log/).
 
 ## Sales Pitch
 

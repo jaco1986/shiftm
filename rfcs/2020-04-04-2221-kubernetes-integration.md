@@ -158,7 +158,7 @@ The following diagram demonstrates how this works:
 
     ```shell
     cat <<-CONFIG > vector.toml
-    # Docs: https://vector.dev/docs/
+    # Docs: https://help.shiftm.com/docs/
     # Container logs are available from "kubernetes" input.
 
     # Send data to one or more sinks!
@@ -1633,7 +1633,7 @@ See [motivation](#motivation).
 [fluentbit_role]: https://raw.githubusercontent.com/fluent/fluent-bit-kubernetes-logging/master/fluent-bit-role.yaml
 [fluentd k8s integration]: https://docs.fluentd.org/v/0.12/articles/kubernetes-fluentd
 [fluentd_daemonset]: https://github.com/fluent/fluentd-kubernetes-daemonset/blob/master/fluentd-daemonset-papertrail.yaml
-[guide_example]: https://vector.dev/guides/integrate/sources/syslog/aws_kinesis_firehose/
+[guide_example]: https://help.shiftm.com/guides/integrate/sources/syslog/aws_kinesis_firehose/
 [gvisor]: https://github.com/google/gvisor
 [helm_install]: https://cert-manager.io/docs/installation/kubernetes/
 [helm_push]: https://github.com/chartmuseum/helm-push

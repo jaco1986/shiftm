@@ -88,7 +88,7 @@ impl RegexParser {
                     "Usage of `regex` is deprecated and will be removed in a future version. \
                      Please upgrade your config to use `patterns` instead: \
                      `patterns = ['{}']`. For more info, take a look at the documentation at \
-                     https://vector.dev/docs/reference/transforms/regex_parser/",
+                     https://help.shiftm.com/docs/reference/transforms/regex_parser/",
                     &regex
                 );
                 vec![regex.clone()]

@@ -2,7 +2,7 @@
 
 <p align="center">
   <strong>
-    Get notified of new releases and project updates! <a href="https://vector.dev/mailing_list/">Join our mailing list<a/>.
+    Get notified of new releases and project updates! <a href="https://shiftm.com/mailing_list/">Join our mailing list<a/>.
   </strong>
 </p>
 
@@ -22,15 +22,15 @@
 * [**v0.4.0**][urls.release_notes_0.4.0] - 2019-09-24 - 12 new features, 45 enhancements, 14 bug fixes
 
 
-[urls.release_notes_0.4.0]: https://vector.dev/releases/0.4.0
-[urls.release_notes_0.5.0]: https://vector.dev/releases/0.5.0
-[urls.release_notes_0.6.0]: https://vector.dev/releases/0.6.0
-[urls.release_notes_0.7.0]: https://vector.dev/releases/0.7.0
-[urls.release_notes_0.7.1]: https://vector.dev/releases/0.7.1
-[urls.release_notes_0.7.2]: https://vector.dev/releases/0.7.2
-[urls.release_notes_0.8.0]: https://vector.dev/releases/0.8.0
-[urls.release_notes_0.8.1]: https://vector.dev/releases/0.8.1
-[urls.release_notes_0.8.2]: https://vector.dev/releases/0.8.2
-[urls.release_notes_0.9.0]: https://vector.dev/releases/0.9.0
-[urls.release_notes_0.9.1]: https://vector.dev/releases/0.9.1
-[urls.release_notes_0.9.2]: https://vector.dev/releases/0.9.2
+[urls.release_notes_0.4.0]: https://help.shiftm.com/releases/0.4.0
+[urls.release_notes_0.5.0]: https://help.shiftm.com/releases/0.5.0
+[urls.release_notes_0.6.0]: https://help.shiftm.com/releases/0.6.0
+[urls.release_notes_0.7.0]: https://help.shiftm.com/releases/0.7.0
+[urls.release_notes_0.7.1]: https://help.shiftm.com/releases/0.7.1
+[urls.release_notes_0.7.2]: https://help.shiftm.com/releases/0.7.2
+[urls.release_notes_0.8.0]: https://help.shiftm.com/releases/0.8.0
+[urls.release_notes_0.8.1]: https://help.shiftm.com/releases/0.8.1
+[urls.release_notes_0.8.2]: https://help.shiftm.com/releases/0.8.2
+[urls.release_notes_0.9.0]: https://help.shiftm.com/releases/0.9.0
+[urls.release_notes_0.9.1]: https://help.shiftm.com/releases/0.9.1
+[urls.release_notes_0.9.2]: https://help.shiftm.com/releases/0.9.2

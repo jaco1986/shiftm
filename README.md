@@ -1,6 +1,6 @@
 <p align="center">
   <strong>
-    <a href="https://vector.dev/components/">Components<a/>&nbsp;&nbsp;&bull;&nbsp;&nbsp;<a href="https://vector.dev/guides/">Guides<a/>&nbsp;&nbsp;&bull;&nbsp;&nbsp;<a href="https://vector.dev/docs/">Docs<a/>&nbsp;&nbsp;&bull;&nbsp;&nbsp;<a href="https://vector.dev/blog/">Blog<a/>&nbsp;&nbsp;&bull;&nbsp;&nbsp;<a href="https://vector.dev/releases/latest/download/">Download v0.9.2<a/>
+    <a href="https://shiftm.com/components/">Components<a/>&nbsp;&nbsp;&bull;&nbsp;&nbsp;<a href="https://help.shiftm.com/guides/">Guides<a/>&nbsp;&nbsp;&bull;&nbsp;&nbsp;<a href="https://help.shiftm.com/docs/">Docs<a/>&nbsp;&nbsp;&bull;&nbsp;&nbsp;<a href="https://help.shiftm.com/blog/">Blog<a/>&nbsp;&nbsp;&bull;&nbsp;&nbsp;<a href="https://help.shiftm.com/releases/latest/download/">Download v0.9.2<a/>
   </strong>
 </p>
 
@@ -50,7 +50,7 @@ usage][urls.vector_performance].
 * Vector has **over 15 active contributors** and growing.
 
 
-## [Documentation](https://vector.dev/docs/)
+## [Documentation](https://help.shiftm.com/docs/)
 
 ### About
 
@@ -79,7 +79,7 @@ usage][urls.vector_performance].
 
 ### Resources
 
-* [**Community**][urls.vector_community] - [chat][urls.vector_chat], [@vectordotdev][urls.vector_twitter], [mailing list][urls.mailing_list]
+* [**Community**][urls.vector_community] - [chat][urls.vector_chat], [@ShiftM_][urls.vector_twitter], [mailing list][urls.mailing_list]
 * [**Releases**][urls.vector_releases] - [v0.9.2 (latest)][urls.v0.9.2]
 * [**Roadmap**][urls.vector_roadmap] - [vote on new features][urls.vote_feature]
 * **Policies** - [Security][urls.vector_security_policy], [Privacy][urls.vector_privacy_policy], [Code of Conduct][urls.vector_code_of_conduct]
@@ -185,11 +185,11 @@ Or use your own [preferred method][docs.installation].
 
 ## Latest Highlights
 
-* [2020/04/20 - Improved Shutdown](https://vector.dev/highlights/2020-04-20-improved-shutdown/) - available in [0.9.0][urls.vector_download]
-* [2020/04/17 - 4 New Sinks!](https://vector.dev/highlights/2020-04-17-new-sinks/) - available in [0.9.0][urls.vector_download]
-* [2020/04/09 - Set the Lua transform `search_dirs` option to Vector's config dir by default](https://vector.dev/highlights/2020-04-09-set-search_dirs-to-config-dirs-by-default/) - available in [0.9.0][urls.vector_download]
-* [2020/04/09 - ACL is now optional for the Google Cloud Storage sink](https://vector.dev/highlights/2020-04-09-make-acl-optional/) - available in [0.9.0][urls.vector_download]
-* [2020/04/07 - The Vector Source Now Accepts Metrics](https://vector.dev/highlights/2020-04-07-vector-to-vector-metrics/) - available in [0.9.0][urls.vector_download]
+* [2020/04/20 - Improved Shutdown](https://help.shiftm.com/highlights/2020-04-20-improved-shutdown/) - available in [0.9.0][urls.vector_download]
+* [2020/04/17 - 4 New Sinks!](https://help.shiftm.com/highlights/2020-04-17-new-sinks/) - available in [0.9.0][urls.vector_download]
+* [2020/04/09 - Set the Lua transform `search_dirs` option to Vector's config dir by default](https://help.shiftm.com/highlights/2020-04-09-set-search_dirs-to-config-dirs-by-default/) - available in [0.9.0][urls.vector_download]
+* [2020/04/09 - ACL is now optional for the Google Cloud Storage sink](https://help.shiftm.com/highlights/2020-04-09-make-acl-optional/) - available in [0.9.0][urls.vector_download]
+* [2020/04/07 - The Vector Source Now Accepts Metrics](https://help.shiftm.com/highlights/2020-04-07-vector-to-vector-metrics/) - available in [0.9.0][urls.vector_download]
 
 [view all...][urls.vector_highlights]
 
@@ -200,87 +200,87 @@ Or use your own [preferred method][docs.installation].
 </p>
 
 
-[docs.administration.process-management]: https://vector.dev/docs/administration/process-management/
-[docs.administration.validating]: https://vector.dev/docs/administration/validating/
-[docs.concepts]: https://vector.dev/docs/about/concepts/
-[docs.configuration]: https://vector.dev/docs/setup/configuration/
-[docs.data-model.log#timestamps]: https://vector.dev/docs/about/data-model/log/#timestamps
-[docs.data-model.log#types]: https://vector.dev/docs/about/data-model/log/#types
-[docs.data-model.log]: https://vector.dev/docs/about/data-model/log/
-[docs.data-model.metric#aggregated_histogram]: https://vector.dev/docs/about/data-model/metric/#aggregated_histogram
-[docs.data-model.metric#aggregated_summary]: https://vector.dev/docs/about/data-model/metric/#aggregated_summary
-[docs.data-model.metric]: https://vector.dev/docs/about/data-model/metric/
-[docs.data_model]: https://vector.dev/docs/about/data-model/
-[docs.deployment]: https://vector.dev/docs/setup/deployment/
-[docs.from-archives]: https://vector.dev/docs/setup/installation/manual/from-archives/
-[docs.from-source]: https://vector.dev/docs/setup/installation/manual/from-source/
-[docs.global-options#dns_servers]: https://vector.dev/docs/reference/global-options/#dns_servers
-[docs.global-options#log_schema]: https://vector.dev/docs/reference/global-options/#log_schema
-[docs.guarantees]: https://vector.dev/docs/about/guarantees/
-[docs.installation]: https://vector.dev/docs/setup/installation/
-[docs.monitoring]: https://vector.dev/docs/administration/monitoring/
-[docs.operating_systems]: https://vector.dev/docs/setup/installation/operating-systems/
-[docs.package_managers]: https://vector.dev/docs/setup/installation/package-managers/
-[docs.platforms]: https://vector.dev/docs/setup/installation/platforms/
-[docs.process-management#reloading]: https://vector.dev/docs/administration/process-management/#reloading
-[docs.process-management#starting]: https://vector.dev/docs/administration/process-management/#starting
-[docs.process-management]: https://vector.dev/docs/administration/process-management/
-[docs.reference.templating]: https://vector.dev/docs/reference/templating/
-[docs.sinks.aws_cloudwatch_logs]: https://vector.dev/docs/reference/sinks/aws_cloudwatch_logs/
-[docs.sinks.aws_s3#partitioning]: https://vector.dev/docs/reference/sinks/aws_s3/#partitioning
-[docs.sinks.aws_s3]: https://vector.dev/docs/reference/sinks/aws_s3/
-[docs.sinks.clickhouse]: https://vector.dev/docs/reference/sinks/clickhouse/
-[docs.sinks.elasticsearch]: https://vector.dev/docs/reference/sinks/elasticsearch/
-[docs.sinks.gcp_cloud_storage]: https://vector.dev/docs/reference/sinks/gcp_cloud_storage/
-[docs.sinks.gcp_pubsub]: https://vector.dev/docs/reference/sinks/gcp_pubsub/
-[docs.sinks]: https://vector.dev/docs/reference/sinks/
-[docs.sources.docker]: https://vector.dev/docs/reference/sources/docker/
-[docs.sources.file#multiline]: https://vector.dev/docs/reference/sources/file/#multiline
-[docs.sources.file]: https://vector.dev/docs/reference/sources/file/
-[docs.sources.http]: https://vector.dev/docs/reference/sources/http/
-[docs.sources.journald]: https://vector.dev/docs/reference/sources/journald/
-[docs.sources.kafka]: https://vector.dev/docs/reference/sources/kafka/
-[docs.sources.socket]: https://vector.dev/docs/reference/sources/socket/
-[docs.sources]: https://vector.dev/docs/reference/sources/
-[docs.strategies#daemon]: https://vector.dev/docs/setup/deployment/strategies/#daemon
-[docs.strategies#service]: https://vector.dev/docs/setup/deployment/strategies/#service
-[docs.strategies#sidecar]: https://vector.dev/docs/setup/deployment/strategies/#sidecar
-[docs.strategies]: https://vector.dev/docs/setup/deployment/strategies/
-[docs.topologies]: https://vector.dev/docs/setup/deployment/topologies/
-[docs.transforms.filter]: https://vector.dev/docs/reference/transforms/filter/
-[docs.transforms.grok_parser]: https://vector.dev/docs/reference/transforms/grok_parser/
-[docs.transforms.json_parser]: https://vector.dev/docs/reference/transforms/json_parser/
-[docs.transforms.log_to_metric]: https://vector.dev/docs/reference/transforms/log_to_metric/
-[docs.transforms.logfmt_parser]: https://vector.dev/docs/reference/transforms/logfmt_parser/
-[docs.transforms.lua]: https://vector.dev/docs/reference/transforms/lua/
-[docs.transforms.regex_parser#types]: https://vector.dev/docs/reference/transforms/regex_parser/#types
-[docs.transforms.regex_parser]: https://vector.dev/docs/reference/transforms/regex_parser/
-[docs.transforms.swimlanes]: https://vector.dev/docs/reference/transforms/swimlanes/
-[docs.transforms]: https://vector.dev/docs/reference/transforms/
-[docs.updating]: https://vector.dev/docs/administration/updating/
-[docs.validating]: https://vector.dev/docs/administration/validating/
-[docs.what-is-shiftm]: https://vector.dev/docs/about/what-is-shiftm/
-[guides.advanced.unit-testing]: https://vector.dev/guides/advanced/unit-testing/
-[pages.releases]: https://vector.dev/releases/
+[docs.administration.process-management]: https://help.shiftm.com/docs/administration/process-management/
+[docs.administration.validating]: https://help.shiftm.com/docs/administration/validating/
+[docs.concepts]: https://help.shiftm.com/docs/about/concepts/
+[docs.configuration]: https://help.shiftm.com/docs/setup/configuration/
+[docs.data-model.log#timestamps]: https://help.shiftm.com/docs/about/data-model/log/#timestamps
+[docs.data-model.log#types]: https://help.shiftm.com/docs/about/data-model/log/#types
+[docs.data-model.log]: https://help.shiftm.com/docs/about/data-model/log/
+[docs.data-model.metric#aggregated_histogram]: https://help.shiftm.com/docs/about/data-model/metric/#aggregated_histogram
+[docs.data-model.metric#aggregated_summary]: https://help.shiftm.com/docs/about/data-model/metric/#aggregated_summary
+[docs.data-model.metric]: https://help.shiftm.com/docs/about/data-model/metric/
+[docs.data_model]: https://help.shiftm.com/docs/about/data-model/
+[docs.deployment]: https://help.shiftm.com/docs/setup/deployment/
+[docs.from-archives]: https://help.shiftm.com/docs/setup/installation/manual/from-archives/
+[docs.from-source]: https://help.shiftm.com/docs/setup/installation/manual/from-source/
+[docs.global-options#dns_servers]: https://help.shiftm.com/docs/reference/global-options/#dns_servers
+[docs.global-options#log_schema]: https://help.shiftm.com/docs/reference/global-options/#log_schema
+[docs.guarantees]: https://help.shiftm.com/docs/about/guarantees/
+[docs.installation]: https://help.shiftm.com/docs/setup/installation/
+[docs.monitoring]: https://help.shiftm.com/docs/administration/monitoring/
+[docs.operating_systems]: https://help.shiftm.com/docs/setup/installation/operating-systems/
+[docs.package_managers]: https://help.shiftm.com/docs/setup/installation/package-managers/
+[docs.platforms]: https://help.shiftm.com/docs/setup/installation/platforms/
+[docs.process-management#reloading]: https://help.shiftm.com/docs/administration/process-management/#reloading
+[docs.process-management#starting]: https://help.shiftm.com/docs/administration/process-management/#starting
+[docs.process-management]: https://help.shiftm.com/docs/administration/process-management/
+[docs.reference.templating]: https://help.shiftm.com/docs/reference/templating/
+[docs.sinks.aws_cloudwatch_logs]: https://help.shiftm.com/docs/reference/sinks/aws_cloudwatch_logs/
+[docs.sinks.aws_s3#partitioning]: https://help.shiftm.com/docs/reference/sinks/aws_s3/#partitioning
+[docs.sinks.aws_s3]: https://help.shiftm.com/docs/reference/sinks/aws_s3/
+[docs.sinks.clickhouse]: https://help.shiftm.com/docs/reference/sinks/clickhouse/
+[docs.sinks.elasticsearch]: https://help.shiftm.com/docs/reference/sinks/elasticsearch/
+[docs.sinks.gcp_cloud_storage]: https://help.shiftm.com/docs/reference/sinks/gcp_cloud_storage/
+[docs.sinks.gcp_pubsub]: https://help.shiftm.com/docs/reference/sinks/gcp_pubsub/
+[docs.sinks]: https://help.shiftm.com/docs/reference/sinks/
+[docs.sources.docker]: https://help.shiftm.com/docs/reference/sources/docker/
+[docs.sources.file#multiline]: https://help.shiftm.com/docs/reference/sources/file/#multiline
+[docs.sources.file]: https://help.shiftm.com/docs/reference/sources/file/
+[docs.sources.http]: https://help.shiftm.com/docs/reference/sources/http/
+[docs.sources.journald]: https://help.shiftm.com/docs/reference/sources/journald/
+[docs.sources.kafka]: https://help.shiftm.com/docs/reference/sources/kafka/
+[docs.sources.socket]: https://help.shiftm.com/docs/reference/sources/socket/
+[docs.sources]: https://help.shiftm.com/docs/reference/sources/
+[docs.strategies#daemon]: https://help.shiftm.com/docs/setup/deployment/strategies/#daemon
+[docs.strategies#service]: https://help.shiftm.com/docs/setup/deployment/strategies/#service
+[docs.strategies#sidecar]: https://help.shiftm.com/docs/setup/deployment/strategies/#sidecar
+[docs.strategies]: https://help.shiftm.com/docs/setup/deployment/strategies/
+[docs.topologies]: https://help.shiftm.com/docs/setup/deployment/topologies/
+[docs.transforms.filter]: https://help.shiftm.com/docs/reference/transforms/filter/
+[docs.transforms.grok_parser]: https://help.shiftm.com/docs/reference/transforms/grok_parser/
+[docs.transforms.json_parser]: https://help.shiftm.com/docs/reference/transforms/json_parser/
+[docs.transforms.log_to_metric]: https://help.shiftm.com/docs/reference/transforms/log_to_metric/
+[docs.transforms.logfmt_parser]: https://help.shiftm.com/docs/reference/transforms/logfmt_parser/
+[docs.transforms.lua]: https://help.shiftm.com/docs/reference/transforms/lua/
+[docs.transforms.regex_parser#types]: https://help.shiftm.com/docs/reference/transforms/regex_parser/#types
+[docs.transforms.regex_parser]: https://help.shiftm.com/docs/reference/transforms/regex_parser/
+[docs.transforms.swimlanes]: https://help.shiftm.com/docs/reference/transforms/swimlanes/
+[docs.transforms]: https://help.shiftm.com/docs/reference/transforms/
+[docs.updating]: https://help.shiftm.com/docs/administration/updating/
+[docs.validating]: https://help.shiftm.com/docs/administration/validating/
+[docs.what-is-shiftm]: https://help.shiftm.com/docs/about/what-is-shiftm/
+[guides.advanced.unit-testing]: https://help.shiftm.com/guides/advanced/unit-testing/
+[pages.releases]: https://help.shiftm.com/releases/
 [urls.issue_1802]: https://github.com/timberio/vector/issues/1802
-[urls.mailing_list]: https://vector.dev/community/
+[urls.mailing_list]: https://shiftm.com/community/
 [urls.pr_721]: https://github.com/timberio/vector/pull/721
 [urls.rust]: https://www.rust-lang.org/
 [urls.rust_memory_safety]: https://hacks.mozilla.org/2019/01/fearless-security-memory-safety/
-[urls.v0.9.2]: https://vector.dev/releases/0.9.2/download
+[urls.v0.9.2]: https://help.shiftm.com/releases/0.9.2/download
 [urls.vector_chat]: https://chat.vector.dev
 [urls.vector_code_of_conduct]: https://github.com/timberio/vector/blob/master/CODE_OF_CONDUCT.md
-[urls.vector_community]: https://vector.dev/community/
-[urls.vector_download]: https://vector.dev/releases/latest/download/
-[urls.vector_enriching_transforms]: https://vector.dev/components/?functions%5B%5D=enrich
-[urls.vector_highlights]: https://vector.dev/highlights/
-[urls.vector_parsing_transforms]: https://vector.dev/components/?functions%5B%5D=parse
-[urls.vector_performance]: https://vector.dev/#performance
+[urls.vector_community]: https://shiftm.com/community/
+[urls.vector_download]: https://help.shiftm.com/releases/latest/download/
+[urls.vector_enriching_transforms]: https://shiftm.com/components/?functions%5B%5D=enrich
+[urls.vector_highlights]: https://help.shiftm.com/highlights/
+[urls.vector_parsing_transforms]: https://shiftm.com/components/?functions%5B%5D=parse
+[urls.vector_performance]: https://shiftm.com/#performance
 [urls.vector_privacy_policy]: https://github.com/timberio/vector/blob/master/PRIVACY.md
-[urls.vector_releases]: https://vector.dev/releases/latest/
+[urls.vector_releases]: https://help.shiftm.com/releases/latest/
 [urls.vector_repo]: https://github.com/timberio/vector
 [urls.vector_roadmap]: https://github.com/timberio/vector/milestones?direction=asc&sort=due_date&state=open
 [urls.vector_security_policy]: https://github.com/timberio/vector/security/policy
 [urls.vector_test_harness]: https://github.com/timberio/vector-test-harness/
-[urls.vector_twitter]: https://twitter.com/vectordotdev
+[urls.vector_twitter]: https://twitter.com/ShiftM_
 [urls.vote_feature]: https://github.com/timberio/vector/issues?q=is%3Aissue+is%3Aopen+sort%3Areactions-%2B1-desc+label%3A%22Type%3A+New+Feature%22

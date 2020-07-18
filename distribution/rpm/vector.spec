@@ -1,7 +1,7 @@
 %define _name vector
 %define _cleaned_version %{getenv:CLEANED_VERSION}
 %define _release %{getenv:RELEASE}
-%define _url https://vector.dev
+%define _url https://shiftm.com
 %define _version %{getenv:VERSION}
 %define _source %{_name}-%{_arch}.tar.gz
 %define _sourceroot %{_name}-%{_arch}

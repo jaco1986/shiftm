@@ -28,9 +28,9 @@ header() {
 
 
 $_divider
-Website: https://vector.dev
-Docs: https://vector.dev/docs/
-Community: https://vector.dev/community/
+Website: https://shiftm.com
+Docs: https://help.shiftm.com/docs/
+Community: https://shiftm.com/community/
 $_divider
 
 EOF
@@ -39,7 +39,7 @@ EOF
 usage() {
     cat 1>&2 <<EOF
 vector-install
-The installer for Vector (https://vector.dev)
+The installer for Vector (https://shiftm.com)
 
 USAGE:
     vector-install [FLAGS] [OPTIONS]
@@ -172,7 +172,7 @@ install_from_archive() {
     printf "\n"
     printf "%s vector --config ~/.vector/vector.toml\n" "$_indent"
     printf "\n"
-    printf "%s More information at https://vector.dev/docs/\n" "$_prompt"
+    printf "%s More information at https://help.shiftm.com/docs/\n" "$_prompt"
 
     local _retval=$?
 

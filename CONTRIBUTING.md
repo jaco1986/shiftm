@@ -59,8 +59,8 @@ expanding into more specifics.
 
 1. **You're familiar with [Github](https://github.com) and the pull request
    workflow.**
-2. **You've read Vector's [docs](https://vector.dev/docs/).**
-3. **You know about the [Vector community](https://vector.dev/community/).
+2. **You've read Vector's [docs](https://help.shiftm.com/docs/).**
+3. **You know about the [Vector community](https://shiftm.com/community/).
    Please use this for help.**
 
 ## Your First Contribution
@@ -718,6 +718,6 @@ https://stackoverflow.com/questions/13043357/git-sign-off-previous-commits
 [urls.github_sign_commits]: https://help.github.com/en/github/authenticating-to-github/signing-commits
 [urls.new_issue]: https://github.com/timberio/vector/issues/new
 [urls.push_it_to_the_limit]: https://www.youtube.com/watch?v=ueRzA9GUj9c
-[urls.performance_highlight]: https://vector.dev/highlights/2020-04-11-overall-performance-increase
+[urls.performance_highlight]: https://help.shiftm.com/highlights/2020-04-11-overall-performance-increase
 [urls.submit_pr]: https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork
 [urls.vector_test_harness]: https://github.com/timberio/vector-test-harness/

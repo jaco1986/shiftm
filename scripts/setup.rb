@@ -28,7 +28,7 @@ require_relative "util"
 # Constants
 #
 
-HOST = "https://vector.dev".freeze
+HOST = "https://shiftm.com".freeze
 DOCS_BASE_PATH = "/docs".freeze
 GUIDES_BASE_PATH = "/guides".freeze
 HIGHLIGHTS_BASE_PATH = "/highlights".freeze

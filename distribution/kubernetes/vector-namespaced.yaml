@@ -5,7 +5,7 @@ metadata:
 data:
   managed.toml: |
     # Configuration for vector.
-    # Docs: https://vector.dev/docs/
+    # Docs: https://help.shiftm.com/docs/
 
     # Configure the controlled by the deployment.
     data_dir = "/vector-data-dir"

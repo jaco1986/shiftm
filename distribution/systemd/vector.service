@@ -1,6 +1,6 @@
 [Unit]
 Description=Vector
-Documentation=https://vector.dev
+Documentation=https://shiftm.com
 After=network-online.target
 Requires=network-online.target
 

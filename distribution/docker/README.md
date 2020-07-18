@@ -1,6 +1,6 @@
 <p align="center">
   <strong>
-    <a href="https://vector.dev">Website<a/>&nbsp;&nbsp;&bull;&nbsp;&nbsp;<a href="https://vector.dev/docs/">Docs<a/>&nbsp;&nbsp;&bull;&nbsp;&nbsp;<a href="https://vector.dev/community/">Community<a/>&nbsp;&nbsp;&bull;&nbsp;&nbsp;<a href="https://github.com/timberio/vector">Github<a/>
+    <a href="https://shiftm.com">Website<a/>&nbsp;&nbsp;&bull;&nbsp;&nbsp;<a href="https://help.shiftm.com/docs/">Docs<a/>&nbsp;&nbsp;&bull;&nbsp;&nbsp;<a href="https://shiftm.com/community/">Community<a/>&nbsp;&nbsp;&bull;&nbsp;&nbsp;<a href="https://github.com/timberio/vector">Github<a/>
   </strong>
 </p>
 
@@ -108,21 +108,21 @@ Vector's Docker source files are located
 [in it's Github repo][urls.vector_docker_source_files].
 
 
-[docs.administration]: https://vector.dev/docs/administration/
-[docs.configuration]: https://vector.dev/docs/setup/configuration/
-[docs.deployment]: https://vector.dev/docs/setup/deployment/
-[docs.sinks]: https://vector.dev/docs/reference/sinks/
-[docs.sources]: https://vector.dev/docs/reference/sources/
-[docs.strategies#daemon]: https://vector.dev/docs/setup/deployment/strategies/#daemon
-[docs.strategies#service]: https://vector.dev/docs/setup/deployment/strategies/#service
-[docs.strategies#sidecar]: https://vector.dev/docs/setup/deployment/strategies/#sidecar
-[docs.transforms]: https://vector.dev/docs/reference/transforms/
-[pages.index#correctness]: https://vector.dev/#correctness
-[pages.index#performance]: https://vector.dev/#performance
+[docs.administration]: https://help.shiftm.com/docs/administration/
+[docs.configuration]: https://help.shiftm.com/docs/setup/configuration/
+[docs.deployment]: https://help.shiftm.com/docs/setup/deployment/
+[docs.sinks]: https://help.shiftm.com/docs/reference/sinks/
+[docs.sources]: https://help.shiftm.com/docs/reference/sources/
+[docs.strategies#daemon]: https://help.shiftm.com/docs/setup/deployment/strategies/#daemon
+[docs.strategies#service]: https://help.shiftm.com/docs/setup/deployment/strategies/#service
+[docs.strategies#sidecar]: https://help.shiftm.com/docs/setup/deployment/strategies/#sidecar
+[docs.transforms]: https://help.shiftm.com/docs/reference/transforms/
+[pages.index#correctness]: https://shiftm.com/#correctness
+[pages.index#performance]: https://shiftm.com/#performance
 [urls.default_configuration]: https://github.com/timberio/vector/blob/master/config/vector.toml
 [urls.docker_alpine]: https://hub.docker.com/_/alpine
 [urls.docker_debian]: https://hub.docker.com/_/debian
 [urls.rust]: https://www.rust-lang.org/
 [urls.vector_docker_source_files]: https://github.com/timberio/vector/tree/master/distribution/docker
-[urls.vector_releases]: https://vector.dev/releases/latest/
+[urls.vector_releases]: https://help.shiftm.com/releases/latest/
 [urls.vector_repo]: https://github.com/timberio/vector
