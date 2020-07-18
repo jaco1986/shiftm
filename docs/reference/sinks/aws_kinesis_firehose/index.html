@@ -19,27 +19,27 @@
 <link rel="stylesheet" href="/styles.2b3d096f.css">
 
 
-<link rel="preload" href="/styles.34e80712.js" as="script">
+<link rel="preload" href="/styles.2ceb7c8c.js" as="script">
 
-<link rel="preload" href="/runtime~main.00c8b622.js" as="script">
+<link rel="preload" href="/runtime~main.763c6569.js" as="script">
 
-<link rel="preload" href="/main.1b8ce7e9.js" as="script">
+<link rel="preload" href="/main.edf5024e.js" as="script">
 
-<link rel="preload" href="/common.a51457ff.js" as="script">
+<link rel="preload" href="/common.ea7634fc.js" as="script">
 
-<link rel="preload" href="/2.198bf9bf.js" as="script">
+<link rel="preload" href="/2.f901b97f.js" as="script">
 
-<link rel="preload" href="/4.1035aa38.js" as="script">
+<link rel="preload" href="/4.f4cf1e55.js" as="script">
 
-<link rel="preload" href="/1be78505.225a9b35.js" as="script">
+<link rel="preload" href="/1be78505.a07bb193.js" as="script">
 
-<link rel="preload" href="/20ac7829.95d9c5c8.js" as="script">
+<link rel="preload" href="/20ac7829.66aa896a.js" as="script">
 
-<link rel="preload" href="/17896441.6a978b24.js" as="script">
+<link rel="preload" href="/17896441.c6ad9db8.js" as="script">
 
-<link rel="preload" href="/3.2d737a5c.js" as="script">
+<link rel="preload" href="/3.1d5120fd.js" as="script">
 
-<link rel="preload" href="/28b8c271.49525ac9.js" as="script">
+<link rel="preload" href="/28b8c271.0fb03507.js" as="script">
 
 </head>
 <body>
@@ -106,27 +106,27 @@ attempts and backoff rate with the <a href="#retry_attempts"><code>retry_attempt
 <code>retry_backoff_secs</code> options.</p></div></article></div></div><div class="rightCol_38kP"><div class="table-of-contents tableOfContents_tVyB"><div class="section"><div class="title">Support</div><div><a class="text--primary" title="This component has passed reliability standards that make it production ready. Click to learn more." href="/docs/about/guarantees/#prod-ready"><i class="feather icon-award"></i> Prod-Ready Status</a></div><div><a class="text--primary" title="This component offers an at-least-once delivery guarantee. Click to learn more." href="/docs/about/guarantees/#at-least-once"><i class="feather icon-shield"></i> At-Least-Once</a></div><div><a title="This component works on the Linux, MacOS, Windows operating systems." href="/docs/setup/installation/operating-systems/"><i class="feather icon-cpu"></i> <span class="text--primary">Linux</span><span>, </span><span class="text--primary">MacOS</span><span>, </span><span class="text--primary">Windows</span></a></div></div><div class="section"><div class="title">Contents</div><ul class="contents"><li><a href="#configuration" class="contents__link">Configuration</a><ul><li><a href="#assume_role" class="contents__link">assume_role</a></li><li><a href="#batch" class="contents__link">batch</a></li><li><a href="#buffer" class="contents__link">buffer</a></li><li><a href="#encoding" class="contents__link">encoding</a></li><li><a href="#endpoint" class="contents__link">endpoint</a></li><li><a href="#healthcheck" class="contents__link">healthcheck</a></li><li><a href="#region" class="contents__link">region</a></li><li><a href="#request" class="contents__link">request</a></li><li><a href="#stream_name" class="contents__link">stream_name</a></li></ul></li><li><a href="#env-vars" class="contents__link">Env Vars</a><ul><li><a href="#aws_access_key_id" class="contents__link">AWS_ACCESS_KEY_ID</a></li><li><a href="#aws_secret_access_key" class="contents__link">AWS_SECRET_ACCESS_KEY</a></li></ul></li><li><a href="#examples" class="contents__link">Examples</a></li><li><a href="#how-it-works" class="contents__link">How It Works</a><ul><li><a href="#aws-authentication" class="contents__link">AWS Authentication</a></li><li><a href="#buffers--batches" class="contents__link">Buffers &amp; Batches</a></li><li><a href="#environment-variables" class="contents__link">Environment Variables</a></li><li><a href="#health-checks" class="contents__link">Health Checks</a></li><li><a href="#rate-limits" class="contents__link">Rate Limits</a></li><li><a href="#retry-policy" class="contents__link">Retry Policy</a></li></ul></li></ul></div><div class="section"><div class="title">Resources</div><ul class="contents"><li><a href="https://github.com/timberio/vector/issues?q=is%3Aopen+is%3Aissue+label%3A%22sink%3A+aws_kinesis_firehose%22" class="contents__link" target="_blank"><i class="feather icon-message-circle"></i> View Issues</a></li><li><a href="https://github.com/timberio/vector/tree/master/src/sinks/aws_kinesis_firehose.rs" class="contents__link" target="_blank"><i class="feather icon-github"></i> View Source</a></li></ul></div></div></div></div></div></main></div></div><footer class="footer"><div class="container"><div class="row footer__links"><div class="col col--5 footer__col"><div class="margin-bottom--md"></div><div class="margin-bottom--md"><div class="mailing-list"><form action="https://shiftm.us18.list-manage.com/subscribe/post" method="post" class="mailing-list--form"><input type="hidden" name="u" value="ef3f45d9742db70a70fd6e4c4"><input type="hidden" name="id" value="82fab539e5"><input type="email" class="input input--undefined" name="EMAIL" placeholder="your@email.com" style="width:150px"><button class="button button--primary button--undefined" type="submit">Subscribe</button></form></div></div></div><div class="col footer__col"><h4 class="footer__title">About</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item" href="/docs/about/what-is-shiftm/">What is Shift&#x27;M</a></li><li class="footer__item"><a class="footer__link-item" href="/docs/about/terms_and_cond/">Terms and Conditions</a></li><li class="footer__item"><a class="footer__link-item" to="https://shiftm.com/contact" href="https://shiftm.com/contact">Contact Us</a></li><li class="footer__item"><a class="footer__link-item" href="/mailing_list/">Mailing List</a></li></ul></div><div class="col footer__col"><h4 class="footer__title">Mobile</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://www.apple.com/ios/app-store">App Store</a></li><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://play.google.com/store?hl=en">Play Store</a></li></ul></div><div class="col footer__col"><h4 class="footer__title">Community</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://facebook.com/shiftmhealthcare">Facebook</a></li><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://instagram.com/shiftm_">Instagram</a></li><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://twitter.com/ShiftM_">Twitter</a></li><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://linkedIn.com/company/Shift-m">LinkedIn</a></li></ul></div></div><div class="text--center"><div class="margin-bottom--sm"><a href="https://shiftm.com" target="_blank" rel="noopener noreferrer" class="footerLogoLink_3L_r"></a></div>Copyright © 2020 Shift&#x27;M B.V<br></div></div></footer>
 </div>
 
-<script src="/styles.34e80712.js"></script>
+<script src="/styles.2ceb7c8c.js"></script>
 
-<script src="/runtime~main.00c8b622.js"></script>
+<script src="/runtime~main.763c6569.js"></script>
 
-<script src="/main.1b8ce7e9.js"></script>
+<script src="/main.edf5024e.js"></script>
 
-<script src="/common.a51457ff.js"></script>
+<script src="/common.ea7634fc.js"></script>
 
-<script src="/2.198bf9bf.js"></script>
+<script src="/2.f901b97f.js"></script>
 
-<script src="/4.1035aa38.js"></script>
+<script src="/4.f4cf1e55.js"></script>
 
-<script src="/1be78505.225a9b35.js"></script>
+<script src="/1be78505.a07bb193.js"></script>
 
-<script src="/20ac7829.95d9c5c8.js"></script>
+<script src="/20ac7829.66aa896a.js"></script>
 
-<script src="/17896441.6a978b24.js"></script>
+<script src="/17896441.c6ad9db8.js"></script>
 
-<script src="/3.2d737a5c.js"></script>
+<script src="/3.1d5120fd.js"></script>
 
-<script src="/28b8c271.49525ac9.js"></script>
+<script src="/28b8c271.0fb03507.js"></script>
 
 
 </body>
