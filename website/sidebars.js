@@ -70,6 +70,7 @@ module.exports = {
         "setup/favorites",
         "setup/language",
         "setup/password",
+        "setup/cookie_policy",
       ],
     },
     {
