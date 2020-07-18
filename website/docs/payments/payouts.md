@@ -9,32 +9,29 @@ import Jump from '@site/src/components/Jump';
 
 import SVG from 'react-inlinesvg';
 
-<SVG src="/img/shiftm_cover.svg" />
+<SVG src="/img/shutterstock_464181098-min.svg" />
 
-Founded in August of 2020 and based in Amsterdam Netherlands, <a href="https://www.shiftm.com">Shift'M</a> is a trusted community marketplace for people healthcare professionals to list or book temporary replacements around the world — online or from a mobile phone.
+#### Where do I find my payout information?
+You can check the status of your payouts and display detailed information on your earnings at any time from your Transaction History.
 
-Whether you need a nurse for a day to cover your sick leave or a dentist assistant for a week so you can go on your dream beach holiday, Shift'M connects healthcare professional to each other, at a perfect price, when you need them.   With our growing community of users, Shift'M is the easiest way for you to find the perfect locum.   
-#### Easy. Reliable. Professional
+You can filter transactions by payout method, listing, and date. Display details of your payouts by clicking the reservation code.
 
-### Who should use Shift'M
+#### Completed transactions
+To review payouts that have been released by Shift'M, check out the Completed Payouts tab, where payout rows represent each payout that has been sent to you. Click the payout row to expand any payout, which will show transaction details such as bookings, adjustments, and cancellation fees.
 
-#### Locums
-* Healthcare professionals who want to work as Locums
-* Healthcare professionals who want to earn a bit of extra income
-* Retired? You're welcome too!
-* Any healthcare professional that is registered with their respective body
+After we release your payout, the arrival time frame depends on the payout method you’ve selected.
 
-#### Clients
-* Any business/individual/practice that requires a locum
+If you have multiple listings with reservations that begin on the same day, any payouts going to the same payout method will display as one row, because they were paid out together.
 
-### Principles
+#### Upcoming transactions
+To review your upcoming payouts, adjustments, or fees, check out the Upcoming Payouts tab. You’ll see payout rows, which show future release dates. If the payout is still pending.
 
-* **Freedom.** - At Shift'M we believe in freedom. Just like our employees has the freedom to choose where they would like to work, we believe our clients should have the freedom to choose who they want as their locum. Unlike agencies where freedom of which locum you work with is seldom your choice.
-* **Choice.** - We also believe in choice. Giving our locums the choice to decide when they want to work, how they want to work. We believe in giving them the choice of how much they earn. To our clients, we also provide the choice. Shift'M provides the information and clients choose, based on that information. We provide the ability to choose your language and choose your currency. The choice is yours.
+#### Gross earnings
+For each booking, the gross earning amount is the price of the payout total before Shift'M service fees and any taxes collected on your behalf are removed. Earnings will appear in this tab after the payout for that reservation has been released.
 
-### Community
+#### Exporting to a spreadsheet
+You can click Download CSV to download a .csv file of your transactions from any tab. The CSV file can be opened by any standard spreadsheet program (like Microsoft Excel, Google Docs, or Apple Numbers) to give you a display of the data.
 
-* Shift'M is a global company, operating in over 12 countries...and growing
 
 <Jump to="/guides/advanced/payments/">Guide: Payments</Jump>
 

@@ -5,8 +5,9 @@ description: "Shift'M Privacy Policy"
 ---
 
 import Jump from '@site/src/components/Jump';
+import SVG from 'react-inlinesvg';
 
-<SVG src="/img/shiftm2.svg" />
+<SVG src="/img/shutterstock_1746423416-min.svg" />
 
 
 ### Shift'M

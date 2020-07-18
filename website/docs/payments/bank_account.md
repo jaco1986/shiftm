@@ -8,31 +8,37 @@ import Jump from '@site/src/components/Jump';
 
 import SVG from 'react-inlinesvg';
 
-<SVG src="/img/shiftm_cover.svg" />
+When a locum payout is ready to be paid to you, it will be released to your payout method for processing. You can check the status of your payouts at any time from your Transaction History.
 
-Founded in August of 2020 and based in Amsterdam Netherlands, <a href="https://www.shiftm.com">Shift'M</a> is a trusted community marketplace for people healthcare professionals to list or book temporary replacements around the world — online or from a mobile phone.
+#### How do I set up a payout method?
+A payout method refers the way you will receive money for Shifts.
 
-Whether you need a nurse for a day to cover your sick leave or a dentist assistant for a week so you can go on your dream beach holiday, Shift'M connects healthcare professional to each other, at a perfect price, when you need them.   With our growing community of users, Shift'M is the easiest way for you to find the perfect locum.   
-#### Easy. Reliable. Professional
+To set up a new payout method:
 
-### Who should use Shift'M
+* Go to your profile
+* Select account
+* Select Add Payout method
+* Follow the instructions
 
-#### Locums
-* Healthcare professionals who want to work as Locums
-* Healthcare professionals who want to earn a bit of extra income
-* Retired? You're welcome too!
-* Any healthcare professional that is registered with their respective body
+#### How do I edit, remove, or add a payout method?
+If an existing payment method on your account is incorrect (for example, an expired credit card), please remove the affected payment method, then add the correct details as a new payment method.
 
-#### Clients
-* Any business/individual/practice that requires a locum
+#### Editing a payment method for upcoming payments
+If you have an existing booking with payments scheduled for a future date (for example, a future Shift), you can change the payment method for the scheduled future payments, with the following steps:
 
-### Principles
+To edit a new payout method:
 
-* **Freedom.** - At Shift'M we believe in freedom. Just like our employees has the freedom to choose where they would like to work, we believe our clients should have the freedom to choose who they want as their locum. Unlike agencies where freedom of which locum you work with is seldom your choice.
-* **Choice.** - We also believe in choice. Giving our locums the choice to decide when they want to work, how they want to work. We believe in giving them the choice of how much they earn. To our clients, we also provide the choice. Shift'M provides the information and clients choose, based on that information. We provide the ability to choose your language and choose your currency. The choice is yours.
+* Go to your profile
+* Select account
+* Select Edit Payout method
+* Follow the instructions
 
-### Community
+#### What payout methods are supported
 
-* Shift'M is a global company, operating in over 12 countries...and growing
+Shift'M allows locums to get paid by the following methods:
+
+* Paypal, can take up to	3–4 hours.
+*	Bank Account, Can take up to	5 - 7 business days.
+
 
 <Jump to="/guides/getting-started/">Tutorial</Jump>

@@ -26,7 +26,7 @@ module.exports = {
           type: 'category',
           label: 'Reviews',
           items: [
-            "profile/reviews",
+                  "profile/reviews",
                   "profile/reviews/forclients",
                   "profile/reviews/forlocums",
           ],
@@ -38,7 +38,6 @@ module.exports = {
       type: 'category',
       label: 'Shifts',
       items: [
-        "shifts/shift",
         {
           type: 'category',
           label: 'Listing',
@@ -47,21 +46,19 @@ module.exports = {
                   "shifts/listing/create",
                   "shifts/listing/edit",
                   "shifts/listing/publish",
-                  "shifts/listing/upcoming",
-                  "shifts/listing/previous",
           ],
         },
         {
           type: 'category',
-          label: 'Calendar',
+          label: 'Shifts',
           items: [
-              "shifts/calendar",
-              "shifts/calendar/calendar",
-              "shifts/calendar/dates",
+                  "shifts/shift",
+                  "shifts/listing/upcoming",
+                  "shifts/listing/previous",
           ],
         },
+        "shifts/calendar",
         "shifts/rates",
-        "payments/invoice",
 
       ],
     },
@@ -86,13 +83,6 @@ module.exports = {
                     "payments/payouts",
                     "payments/payouts/future",
                     "payments/payouts/history",
-                ],
-              },
-              {
-                type: 'category',
-                label: 'Reports',
-                items: [
-                    "payments/reports",
                     "payments/reports/gross_earnings",
                     "payments/reports/export",
                 ],

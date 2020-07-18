@@ -9,31 +9,27 @@ import Jump from '@site/src/components/Jump';
 
 import SVG from 'react-inlinesvg';
 
-<SVG src="/img/shiftm_cover.svg" />
+<SVG src="/img/shutterstock_1746423416-min.svg" />
 
-Founded in August of 2020 and based in Amsterdam Netherlands, <a href="https://www.shiftm.com">Shift'M</a> is a trusted community marketplace for people healthcare professionals to list or book temporary replacements around the world — online or from a mobile phone.
+#### What is a Shift?
+Shift's are days that have been booked by a client. A client can create a booking with multiple Shifts, so a Shift is essentially a period per day that you are required to work for a client.
 
-Whether you need a nurse for a day to cover your sick leave or a dentist assistant for a week so you can go on your dream beach holiday, Shift'M connects healthcare professional to each other, at a perfect price, when you need them.   With our growing community of users, Shift'M is the easiest way for you to find the perfect locum.   
-#### Easy. Reliable. Professional
+#### How long is a Shift?
+The length of a Shift is determined by the client. The client will schedule a locum for a specific time period or Shift period.
 
-### Who should use Shift'M
+#### I don't want to be on Shifts that are longer than 4 hours?
+Shift'M provides the functionality for locums to determine when and how they would like to work. This can be set on your Listing.
 
-#### Locums
-* Healthcare professionals who want to work as Locums
-* Healthcare professionals who want to earn a bit of extra income
-* Retired? You're welcome too!
-* Any healthcare professional that is registered with their respective body
+#### How can I see my previous or completed Shifts?
+To find all your previous bookings/shifts:
 
-#### Clients
-* Any business/individual/practice that requires a locum
+* Go to Your Shifts
+* Select Previous Shifts
 
-### Principles
+#### How can I see my previous or completed Shifts?
+To find all your previous bookings/shifts:
 
-* **Freedom.** - At Shift'M we believe in freedom. Just like our employees has the freedom to choose where they would like to work, we believe our clients should have the freedom to choose who they want as their locum. Unlike agencies where freedom of which locum you work with is seldom your choice.
-* **Choice.** - We also believe in choice. Giving our locums the choice to decide when they want to work, how they want to work. We believe in giving them the choice of how much they earn. To our clients, we also provide the choice. Shift'M provides the information and clients choose, based on that information. We provide the ability to choose your language and choose your currency. The choice is yours.
-
-### Community
-
-* Shift'M is a global company, operating in over 12 countries...and growing
+* Go to Your Shifts
+* Select Previous Shifts
 
 <Jump to="/guides/advanced/bookings/">Guide: Shifts</Jump>

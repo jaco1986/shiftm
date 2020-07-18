@@ -9,31 +9,35 @@ import Jump from '@site/src/components/Jump';
 
 import SVG from 'react-inlinesvg';
 
-<SVG src="/img/shiftm_cover.svg" />
+<SVG src="/img/shutterstock_1503740510-min.svg" />
 
-Founded in August of 2020 and based in Amsterdam Netherlands, <a href="https://www.shiftm.com">Shift'M</a> is a trusted community marketplace for people healthcare professionals to list or book temporary replacements around the world — online or from a mobile phone.
+#### Your Listing
+Your listing is a representation of yourself as a professional. A listing is a representation of your skills and experience.
+Clients will request your services through your listing.
 
-Whether you need a nurse for a day to cover your sick leave or a dentist assistant for a week so you can go on your dream beach holiday, Shift'M connects healthcare professional to each other, at a perfect price, when you need them.   With our growing community of users, Shift'M is the easiest way for you to find the perfect locum.   
-#### Easy. Reliable. Professional
+#### What type of listing should i create?
+Shift'M offers full and part time listing types. If you are looking for part time work then you create a listing for part time. If you also want to list yourself for full time work, then you can create a listing for full time as well.
 
-### Who should use Shift'M
+#### What information is required for a listing?
+Our listing process is split into 3 steps.
 
-#### Locums
-* Healthcare professionals who want to work as Locums
-* Healthcare professionals who want to earn a bit of extra income
-* Retired? You're welcome too!
-* Any healthcare professional that is registered with their respective body
+Step 1:
+* Where you reside - this is important for clients who are client for a locum that is nearby
+* Registration details - we ask you for information relating to your registrations with professional body. This is used to verify that you are allowed to practice as a healthcare professional
+* Experience - how long have you been working? What qualifications do you have? What are your specialities.
 
-#### Clients
-* Any business/individual/practice that requires a locum
+Step 2:
+* Provide a description for your listing
+* Upload a profile picture of yourself
+* Describe some basic conditions 
 
-### Principles
+Step 3:
+* Set the dates and times you want to work
+* Set your profession
+* Set your hourly rate
 
-* **Freedom.** - At Shift'M we believe in freedom. Just like our employees has the freedom to choose where they would like to work, we believe our clients should have the freedom to choose who they want as their locum. Unlike agencies where freedom of which locum you work with is seldom your choice.
-* **Choice.** - We also believe in choice. Giving our locums the choice to decide when they want to work, how they want to work. We believe in giving them the choice of how much they earn. To our clients, we also provide the choice. Shift'M provides the information and clients choose, based on that information. We provide the ability to choose your language and choose your currency. The choice is yours.
 
-### Community
-
-* Shift'M is a global company, operating in over 12 countries...and growing
+#### What if i can practice as 2 different professions?
+You can create a listing for each profession you can work as. For instance, if you're a Doctor who specialises and you function as a General Practitioner, then you can create a listing for both of these professions, as clients will be searching for you based on their profession.
 
 <Jump to="/guides/advanced/listings/">Guide: Listings</Jump>

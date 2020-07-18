@@ -1,6 +1,6 @@
 ---
 title: Your Profile
-sidebar_label: Create/Edit
+sidebar_label: Your Profile
 description: All topics relating to your profile.
 ---
 
@@ -9,6 +9,7 @@ import Jump from '@site/src/components/Jump';
 
 import SVG from 'react-inlinesvg';
 
+<SVG src="/img/shutterstock_1494782192-min.svg" />
 
 Manage your account settings, including making changes to your password, profile, and notifications.
 

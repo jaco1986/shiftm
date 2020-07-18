@@ -8,6 +8,9 @@ import Jump from '@site/src/components/Jump';
 
 import SVG from 'react-inlinesvg';
 
+<SVG src="/img/shutterstock_108451796-min.svg" />
+
+
 ### Definitions
 
 <font color='#629ff0'>Accepted Booking</font> is the Transaction or agreement concluded between a Client and Locum for the provision of their services to the Client.

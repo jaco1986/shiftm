@@ -8,8 +8,7 @@ import Jump from '@site/src/components/Jump';
 
 import SVG from 'react-inlinesvg';
 
-
-<SVG src="/img/shiftm5.svg" />
+<SVG src="/img/shutterstock_1044298762-min.svg" />
 
 
 #### Is Shift'M an agency?
