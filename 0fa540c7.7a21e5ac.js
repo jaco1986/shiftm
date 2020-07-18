@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[51],{164:function(e){e.exports=JSON.parse('{"category":{"name":"platforms","title":"Platforms","description":null,"permalink":"/guides/integrate/platforms"}}')}}]);

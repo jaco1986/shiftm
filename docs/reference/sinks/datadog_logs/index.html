@@ -13,33 +13,33 @@
 
 <meta data-react-helmet="true" http-equiv="x-ua-compatible" content="ie=edge"><meta data-react-helmet="true" property="og:title" content="Shift&#x27;M Support"><meta data-react-helmet="true" name="twitter:card" content="summary"><meta data-react-helmet="true" name="description" content="The Vector `datadog_logs` sink streams `log` events to Datadog&#x27;s logs via the TCP endpoint."><meta data-react-helmet="true" property="og:description" content="The Vector `datadog_logs` sink streams `log` events to Datadog&#x27;s logs via the TCP endpoint."><meta data-react-helmet="true" property="og:url" content="https://jaco1986.github.io/docs/reference/sinks/datadog_logs">
 
-<link data-react-helmet="true" rel="shortcut icon" href="/favicon.ico"><link data-react-helmet="true" rel="canonical" href="https://vector.dev/docs/reference/sinks/datadog_logs/">
+<link data-react-helmet="true" rel="shortcut icon" href="/favicon.ico"><link data-react-helmet="true" rel="canonical" href="https://shiftm.com/docs/reference/sinks/datadog_logs/">
 
 
-<link rel="stylesheet" href="/styles.2a88320c.css">
+<link rel="stylesheet" href="/styles.2b3d096f.css">
 
 
-<link rel="preload" href="/styles.f1c00840.js" as="script">
+<link rel="preload" href="/styles.34e80712.js" as="script">
 
-<link rel="preload" href="/runtime~main.13e391a3.js" as="script">
+<link rel="preload" href="/runtime~main.d7471be5.js" as="script">
 
-<link rel="preload" href="/main.831560a5.js" as="script">
+<link rel="preload" href="/main.1b8ce7e9.js" as="script">
 
-<link rel="preload" href="/common.31ccee9d.js" as="script">
+<link rel="preload" href="/common.a51457ff.js" as="script">
 
-<link rel="preload" href="/2.398f17f9.js" as="script">
+<link rel="preload" href="/2.198bf9bf.js" as="script">
 
-<link rel="preload" href="/4.97c21a00.js" as="script">
+<link rel="preload" href="/4.1035aa38.js" as="script">
 
-<link rel="preload" href="/1be78505.f315f5dc.js" as="script">
+<link rel="preload" href="/1be78505.225a9b35.js" as="script">
 
-<link rel="preload" href="/20ac7829.ec11d2c7.js" as="script">
+<link rel="preload" href="/20ac7829.95d9c5c8.js" as="script">
 
-<link rel="preload" href="/17896441.9d4409db.js" as="script">
+<link rel="preload" href="/17896441.6a978b24.js" as="script">
 
-<link rel="preload" href="/3.6f501559.js" as="script">
+<link rel="preload" href="/3.2d737a5c.js" as="script">
 
-<link rel="preload" href="/7ad17605.8f2357af.js" as="script">
+<link rel="preload" href="/7ad17605.c7e348cf.js" as="script">
 
 </head>
 <body>
@@ -76,30 +76,30 @@ and selecting the <code>fluentd</code> option, it should then present you an <a 
 with Vector!</p></li></ol><h3><a aria-hidden="true" tabindex="-1" class="anchor" id="streaming"></a><a aria-hidden="true" tabindex="-1" class="hash-link" href="#streaming" title="Direct link to heading">#</a>Streaming</h3><p>The <code>datadog_logs</code> sink streams data on a real-time
 event-by-event basis. It does not batch data.</p><h3><a aria-hidden="true" tabindex="-1" class="anchor" id="tls-1"></a><a aria-hidden="true" tabindex="-1" class="hash-link" href="#tls-1" title="Direct link to heading">#</a>TLS</h3><p>Vector uses <a href="https://www.openssl.org/">Openssl</a> for TLS protocols for it&#x27;s battle-tested
 and reliable security. You can enable and adjust TLS behavior via the <a href="#tls"><code>tls.*</code></a>
-options.</p></div></article></div></div><div class="rightCol_38kP"><div class="table-of-contents tableOfContents_tVyB"><div class="section"><div class="title">Support</div><div><a class="text--warning" title="This component is in beta and is not recommended for production environments. Click to learn more." href="/docs/about/guarantees/#beta"><i class="feather icon-alert-triangle"></i> Beta Status</a></div><div><a class="text--primary" title="This component offers an at-least-once delivery guarantee. Click to learn more." href="/docs/about/guarantees/#at-least-once"><i class="feather icon-shield"></i> At-Least-Once</a></div><div><a title="This component works on the Linux, MacOS, Windows operating systems." href="/docs/setup/installation/operating-systems/"><i class="feather icon-cpu"></i> <span class="text--primary">Linux</span><span>, </span><span class="text--primary">MacOS</span><span>, </span><span class="text--primary">Windows</span></a></div></div><div class="section"><div class="title">Contents</div><ul class="contents"><li><a href="#configuration" class="contents__link">Configuration</a><ul><li><a href="#api_key" class="contents__link">api_key</a></li><li><a href="#buffer" class="contents__link">buffer</a></li><li><a href="#encoding" class="contents__link">encoding</a></li><li><a href="#endpoint" class="contents__link">endpoint</a></li><li><a href="#healthcheck" class="contents__link">healthcheck</a></li><li><a href="#tls" class="contents__link">tls</a></li></ul></li><li><a href="#how-it-works" class="contents__link">How It Works</a><ul><li><a href="#buffers" class="contents__link">Buffers</a></li><li><a href="#environment-variables" class="contents__link">Environment Variables</a></li><li><a href="#health-checks" class="contents__link">Health Checks</a></li><li><a href="#obtaining-an-api-token" class="contents__link">Obtaining an API token</a></li><li><a href="#streaming" class="contents__link">Streaming</a></li><li><a href="#tls-1" class="contents__link">TLS</a></li></ul></li></ul></div><div class="section"><div class="title">Resources</div><ul class="contents"><li><a href="https://github.com/timberio/vector/issues?q=is%3Aopen+is%3Aissue+label%3A%22sink%3A+datadog_logs%22" class="contents__link" target="_blank"><i class="feather icon-message-circle"></i> View Issues</a></li><li><a href="https://github.com/timberio/vector/tree/master/src/sinks/datadog/logs.rs" class="contents__link" target="_blank"><i class="feather icon-github"></i> View Source</a></li></ul></div></div></div></div></div></main></div></div><footer class="footer"><div class="container"><div class="row footer__links"><div class="col col--5 footer__col"><div class="margin-bottom--md"></div><div class="margin-bottom--md"><div class="mailing-list"><form action="https://shiftm.us18.list-manage.com/subscribe/post" method="post" class="mailing-list--form"><input type="hidden" name="u" value="ef3f45d9742db70a70fd6e4c4"><input type="hidden" name="id" value="82fab539e5"><input type="email" class="input input--undefined" name="EMAIL" placeholder="your@email.com" style="width:150px"><button class="button button--primary button--undefined" type="submit">Subscribe</button></form></div></div></div><div class="col footer__col"><h4 class="footer__title">About</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item" href="/docs/about/what-is-shiftm/">What is Shift&#x27;M</a></li><li class="footer__item"><a class="footer__link-item" href="/community/#team">Terms and Conditions</a></li><li class="footer__item"><a class="footer__link-item" to="https://shiftm.com/contact" href="https://shiftm.com/contact">Contact Us</a></li><li class="footer__item"><a class="footer__link-item" href="/mailing_list/">Mailing List</a></li></ul></div><div class="col footer__col"><h4 class="footer__title">Mobile</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://www.apple.com/ios/app-store">App Store</a></li><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://play.google.com/store?hl=en">Play Store</a></li></ul></div><div class="col footer__col"><h4 class="footer__title">Community</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://facebook.com/shiftmhealthcare">Facebook</a></li><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://instagram.com/shiftm_">Instagram</a></li><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://twitter.com/ShiftM_">Twitter</a></li><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://linkedIn.com/company/Shift-m">LinkedIn</a></li></ul></div></div><div class="text--center"><div class="margin-bottom--sm"><a href="https://shiftm.com" target="_blank" rel="noopener noreferrer" class="footerLogoLink_3L_r"></a></div>Copyright © 2020 Shift&#x27;M B.V<br></div></div></footer>
+options.</p></div></article></div></div><div class="rightCol_38kP"><div class="table-of-contents tableOfContents_tVyB"><div class="section"><div class="title">Support</div><div><a class="text--warning" title="This component is in beta and is not recommended for production environments. Click to learn more." href="/docs/about/guarantees/#beta"><i class="feather icon-alert-triangle"></i> Beta Status</a></div><div><a class="text--primary" title="This component offers an at-least-once delivery guarantee. Click to learn more." href="/docs/about/guarantees/#at-least-once"><i class="feather icon-shield"></i> At-Least-Once</a></div><div><a title="This component works on the Linux, MacOS, Windows operating systems." href="/docs/setup/installation/operating-systems/"><i class="feather icon-cpu"></i> <span class="text--primary">Linux</span><span>, </span><span class="text--primary">MacOS</span><span>, </span><span class="text--primary">Windows</span></a></div></div><div class="section"><div class="title">Contents</div><ul class="contents"><li><a href="#configuration" class="contents__link">Configuration</a><ul><li><a href="#api_key" class="contents__link">api_key</a></li><li><a href="#buffer" class="contents__link">buffer</a></li><li><a href="#encoding" class="contents__link">encoding</a></li><li><a href="#endpoint" class="contents__link">endpoint</a></li><li><a href="#healthcheck" class="contents__link">healthcheck</a></li><li><a href="#tls" class="contents__link">tls</a></li></ul></li><li><a href="#how-it-works" class="contents__link">How It Works</a><ul><li><a href="#buffers" class="contents__link">Buffers</a></li><li><a href="#environment-variables" class="contents__link">Environment Variables</a></li><li><a href="#health-checks" class="contents__link">Health Checks</a></li><li><a href="#obtaining-an-api-token" class="contents__link">Obtaining an API token</a></li><li><a href="#streaming" class="contents__link">Streaming</a></li><li><a href="#tls-1" class="contents__link">TLS</a></li></ul></li></ul></div><div class="section"><div class="title">Resources</div><ul class="contents"><li><a href="https://github.com/timberio/vector/issues?q=is%3Aopen+is%3Aissue+label%3A%22sink%3A+datadog_logs%22" class="contents__link" target="_blank"><i class="feather icon-message-circle"></i> View Issues</a></li><li><a href="https://github.com/timberio/vector/tree/master/src/sinks/datadog/logs.rs" class="contents__link" target="_blank"><i class="feather icon-github"></i> View Source</a></li></ul></div></div></div></div></div></main></div></div><footer class="footer"><div class="container"><div class="row footer__links"><div class="col col--5 footer__col"><div class="margin-bottom--md"></div><div class="margin-bottom--md"><div class="mailing-list"><form action="https://shiftm.us18.list-manage.com/subscribe/post" method="post" class="mailing-list--form"><input type="hidden" name="u" value="ef3f45d9742db70a70fd6e4c4"><input type="hidden" name="id" value="82fab539e5"><input type="email" class="input input--undefined" name="EMAIL" placeholder="your@email.com" style="width:150px"><button class="button button--primary button--undefined" type="submit">Subscribe</button></form></div></div></div><div class="col footer__col"><h4 class="footer__title">About</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item" href="/docs/about/what-is-shiftm/">What is Shift&#x27;M</a></li><li class="footer__item"><a class="footer__link-item" href="/docs/about/terms_and_cond/">Terms and Conditions</a></li><li class="footer__item"><a class="footer__link-item" to="https://shiftm.com/contact" href="https://shiftm.com/contact">Contact Us</a></li><li class="footer__item"><a class="footer__link-item" href="/mailing_list/">Mailing List</a></li></ul></div><div class="col footer__col"><h4 class="footer__title">Mobile</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://www.apple.com/ios/app-store">App Store</a></li><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://play.google.com/store?hl=en">Play Store</a></li></ul></div><div class="col footer__col"><h4 class="footer__title">Community</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://facebook.com/shiftmhealthcare">Facebook</a></li><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://instagram.com/shiftm_">Instagram</a></li><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://twitter.com/ShiftM_">Twitter</a></li><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://linkedIn.com/company/Shift-m">LinkedIn</a></li></ul></div></div><div class="text--center"><div class="margin-bottom--sm"><a href="https://shiftm.com" target="_blank" rel="noopener noreferrer" class="footerLogoLink_3L_r"></a></div>Copyright © 2020 Shift&#x27;M B.V<br></div></div></footer>
 </div>
 
-<script src="/styles.f1c00840.js"></script>
+<script src="/styles.34e80712.js"></script>
 
-<script src="/runtime~main.13e391a3.js"></script>
+<script src="/runtime~main.d7471be5.js"></script>
 
-<script src="/main.831560a5.js"></script>
+<script src="/main.1b8ce7e9.js"></script>
 
-<script src="/common.31ccee9d.js"></script>
+<script src="/common.a51457ff.js"></script>
 
-<script src="/2.398f17f9.js"></script>
+<script src="/2.198bf9bf.js"></script>
 
-<script src="/4.97c21a00.js"></script>
+<script src="/4.1035aa38.js"></script>
 
-<script src="/1be78505.f315f5dc.js"></script>
+<script src="/1be78505.225a9b35.js"></script>
 
-<script src="/20ac7829.ec11d2c7.js"></script>
+<script src="/20ac7829.95d9c5c8.js"></script>
 
-<script src="/17896441.9d4409db.js"></script>
+<script src="/17896441.6a978b24.js"></script>
 
-<script src="/3.6f501559.js"></script>
+<script src="/3.2d737a5c.js"></script>
 
-<script src="/7ad17605.8f2357af.js"></script>
+<script src="/7ad17605.c7e348cf.js"></script>
 
 
 </body>
