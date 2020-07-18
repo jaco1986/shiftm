@@ -11,7 +11,7 @@ import SVG from 'react-inlinesvg';
 #### Where do I find the invoice number?
 Each booking will have a unique code, which is considered the invoice/receipt number.
 
-#How do I view upcoming receipts and payouts ?
+#### How do I view upcoming receipts and payouts ?
 To find all your future bookings/shifts and receipts:
 
 * Go to My Shifts and choose the Upcoming Shift
