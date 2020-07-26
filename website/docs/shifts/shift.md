@@ -31,5 +31,3 @@ To find all your previous bookings/shifts:
 
 * Go to Your Shifts
 * Select Previous Shifts
-
-<Jump to="/guides/advanced/bookings/">Guide: Shifts</Jump>

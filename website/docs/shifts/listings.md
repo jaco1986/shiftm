@@ -29,7 +29,7 @@ Step 1:
 Step 2:
 * Provide a description for your listing
 * Upload a profile picture of yourself
-* Describe some basic conditions 
+* Describe some basic conditions
 
 Step 3:
 * Set the dates and times you want to work
@@ -39,5 +39,3 @@ Step 3:
 
 #### What if i can practice as 2 different professions?
 You can create a listing for each profession you can work as. For instance, if you're a Doctor who specialises and you function as a General Practitioner, then you can create a listing for both of these professions, as clients will be searching for you based on their profession.
-
-<Jump to="/guides/advanced/listings/">Guide: Listings</Jump>

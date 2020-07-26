@@ -30,8 +30,6 @@ There are a couple of other things to know about editing your listing:
 Edits only apply to reservations booked after you make the changes; they don't apply to upcoming reservations that were already accepted.
 While you edit, your changes will be automatically saved.
 
-<Jump to="/guides/advanced/listings/">Guide: Listings</Jump>
-
 
 
 

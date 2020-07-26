@@ -39,9 +39,6 @@ No, you don't need to submit any timesheets. Payment occurs 24 hours after your 
 No, Shift'M has no monthly subscriptions.
 
 
-<Jump to="/guides/getting-started/">Get started</Jump>
-
-
 
 
 [docs.strategies#daemon]: /docs/setup/deployment/strategies/#daemon

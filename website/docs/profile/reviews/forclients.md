@@ -20,7 +20,6 @@ Because the review system is automated, we’re unable to make any exceptions. I
 #### Can I leave a review for my locum if they canceled my reservation?
 If the locum cancels a Shift before a day before the Shift start, you won’t have the option to leave a review. Instead, an automatic review will be added to their profile to indicate that they canceled the Shift. These reviews are one of the penalties for cancellations and can’t be removed.
 
-<Jump to="/guides/getting-started/reviews/">Tutorial: Reviews</Jump>
 
 [docs.sinks]: /docs/reference/sinks/
 [pages.components]: /components/

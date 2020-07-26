@@ -30,10 +30,6 @@ Edits only apply to reservations booked after you make the changes; they don't a
 While you edit, your changes will be automatically saved.
 
 
-<Jump to="/guides/advanced/listings/">Guide: Listings</Jump>
-
-
-
 [docs.strategies#daemon]: /docs/setup/deployment/strategies/#daemon
 [docs.strategies#sidecar]: /docs/setup/deployment/strategies/#sidecar
 [urls.rust]: https://www.rust-lang.org/

@@ -30,8 +30,6 @@ As long as you enter your required profession, Shift dates, and times when searc
 While we strongly encourage all locums to keep their calendars up to date, consider sending a message to locums to double check that they are still available.
 
 
-<Jump to="/guides/advanced/listings/">Guide: Listings</Jump>
-
 
 [docs.strategies#daemon]: /docs/setup/deployment/strategies/#daemon
 [docs.strategies#sidecar]: /docs/setup/deployment/strategies/#sidecar

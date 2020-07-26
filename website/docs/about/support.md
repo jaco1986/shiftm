@@ -65,9 +65,6 @@ Absent extenuating circumstances, you should not cancel after the deadline set i
 You should not have persistently and pervasively low ratings, be unresponsive during booking or throughout a Shift, or refuse to participate in our resolution process.
 
 
-<Jump to="/guides/advanced/support/">Tutorial: Support</Jump>
-
-
 
 
 [docs.strategies#daemon]: /docs/setup/deployment/strategies/#daemon

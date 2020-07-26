@@ -10,6 +10,10 @@ import Assumptions from '@site/src/components/Assumptions';
 
 <Assumptions name="guide">
 
+import SVG from 'react-inlinesvg';
+
+<SVG src="/img/listing_01.svg" />
+
 * You understand the [basic Vector concepts][docs.about.concepts] and understand [how to set up a pipeline][guides.getting-started.your-profile].
 
 </Assumptions>

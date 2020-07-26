@@ -27,9 +27,6 @@ If you choose to make or receive payments in a currency different from the desig
 If extra fees appear on your bank statement, or the amount charged differs from what appeared on the Shift'M checkout page, contact your credit or bank card issuer. If your bank considers Shift'M processing entity as international, you may be charged cross-border fees by your bank even if the charge was processed in the original currency of your payment method. If the fees were added by your card-issuing bank, Shift'M can't refund them.
 
 
-<Jump to="/guides/getting-started/">Get started</Jump>
-
-
 
 
 [docs.strategies#daemon]: /docs/setup/deployment/strategies/#daemon

@@ -40,10 +40,6 @@ To remove a listing from your saved list:
 * Confirm that you want to delete the list
 
 
-<Jump to="/guides/getting-started/">Get started</Jump>
-
-
-
 
 [docs.strategies#daemon]: /docs/setup/deployment/strategies/#daemon
 [docs.strategies#sidecar]: /docs/setup/deployment/strategies/#sidecar

@@ -28,7 +28,6 @@ To generate a report:
 
 Your export will be available in your browser or accessible from your Downloads folder on your local machine.
 
-<Jump to="/guides/getting-started/">Get started</Jump>
 
 
 [docs.strategies#daemon]: /docs/setup/deployment/strategies/#daemon

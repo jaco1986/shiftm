@@ -20,10 +20,7 @@ module.exports = {
         src: "img/shiftm.svg",
       },
       links: [
-        { to: "guides/", label: "Guides", position: "left" },
         { to: "docs/", label: "Docs", position: "left" },
-        { to: "highlights/", label: "News", position: "right" },
-        { to: "community/", label: "Community", position: "right" },
       ],
     },
 

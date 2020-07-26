@@ -22,10 +22,6 @@ To find your receipt from a completed reservation:
 
 You can then download or print the receipt for your records.
 
-<Jump to="/guides/advanced/listings/">Guide: Listings</Jump>
-
-
-
 
 [docs.strategies#daemon]: /docs/setup/deployment/strategies/#daemon
 [docs.strategies#sidecar]: /docs/setup/deployment/strategies/#sidecar

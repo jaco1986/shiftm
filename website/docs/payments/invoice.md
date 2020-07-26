@@ -24,9 +24,6 @@ To find all your future bookings/shifts and receipts:
 * Go to My Shifts and choose the Upcoming Shift
 * Click the Receipts button
 
-<Jump to="/guides/getting-started/">Get started</Jump>
-
-
 
 
 [docs.strategies#daemon]: /docs/setup/deployment/strategies/#daemon

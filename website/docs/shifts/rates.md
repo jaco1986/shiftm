@@ -31,10 +31,6 @@ Clients pay a service fee to Shift'M in addition to the cost of your listing, wh
 No, you cannot change the rate. All bookings that have been accepted would already have been settled with Shift'M.
 
 
-
-<Jump to="/guides/getting-started/">Get started</Jump>
-
-
 [docs.strategies#daemon]: /docs/setup/deployment/strategies/#daemon
 [docs.strategies#sidecar]: /docs/setup/deployment/strategies/#sidecar
 [urls.rust]: https://www.rust-lang.org/

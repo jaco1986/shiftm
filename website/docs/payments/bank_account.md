@@ -39,6 +39,3 @@ Shift'M allows locums to get paid by the following methods:
 
 * Paypal, can take up to	3–4 hours.
 *	Bank Account, Can take up to	5 - 7 business days.
-
-
-<Jump to="/guides/getting-started/">Tutorial</Jump>

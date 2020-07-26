@@ -13,7 +13,6 @@ In addition to written reviews, clients can submit an overall star rating for th
 #### Why did I get a review that says I canceled?
 If you cancel a reservation as a client, an automated review will be posted to your profile. These reviews are one of the client cancellation penalties and can't be removed.
 
-<Jump to="/guides/getting-started/reviews/">Tutorial: Reviews</Jump>
 
 
 [docs.sinks]: /docs/reference/sinks/

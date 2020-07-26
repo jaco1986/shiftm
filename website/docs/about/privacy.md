@@ -81,6 +81,3 @@ Occasionally, at our discretion, we may include or offer third-party products or
 #### Contacting Us
 
 If there are any questions regarding this privacy policy, please <a href={"mailto:support@shiftm.com"}>email</a> or <a href={"https://shiftm.com/contact"}>contact</a> us.
-
-
-<Jump to="/guides/getting-started/">Get started</Jump>

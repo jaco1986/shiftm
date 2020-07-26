@@ -44,9 +44,6 @@ If you decide to pre-approve an inquiry and Instant Book isn’t on, those dates
 If you pre-approve an inquiry and allow clients to book instantly, you have the option to hold and block those dates either until the client books or until the pre-approval expires after 24 hours—whichever comes first. This gives you the ability to ensure the clients who sent you an inquiry has a chance to book. You can change your mind at any time after pre-approving.
 
 
-<Jump to="/guides/advanced/calendar/">Guide: Calendar</Jump>
-
-
 
 [docs.strategies#daemon]: /docs/setup/deployment/strategies/#daemon
 [docs.strategies#sidecar]: /docs/setup/deployment/strategies/#sidecar

@@ -60,10 +60,6 @@ This means a review will be removed if:
 
 <Jump to="/docs/profile/reviews/forclients/">For Clients</Jump>
 <Jump to="/docs/profile/reviews/forlocums/">For Locums</Jump>
-<Jump to="/guides/getting-started/reviews/">Tutorial: Reviews</Jump>
-
-Head over to the [components section][pages.components] and use the guarantee
-filters.
 
 
 

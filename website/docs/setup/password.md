@@ -35,8 +35,6 @@ If you have forgotten your password, don't stress. We can assist you with reseti
 
 We will send you a email with instructions on how to change your password.
 
-<Jump to="/guides/getting-started/password/">Tutorial: Change your password</Jump>
-
 
 [docs.strategies#daemon]: /docs/setup/deployment/strategies/#daemon
 [docs.strategies#sidecar]: /docs/setup/deployment/strategies/#sidecar

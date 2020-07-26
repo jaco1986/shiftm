@@ -43,8 +43,6 @@ Always pay and communicate directly through the Shift'M website or app. As long 
 
 * Shift'M is a global company, operating in over 12 countries. Shift'M relies on the community to provide accurate information, through reviews, regarding their experiences with other users.
 
-<Jump to="/guides/getting-started/">Get started</Jump>
-
 
 
 

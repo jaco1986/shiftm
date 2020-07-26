@@ -16,8 +16,6 @@ The Shift'M app (iOS and Android) displays the language you’ve chosen for your
 When the browser window is less than a certain size, a dropdown menu appears at the top of the screen. Click the  to find the Language option.
 
 
-<Jump to="/guides/getting-started/">Get started</Jump>
-
 
 
 

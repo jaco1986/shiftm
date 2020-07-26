@@ -25,9 +25,6 @@ To find all your future bookings/shifts and receipts:
 You can then download or print the receipt for your records.
 
 
-<Jump to="/guides/getting-started/">Get started</Jump>
-
-
 
 [docs.strategies#daemon]: /docs/setup/deployment/strategies/#daemon
 [docs.strategies#sidecar]: /docs/setup/deployment/strategies/#sidecar
