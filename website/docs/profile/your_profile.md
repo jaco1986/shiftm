@@ -31,3 +31,5 @@ If you don't have an Shift'M account yet, go to shiftm.com and click Sign Up.
 You can sign up using your email address, Facebook account, or Google account. Signing up and creating an Shift'M account is free.
 
 After you sign up, be sure to complete your account before booking a reservation.
+
+<Jump to="/guides/getting-started/your-profile/">Tutorial: Complete your profile</Jump>
