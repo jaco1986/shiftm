@@ -4,25 +4,56 @@ $schema: "/.meta/.schemas/guides.json"
 title: How to change your password
 description: Where to go after the basics
 series_position: 5
-author_github: https://github.com/binarylogic
 tags: ["type: guide", "domain: profile"]
-hide_pagination: true
+
 ---
+import SVG from 'react-inlinesvg';
+import Alert from '@site/src/components/Alert';
+import Steps from '@site/src/components/Steps';
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
-import Jump from '@site/src/components/Jump';
-
-You've completed the getting started series! You should understand the basic
-fundamentals to deploy and use Vector in most production environments. If you
-want to extract the full potential of Vector then proceed to the
-[advanced guides][guides.advanced]. We recommend the following to get you
-started:
-
-<Jump to="/guides/advanced/listings/" leftIcon="book">
-  Managing Complex Configs
-</Jump>
-<Jump to="/guides/advanced/calendar/" leftIcon="book">
-  Unit Testing Your Configs
-</Jump>
+<Alert type="info">
+In order to complete the "Reset your password from Profile", you need to be logged in. Log in to your <a href={"https://shiftm.com/"}>account</a>.
+</Alert>
 
 
-[guides.advanced]: /guides/advanced/
+
+## Tutorial
+
+
+<Steps headingDepth={3}>
+<ol>
+<li>
+
+
+
+### Reset your password from Login screen
+
+At the top of page, select Login.
+
+Below the login button, click the text that reads "Can't Login?"
+
+<SVG src="/img/login_password.svg" />
+
+Enter your email address that you used to sign up with and hit Send Link.
+<SVG src="/img/login_reset.svg" />
+
+We will email you instructions on how to change your password.
+
+</li>
+<li>
+
+### Reset your password from your profile
+
+Once you are logged in, go to your <a href={"https://www.shiftm.com/user/edit"}>profile</a>.
+
+Select the Security tab and follow the instructions
+
+<SVG src="/img/profile-password.svg" />
+
+</li>
+</ol>
+
+
+</Steps>

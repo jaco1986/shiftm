@@ -13,8 +13,4 @@ In addition to written reviews, clients can submit an overall star rating for th
 #### Why did I get a review that says I canceled?
 If you cancel a reservation as a client, an automated review will be posted to your profile. These reviews are one of the client cancellation penalties and can't be removed.
 
-
-
-[docs.sinks]: /docs/reference/sinks/
-[pages.components]: /components/
-[urls.vector_bug_issues]: https://github.com/timberio/vector/issues?q=is%3Aopen+is%3Aissue+label%3A%22type%3A+bug%22
+<Jump to="/guides/getting-started/reviews/">Tutorial: Read or write a review</Jump>

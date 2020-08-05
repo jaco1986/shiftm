@@ -34,9 +34,3 @@ Whether you need a nurse for a day to cover your sick leave or a dentist assista
 ### Community
 
 * Shift'M is a global company, operating in over 12 countries...and growing
-
-
-[docs.strategies#daemon]: /docs/setup/deployment/strategies/#daemon
-[docs.strategies#sidecar]: /docs/setup/deployment/strategies/#sidecar
-[urls.rust]: https://www.rust-lang.org/
-[urls.vector_performance]: https://shiftm.com/#performance

@@ -62,8 +62,4 @@ Some locums may also ask clients to provide ID before booking accepting a Shift.
 #### Does Shift'M perform background checks on users?
 As discussed above, we currently perform a photo match against the users ID and for locums we verify their registration with their professional body or local government. Shift'M does not perform background checks other than photo checks and registration.
 
-<Jump to="/guides/getting-started/verification/">Complete your verification</Jump>
-
-[docs.sinks]: /docs/reference/sinks/
-[pages.components]: /components/
-[urls.vector_bug_issues]: https://github.com/timberio/vector/issues?q=is%3Aopen+is%3Aissue+label%3A%22type%3A+bug%22
+<Jump to="/guides/getting-started/verification/">Tutorial: Complete your verification</Jump>

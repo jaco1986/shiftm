@@ -31647,13 +31647,13 @@ module.exports = {
       "twitter": "https://twitter.com/jeffail"
     },
     {
-      "avatar": "https://github.com/binarylogic.png",
-      "bio": "Ben is the CTO/Co-Founder at <a href=\"https://timber.io\">Timber.io</a> and a member of the <a href=\"/community#team\">core Vector team</a>. He is an open-source veteran, creating <a href=\"https://github.com/binarylogic/authlogic\">Authlogic</a> over 15 years ago before helping to launch Vector.",
-      "github": "https://github.com/binarylogic",
+      "avatar": "https://github.com/jaco1986.png",
+      "bio": "Joe is your friendly Shift'M Support Team member, here to help.",
+      "github": "https://www.shiftm.com/contact",
       "id": "ben",
-      "keybase": "https://keybase.io/binarylogic",
-      "name": "Ben",
-      "twitter": "https://twitter.com/binarylogic"
+      "keybase": "https://www.shiftm.com/contact",
+      "name": "Joe",
+      "twitter": "https://twitter.com/ShiftM_"
     },
     {
       "avatar": "https://github.com/bruceg.png",

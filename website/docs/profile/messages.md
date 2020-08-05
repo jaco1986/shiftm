@@ -43,7 +43,4 @@ Enter the dates and times for a potential Shift. You can adjust this information
 Write your message and click Send Message.
 For your safety and privacy, you can’t call or email a locum before your request is accepted. Learn more about why it’s good to keep communication and transactions on Shift'M.
 
-
-[docs.sinks]: /docs/reference/sinks/
-[pages.components]: /components/
-[urls.vector_bug_issues]: https://github.com/timberio/vector/issues?q=is%3Aopen+is%3Aissue+label%3A%22type%3A+bug%22
+<Jump to="/guides/getting-started/messages/">Tutorial: Your Messages</Jump>

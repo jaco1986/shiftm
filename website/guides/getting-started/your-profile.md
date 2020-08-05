@@ -4,114 +4,55 @@ $schema: "/.meta/.schemas/guides.json"
 title: Sign up.
 description: Sign up and create your profile. Book your first locum today!
 series_position: 1
-author_github: Support
 tags: ["type: guide", "domain: profile"]
 ---
 
+
+import SVG from 'react-inlinesvg';
 import Alert from '@site/src/components/Alert';
-import CodeExplanation from '@site/src/components/CodeExplanation';
-import InstallationCommand from '@site/src/components/InstallationCommand';
 import Steps from '@site/src/components/Steps';
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
-Vector is a simple beast to tame, in this guide we'll send an
-[event][docs.data-model] through it and touch on some basic concepts.
+Signing up with Shift'M is easy. We provide you with 3 ways to sing up.
 
+<SVG src="/img/login.svg" />
 
 ## Tutorial
+
 
 <Steps headingDepth={3}>
 <ol>
 <li>
 
-### Install Vector
 
-If you haven't already, install Vector. Here's a script for the lazy:
 
-<InstallationCommand />
 
-Or [choose your preferred installation method][docs.installation].
+### Sign up using Facebook
 
-</li>
-<li>
+Click on the Facebook button.
 
-### Configure it
-
-Vector runs with a [configuration file][docs.configuration] that tells it which
-[components][pages.components] to run and how they should interact. Let's create
-one that simply pipes a [`stdin` source][docs.sources.stdin] to a
-[`console` sink][docs.sinks.console]:
-
-```toml title="vector.toml"
-[sources.foo]
-  type = "stdin"
-
-[sinks.bar]
-  inputs = ["foo"]
-  type = "console"
-  encoding.codec = "text"
-```
-
-<CodeExplanation>
-
-* The [`stdin` source][docs.sources.stdin] tells Vector to receive data over `STDIN`.
-* The [`console` source]docs.sinks.stdout] tells Vector to simply print the data to `STDOUT`.
-* The  `encoding.codec` tells Vector to print the data as plain text (unencoded).
-
-</CodeExplanation>
-
-Every component within a Vector config has an identifier chosen by you. This
-allows you to specify where a sink should gather its data from (using the
-`inputs` field).
+A window should popup asking you to either confirm using facebook or ask you to log into facebook and then approve.
 
 </li>
 <li>
 
-### Hello World!
+### Sign up using your Google account
 
-That's it for our first config, now pipe an event through it:
+Click on the Google button.
 
-```bash
-echo 'Hello World!' | vector --config ./vector.toml
-```
+A window should popup asking you to either confirm using google or ask you to log into your google account and then approve.
 
-<CodeExplanation>
+</li>
+<li>
 
-* The `echo` statement sends a single log to Vector over `STDIN`
-* The `vector...` command starts Vector with our previously created config file.
 
-</CodeExplanation>
+### Sign up using your email address
 
-Your input event will get echoed back (along with some service logs) unchanged:
+If you'd like to sign up using your email address, click on the email button and follow the instructions.
 
-```text
-... some logs ...
-Hello World!
-```
-
-That's because the raw input text of our source was captured internally within
-the field `message`, and the `text` `encoding.codec` option of our sink prints
-the raw contents of `message` only.
-
-<Alert type="info">
-
-Hey, kid, if you want to see something cool try setting `encoding.codec = "json"`
-in the sink config.
-
-</Alert>
 </li>
 </ol>
+
+
 </Steps>
-
-## Next Steps
-
-If you expected something more interesting to happen then that's on you. The
-text came out unchanged because we didn't ask Vector to change it, we can remedy
-that by following the next guide in the series.
-
-
-[docs.configuration]: /docs/setup/configuration/
-
-[docs.installation]: /docs/setup/installation/
-[docs.sinks.console]: /docs/reference/sinks/console/
-[docs.sources.stdin]: /docs/reference/sources/stdin/
-[pages.components]: /components/

@@ -32,7 +32,4 @@ Here are some tips for taking high-quality photos:
 * If you wear a coat or uniform for your profession. Wear it! It looks more professional.
 * Remember to smile!
 
-
-[docs.sinks]: /docs/reference/sinks/
-[pages.components]: /components/
-[urls.vector_bug_issues]: https://github.com/timberio/vector/issues?q=is%3Aopen+is%3Aissue+label%3A%22type%3A+bug%22
+<Jump to="/guides/getting-started/your-profile/">Tutorial: Complete your profile</Jump>

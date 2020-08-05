@@ -33,7 +33,7 @@ function Steps({children, headingDepth}) {
         </a>
       </div>}
       {feedbackAnswer == 'yes' && <div className="steps--feedback steps--feedback--success">
-        Thanks! If you're enjoying Vector please consider <a href="https://github.com/timberio/vector/" target="_blank">starring our Github repo</a>.
+        Thanks! If you're enjoying Shift'M please consider <a href="https://www.facebook.com/shiftmhealthcare/" target="_blank">liking us on Facebook</a>.
       </div>}
     </div>
 

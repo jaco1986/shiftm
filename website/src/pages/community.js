@@ -16,11 +16,11 @@ function Community() {
   const {metadata: {team}} = siteConfig.customFields;
 
   return (
-    <Layout title="Community" description="Join the Vector community. Connect with other Vector users and help make Vector better.">
+    <Layout title="Community" description="Join the Shift'M community. Connect with other users and help make Shift'M better.">
       <header className="hero hero--clean">
         <div className="container container--fluid">
-          <h1>Vector Community</h1>
-          <div className="hero--subtitle">Join the Vector community. Connect with other Vector users and help make Vector better.</div>
+          <h1>Shift'M Community</h1>
+          <div className="hero--subtitle">Join the Shift'M community. Connect with other users and help make Shift'M better.</div>
         </div>
       </header>
       <main>
@@ -32,7 +32,7 @@ function Community() {
                   <div className="panel--icon">
                     <i className="feather icon-message-circle"></i>
                   </div>
-                  <div className="panel--title">Chat</div>
+                  <div className="panel--title">FAQ</div>
                   <div className="panel--description">Ask questions and get help</div>
                 </a>
               </div>
@@ -50,8 +50,8 @@ function Community() {
                   <div className="panel--icon">
                     <i className="feather icon-github"></i>
                   </div>
-                  <div className="panel--title">Github timberio/vector</div>
-                  <div className="panel--description">Issues, code, and development</div>
+                  <div className="panel--title">Facebook</div>
+                  <div className="panel--description">Receive all updates</div>
                 </a>
               </div>
             </div>
@@ -75,52 +75,6 @@ function Community() {
                 </Link>
               ))}
             </div>
-          </div>
-        </section>
-        <section>
-          <div className="container">
-            <AnchoredH2 id="faqs">FAQs</AnchoredH2>
-
-            <AnchoredH3 id="contribute" className="header--flush">How do I contribute to Vector?</AnchoredH3>
-
-            <p>
-              Vector is <a href="https://github.com/timberio/vector">open-source</a> and welcomes contributions. A few guidelines to help you get started:
-            </p>
-            <ol>
-              <li>Read our <a href="https://github.com/timberio/vector/blob/master/CONTRIBUTING.md">contribution guide</a>.</li>
-              <li>Start with <a href="https://github.com/timberio/vector/contribute">good first issues</a>.</li>
-              <li>Join our <a href="https://chat.vector.dev">chat</a> if you have any questions. We are happy to help!</li>
-            </ol>
-
-            <AnchoredH3 id="contribute" className="header--flush margin-top--lg">What is the Vector governance model?</AnchoredH3>
-
-            <p>
-              Vector's high-level governance model is designed around the requirements and best practices of the CNCF / Linux Foundation Core Infrastructure Initiative best practice targeting a silver badge status.
-            </p>
-            <ol>
-              <li><a href="https://bestpractices.coreinfrastructure.org/en" target="_blank">CNCF CII best practices</a></li>
-              <li><a href="https://www.linuxfoundation.org/" target="_blank">Linux Foundation</a></li>
-            </ol>
-
-            <AnchoredH3 id="contribute" className="header--flush margin-top--lg">What is the Vector project model?</AnchoredH3>
-
-            <p>
-              Vector's project / product management model is designed around the linux kernel development practices and processes.
-            </p>
-            <ol>
-              <li><a href="https://bestpractices.coreinfrastructure.org/en/projects/34" target="_blank">Linux Kernel CII best practices</a></li>
-              <li><a href="https://www.kernel.org/" target="_blank">Linux Foundation</a></li>
-            </ol>
-
-            <AnchoredH3 id="contribute" className="header--flush margin-top--lg">What is the Vector community model?</AnchoredH3>
-
-            <p>
-              Vector has adopted the Rust community model and practices for engaging with people and ensuring that all contributors and stakeholders respect the code of conduct.
-            </p>
-            <ol>
-              <li><a href="https://www.rust-lang.org/" target="_blank">Rust Language Organization</a></li>
-              <li><a href="https://www.rust-lang.org/community" target="_blank">Rust community standards</a></li>
-            </ol>
           </div>
         </section>
       </main>

@@ -66,7 +66,7 @@
   --ifm-footer-padding-vertical: calc(var(--ifm-spacing-vertical) * 4);
   --ifm-global-shadow-md: 0 3px 8px 0px var(--ifm-hr-border-color);
   --ifm-h2-font-size: 2em;
-  --ifm-heading-color: #001b3d;
+  --ifm-heading-color: #629ff0;
   --ifm-heading-font-family: Ubuntu, var(--ifm-font-family-base);
   --ifm-heading-margin-bottom: calc(var(--ifm-spacing-vertical) * 3);
   --ifm-hero-background-color: var(--ifm-background-color);

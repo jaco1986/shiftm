@@ -45,10 +45,6 @@ module.exports = {
               label: "Contact Us",
               to: "https://shiftm.com/contact",
             },
-            {
-              label: "Mailing List",
-              to: "mailing_list/",
-            },
           ],
         },
           {

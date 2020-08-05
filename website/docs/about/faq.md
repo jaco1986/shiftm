@@ -29,6 +29,9 @@ The payouts normally take 1-2 days to pay out from the service provider and will
 #### How long does the verification process take?
 Verification normally takes one day to complete, depending on the information provided. Please upload and submit your receipt or registration number in your profile and we'll process it as soon as possible.
 
+#### I received a notification that my verification documents have been rejected. Why?
+Shift'M needs a copy of your ID and your registration number. This is required to verify that you are allowed to practice. The most common reason for documents being rejected is due to your registration number not being provided.
+
 #### Can I cancel my booking?
 Yes, you can always cancel your booking. Your booking can be cancelled from your profile. Please note that the cancellation policy does apply and you would need to comply with the selected policy of the locum you chose.
 
