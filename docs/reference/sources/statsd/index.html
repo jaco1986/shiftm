@@ -16,30 +16,30 @@
 <link data-react-helmet="true" rel="shortcut icon" href="/favicon.ico"><link data-react-helmet="true" rel="canonical" href="https://shiftm.com/docs/reference/sources/statsd/">
 
 
-<link rel="stylesheet" href="/styles.2b3d096f.css">
+<link rel="stylesheet" href="/styles.a54af6e8.css">
 
 
 <link rel="preload" href="/styles.2ceb7c8c.js" as="script">
 
-<link rel="preload" href="/runtime~main.209a99e5.js" as="script">
+<link rel="preload" href="/runtime~main.65b2adc4.js" as="script">
 
-<link rel="preload" href="/main.d33be812.js" as="script">
+<link rel="preload" href="/main.af87abf6.js" as="script">
 
-<link rel="preload" href="/common.ea7634fc.js" as="script">
+<link rel="preload" href="/common.10d87740.js" as="script">
 
 <link rel="preload" href="/2.5d8f2f96.js" as="script">
 
-<link rel="preload" href="/4.f4cf1e55.js" as="script">
+<link rel="preload" href="/4.da7ab688.js" as="script">
 
-<link rel="preload" href="/1be78505.7ad10575.js" as="script">
+<link rel="preload" href="/1be78505.f2df0249.js" as="script">
 
 <link rel="preload" href="/20ac7829.66aa896a.js" as="script">
 
-<link rel="preload" href="/17896441.c6ad9db8.js" as="script">
+<link rel="preload" href="/17896441.98a432a1.js" as="script">
 
 <link rel="preload" href="/3.1d5120fd.js" as="script">
 
-<link rel="preload" href="/a54b648e.d352acbd.js" as="script">
+<link rel="preload" href="/a54b648e.3fde3eed.js" as="script">
 
 </head>
 <body>
@@ -55,30 +55,30 @@ notice that each parsed metric is assigned a <code>null</code> timestamp, which 
 special value which means &quot;a real time metric&quot; (not historical one). Normally such
 <code>null</code> timestamps will be substituted by current time by downstream sinks or
 3rd party services during sending/ingestion. See the [metric][docs.data-model.metric]
-data model page for more info.</p></div></article></div></div><div class="rightCol_38kP"><div class="table-of-contents tableOfContents_tVyB"><div class="section"><div class="title">Support</div><div><a class="text--primary" title="This component has passed reliability standards that make it production ready. Click to learn more." href="/docs/about/guarantees/#prod-ready"><i class="feather icon-award"></i> Prod-Ready Status</a></div><div><a class="text--warning" title="This component makes a best-effort delivery guarantee, and in rare cases can lose data. Click to learn more." href="/docs/about/guarantees/#best-effort"><i class="feather icon-shield-off"></i> Best-Effort Delivery</a></div><div><a title="This component works on the Linux, MacOS, Windows operating systems." href="/docs/setup/installation/operating-systems/"><i class="feather icon-cpu"></i> <span class="text--primary">Linux</span><span>, </span><span class="text--primary">MacOS</span><span>, </span><span class="text--primary">Windows</span></a></div></div><div class="section"><div class="title">Contents</div><ul class="contents"><li><a href="#requirements" class="contents__link">Requirements</a></li><li><a href="#configuration" class="contents__link">Configuration</a><ul><li><a href="#address" class="contents__link">address</a></li></ul></li><li><a href="#examples" class="contents__link">Examples</a></li><li><a href="#how-it-works" class="contents__link">How It Works</a><ul><li><a href="#environment-variables" class="contents__link">Environment Variables</a></li><li><a href="#timestamp" class="contents__link">Timestamp</a></li></ul></li></ul></div><div class="section"><div class="title">Resources</div><ul class="contents"><li><a href="https://github.com/timberio/vector/issues?q=is%3Aopen+is%3Aissue+label%3A%22source%3A+statsd%22" class="contents__link" target="_blank"><i class="feather icon-message-circle"></i> View Issues</a></li><li><a href="https://github.com/timberio/vector/tree/master/src/sources/statsd" class="contents__link" target="_blank"><i class="feather icon-github"></i> View Source</a></li></ul></div></div></div></div></div></main></div></div><footer class="footer"><div class="container"><div class="row footer__links"><div class="col col--5 footer__col"><div class="margin-bottom--md"></div><div class="margin-bottom--md"><div class="mailing-list"><form action="https://shiftm.us18.list-manage.com/subscribe/post" method="post" class="mailing-list--form"><input type="hidden" name="u" value="ef3f45d9742db70a70fd6e4c4"><input type="hidden" name="id" value="82fab539e5"><input type="email" class="input input--undefined" name="EMAIL" placeholder="your@email.com" style="width:150px"><button class="button button--primary button--undefined" type="submit">Subscribe</button></form></div></div></div><div class="col footer__col"><h4 class="footer__title">About</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item" href="/docs/about/what-is-shiftm/">What is Shift&#x27;M</a></li><li class="footer__item"><a class="footer__link-item" href="/docs/about/terms_and_cond/">Terms and Conditions</a></li><li class="footer__item"><a class="footer__link-item" to="https://shiftm.com/contact" href="https://shiftm.com/contact">Contact Us</a></li><li class="footer__item"><a class="footer__link-item" href="/mailing_list/">Mailing List</a></li></ul></div><div class="col footer__col"><h4 class="footer__title">Mobile</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://www.apple.com/ios/app-store">App Store</a></li><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://play.google.com/store?hl=en">Play Store</a></li></ul></div><div class="col footer__col"><h4 class="footer__title">Community</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://facebook.com/shiftmhealthcare">Facebook</a></li><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://instagram.com/shiftm_">Instagram</a></li><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://twitter.com/ShiftM_">Twitter</a></li><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://linkedIn.com/company/Shift-m">LinkedIn</a></li></ul></div></div><div class="text--center"><div class="margin-bottom--sm"><a href="https://shiftm.com" target="_blank" rel="noopener noreferrer" class="footerLogoLink_3L_r"></a></div>Copyright © 2020 Shift&#x27;M B.V<br></div></div></footer>
+data model page for more info.</p></div></article></div></div><div class="rightCol_38kP"><div class="table-of-contents tableOfContents_tVyB"><div class="section"><div class="title">Support</div><div><a class="text--primary" title="This component has passed reliability standards that make it production ready. Click to learn more." href="/docs/about/guarantees/#prod-ready"><i class="feather icon-award"></i> Prod-Ready Status</a></div><div><a class="text--warning" title="This component makes a best-effort delivery guarantee, and in rare cases can lose data. Click to learn more." href="/docs/about/guarantees/#best-effort"><i class="feather icon-shield-off"></i> Best-Effort Delivery</a></div><div><a title="This component works on the Linux, MacOS, Windows operating systems." href="/docs/setup/installation/operating-systems/"><i class="feather icon-cpu"></i> <span class="text--primary">Linux</span><span>, </span><span class="text--primary">MacOS</span><span>, </span><span class="text--primary">Windows</span></a></div></div><div class="section"><div class="title">Contents</div><ul class="contents"><li><a href="#requirements" class="contents__link">Requirements</a></li><li><a href="#configuration" class="contents__link">Configuration</a><ul><li><a href="#address" class="contents__link">address</a></li></ul></li><li><a href="#examples" class="contents__link">Examples</a></li><li><a href="#how-it-works" class="contents__link">How It Works</a><ul><li><a href="#environment-variables" class="contents__link">Environment Variables</a></li><li><a href="#timestamp" class="contents__link">Timestamp</a></li></ul></li></ul></div><div class="section"><div class="title">Resources</div><ul class="contents"><li><a href="https://github.com/timberio/vector/issues?q=is%3Aopen+is%3Aissue+label%3A%22source%3A+statsd%22" class="contents__link" target="_blank"><i class="feather icon-message-circle"></i> View Issues</a></li><li><a href="https://github.com/timberio/vector/tree/master/src/sources/statsd" class="contents__link" target="_blank"><i class="feather icon-github"></i> View Source</a></li></ul></div></div></div></div></div></main></div></div><footer class="footer"><div class="container"><div class="row footer__links"><div class="col col--5 footer__col"><div class="margin-bottom--md"></div><div class="margin-bottom--md"><div class="mailing-list"><form action="https://shiftm.us18.list-manage.com/subscribe/post" method="post" class="mailing-list--form"><input type="hidden" name="u" value="ef3f45d9742db70a70fd6e4c4"><input type="hidden" name="id" value="82fab539e5"><input type="email" class="input input--undefined" name="EMAIL" placeholder="your@email.com" style="width:150px"><button class="button button--primary button--undefined" type="submit">Subscribe</button></form></div></div></div><div class="col footer__col"><h4 class="footer__title">About</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item" href="/docs/about/what-is-shiftm/">What is Shift&#x27;M</a></li><li class="footer__item"><a class="footer__link-item" href="/docs/about/terms_and_cond/">Terms and Conditions</a></li><li class="footer__item"><a class="footer__link-item" to="https://shiftm.com/contact" href="https://shiftm.com/contact">Contact Us</a></li></ul></div><div class="col footer__col"><h4 class="footer__title">Mobile</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://www.apple.com/ios/app-store">App Store</a></li><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://play.google.com/store?hl=en">Play Store</a></li></ul></div><div class="col footer__col"><h4 class="footer__title">Community</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://facebook.com/shiftmhealthcare">Facebook</a></li><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://instagram.com/shiftm_">Instagram</a></li><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://twitter.com/ShiftM_">Twitter</a></li><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://linkedIn.com/company/Shift-m">LinkedIn</a></li></ul></div></div><div class="text--center"><div class="margin-bottom--sm"><a href="https://shiftm.com" target="_blank" rel="noopener noreferrer" class="footerLogoLink_3L_r"></a></div>Copyright © 2020 Shift&#x27;M B.V<br></div></div></footer>
 </div>
 
 <script src="/styles.2ceb7c8c.js"></script>
 
-<script src="/runtime~main.209a99e5.js"></script>
+<script src="/runtime~main.65b2adc4.js"></script>
 
-<script src="/main.d33be812.js"></script>
+<script src="/main.af87abf6.js"></script>
 
-<script src="/common.ea7634fc.js"></script>
+<script src="/common.10d87740.js"></script>
 
 <script src="/2.5d8f2f96.js"></script>
 
-<script src="/4.f4cf1e55.js"></script>
+<script src="/4.da7ab688.js"></script>
 
-<script src="/1be78505.7ad10575.js"></script>
+<script src="/1be78505.f2df0249.js"></script>
 
 <script src="/20ac7829.66aa896a.js"></script>
 
-<script src="/17896441.c6ad9db8.js"></script>
+<script src="/17896441.98a432a1.js"></script>
 
 <script src="/3.1d5120fd.js"></script>
 
-<script src="/a54b648e.d352acbd.js"></script>
+<script src="/a54b648e.3fde3eed.js"></script>
 
 
 </body>

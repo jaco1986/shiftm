@@ -16,22 +16,22 @@
 <link data-react-helmet="true" rel="shortcut icon" href="/favicon.ico"><link data-react-helmet="true" rel="canonical" href="https://shiftm.com/guides/advanced/calendar/">
 
 
-<link rel="stylesheet" href="/styles.2b3d096f.css">
+<link rel="stylesheet" href="/styles.a54af6e8.css">
 
 
 <link rel="preload" href="/styles.2ceb7c8c.js" as="script">
 
-<link rel="preload" href="/runtime~main.209a99e5.js" as="script">
+<link rel="preload" href="/runtime~main.65b2adc4.js" as="script">
 
-<link rel="preload" href="/main.d33be812.js" as="script">
+<link rel="preload" href="/main.af87abf6.js" as="script">
 
-<link rel="preload" href="/common.ea7634fc.js" as="script">
+<link rel="preload" href="/common.10d87740.js" as="script">
 
 <link rel="preload" href="/2.5d8f2f96.js" as="script">
 
 <link rel="preload" href="/3.1d5120fd.js" as="script">
 
-<link rel="preload" href="/1c13b173.79bab9a2.js" as="script">
+<link rel="preload" href="/1c13b173.75f52bf3.js" as="script">
 
 <link rel="preload" href="/45462017.4914e809.js" as="script">
 
@@ -89,22 +89,22 @@ Try reviewing our config topology to see if you can spot the mistake.</p><p>SPOI
 <code>vector validate --topology ./example.toml</code>.</p></blockquote><p>The fix is easy, we simply change the input of <code>baz</code> from <code>foo</code> to <code>bar</code>:</p><div class="mdxCodeBlock_iHAB"><div class="codeBlockContent_3RXF"><button type="button" aria-label="Copy code to clipboard" class="copyButton_1PCb">Copy</button><pre class="prism-code language-diff codeBlock_1wn8"><div class="codeBlockLines_3HrO" style="color:#393A34;background-color:#f6f8fa"><div class="token-line" style="color:#393A34"><span class="token coord">--- a/example.toml</span><span class="token plain"></span></div><div class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token coord">+++ b/example.toml</span><span class="token plain"></span></div><div class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token coord">@@ -16,7 +16,7 @@</span><span class="token plain"></span></div><div class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block">
 </span></div><div class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token unchanged"> [transforms.baz]</span></div><div class="token-line" style="color:#393A34"><span class="token unchanged">   type = &quot;remove_fields&quot;</span></div><div class="token-line" style="color:#393A34"><span class="token unchanged"></span><span class="token deleted-sign deleted" style="color:#d73a49">-  inputs = [&quot;foo&quot;]</span></div><div class="token-line" style="color:#393A34"><span class="token deleted-sign deleted" style="color:#d73a49"></span><span class="token inserted-sign inserted" style="color:#36acaa">+  inputs = [&quot;bar&quot;]</span></div><div class="token-line" style="color:#393A34"><span class="token inserted-sign inserted" style="color:#36acaa"></span><span class="token unchanged">   fields = [&quot;level&quot;]</span></div></div></pre></div></div><p>And running our test again gives us an exit status 0:</p><div class="mdxCodeBlock_iHAB"><div class="codeBlockContent_3RXF"><button type="button" aria-label="Copy code to clipboard" class="copyButton_1PCb">Copy</button><pre class="prism-code language-sh codeBlock_1wn8"><div class="codeBlockLines_3HrO" style="color:#393A34;background-color:#f6f8fa"><div class="token-line" style="color:#393A34"><span class="token plain">$ vector test ./example.toml</span></div><div class="token-line" style="color:#393A34"><span class="token plain">Running ./example.toml tests</span></div><div class="token-line" style="color:#393A34"><span class="token plain">Test ./example.toml: check_simple_log ... passed</span></div></div></pre></div></div><p>The test passed! Now if we configure our CI system to execute our test we can
 ensure that uncle Cecil remains in Shoreditch after any future config change.
-What an insufferable hipster he is.</p></div></article><nav class="pagination-nav paginator_1WWz"><div class="pagination-nav__item"><a class="pagination-nav__link" href="/guides/advanced/payments"><h5 class="pagination-nav__link--sublabel">Previous</h5><h4 class="pagination-nav__link--label">« Payments</h4></a></div><div class="pagination-nav__item pagination-nav__item--next"><a class="pagination-nav__link" href="/guides/advanced/support"><h5 class="pagination-nav__link--sublabel">Next</h5><h4 class="pagination-nav__link--label">Support »</h4></a></div></nav></div></main></div><footer class="footer"><div class="container"><div class="row footer__links"><div class="col col--5 footer__col"><div class="margin-bottom--md"></div><div class="margin-bottom--md"><div class="mailing-list"><form action="https://shiftm.us18.list-manage.com/subscribe/post" method="post" class="mailing-list--form"><input type="hidden" name="u" value="ef3f45d9742db70a70fd6e4c4"><input type="hidden" name="id" value="82fab539e5"><input type="email" class="input input--undefined" name="EMAIL" placeholder="your@email.com" style="width:150px"><button class="button button--primary button--undefined" type="submit">Subscribe</button></form></div></div></div><div class="col footer__col"><h4 class="footer__title">About</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item" href="/docs/about/what-is-shiftm/">What is Shift&#x27;M</a></li><li class="footer__item"><a class="footer__link-item" href="/docs/about/terms_and_cond/">Terms and Conditions</a></li><li class="footer__item"><a class="footer__link-item" to="https://shiftm.com/contact" href="https://shiftm.com/contact">Contact Us</a></li><li class="footer__item"><a class="footer__link-item" href="/mailing_list/">Mailing List</a></li></ul></div><div class="col footer__col"><h4 class="footer__title">Mobile</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://www.apple.com/ios/app-store">App Store</a></li><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://play.google.com/store?hl=en">Play Store</a></li></ul></div><div class="col footer__col"><h4 class="footer__title">Community</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://facebook.com/shiftmhealthcare">Facebook</a></li><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://instagram.com/shiftm_">Instagram</a></li><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://twitter.com/ShiftM_">Twitter</a></li><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://linkedIn.com/company/Shift-m">LinkedIn</a></li></ul></div></div><div class="text--center"><div class="margin-bottom--sm"><a href="https://shiftm.com" target="_blank" rel="noopener noreferrer" class="footerLogoLink_3L_r"></a></div>Copyright © 2020 Shift&#x27;M B.V<br></div></div></footer>
+What an insufferable hipster he is.</p></div></article><nav class="pagination-nav paginator_1WWz"><div class="pagination-nav__item"><a class="pagination-nav__link" href="/guides/advanced/payments"><h5 class="pagination-nav__link--sublabel">Previous</h5><h4 class="pagination-nav__link--label">« Payments</h4></a></div><div class="pagination-nav__item pagination-nav__item--next"><a class="pagination-nav__link" href="/guides/advanced/support"><h5 class="pagination-nav__link--sublabel">Next</h5><h4 class="pagination-nav__link--label">Support »</h4></a></div></nav></div></main></div><footer class="footer"><div class="container"><div class="row footer__links"><div class="col col--5 footer__col"><div class="margin-bottom--md"></div><div class="margin-bottom--md"><div class="mailing-list"><form action="https://shiftm.us18.list-manage.com/subscribe/post" method="post" class="mailing-list--form"><input type="hidden" name="u" value="ef3f45d9742db70a70fd6e4c4"><input type="hidden" name="id" value="82fab539e5"><input type="email" class="input input--undefined" name="EMAIL" placeholder="your@email.com" style="width:150px"><button class="button button--primary button--undefined" type="submit">Subscribe</button></form></div></div></div><div class="col footer__col"><h4 class="footer__title">About</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item" href="/docs/about/what-is-shiftm/">What is Shift&#x27;M</a></li><li class="footer__item"><a class="footer__link-item" href="/docs/about/terms_and_cond/">Terms and Conditions</a></li><li class="footer__item"><a class="footer__link-item" to="https://shiftm.com/contact" href="https://shiftm.com/contact">Contact Us</a></li></ul></div><div class="col footer__col"><h4 class="footer__title">Mobile</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://www.apple.com/ios/app-store">App Store</a></li><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://play.google.com/store?hl=en">Play Store</a></li></ul></div><div class="col footer__col"><h4 class="footer__title">Community</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://facebook.com/shiftmhealthcare">Facebook</a></li><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://instagram.com/shiftm_">Instagram</a></li><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://twitter.com/ShiftM_">Twitter</a></li><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://linkedIn.com/company/Shift-m">LinkedIn</a></li></ul></div></div><div class="text--center"><div class="margin-bottom--sm"><a href="https://shiftm.com" target="_blank" rel="noopener noreferrer" class="footerLogoLink_3L_r"></a></div>Copyright © 2020 Shift&#x27;M B.V<br></div></div></footer>
 </div>
 
 <script src="/styles.2ceb7c8c.js"></script>
 
-<script src="/runtime~main.209a99e5.js"></script>
+<script src="/runtime~main.65b2adc4.js"></script>
 
-<script src="/main.d33be812.js"></script>
+<script src="/main.af87abf6.js"></script>
 
-<script src="/common.ea7634fc.js"></script>
+<script src="/common.10d87740.js"></script>
 
 <script src="/2.5d8f2f96.js"></script>
 
 <script src="/3.1d5120fd.js"></script>
 
-<script src="/1c13b173.79bab9a2.js"></script>
+<script src="/1c13b173.75f52bf3.js"></script>
 
 <script src="/45462017.4914e809.js"></script>
 
