@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[365],{478:function(s){s.exports=JSON.parse('{"allTagsPath":"/guides/tags","slug":"sink-http","name":"sink: http","count":10,"permalink":"/guides/tags/sink-http"}')}}]);
