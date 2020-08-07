@@ -92,9 +92,12 @@ function GuideListPage(props) {
     <Layout title="Guides" description="Guides, tutorials, and education.">
       <header className="hero hero--clean">
         <div className="container">
+        <div className="img">
+        <span><img src="/img/defaultPic.png" /></span>
+        </div>
           <h1>Shift'M Help Guides</h1>
           <div className="hero--subtitle">
-            Thoughtful guides to help you get the most out of Shift'M.
+            Joe has put together thoughtful guides to help you get the most out of Shift'M.
           </div>
           <div className="hero--search">
             <input

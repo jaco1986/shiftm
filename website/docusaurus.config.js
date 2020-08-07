@@ -21,6 +21,7 @@ module.exports = {
       },
       links: [
         { to: "docs/", label: "Docs", position: "left" },
+        { to: "guides/", label: "Guides", position: "left" },
       ],
     },
 

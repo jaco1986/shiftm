@@ -26,6 +26,12 @@
   }
 }
 
+.components span {
+  display: block;
+  vertical-align: middle;
+  text-align:justify;
+}
+
 .indexAnnouncement {
   background: var(--ifm-color-emphasis-50);
   border-radius: 1em;

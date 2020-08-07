@@ -34,7 +34,7 @@ In order to complete the below steps, you need to be logged in. Log in to your <
 
 Once you are logged in, go to your <a href={"https://www.shiftm.com/user/edit"}>profile</a>.
 
-At the top of your porfile menu, select Inbox.
+At the top of your profile menu, select Inbox.
 
 <SVG src="/img/profile_header.svg" />
 

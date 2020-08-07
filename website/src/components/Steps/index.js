@@ -19,7 +19,7 @@ function Steps({children, headingDepth}) {
     <div className={`steps steps--h${headingDepth}`}>
       {children}
       {!feedbackAnswer && <div className="steps--feedback">
-        How was it? Did this tutorial work?&nbsp;&nbsp;
+        Did you find this tutorial useful?&nbsp;&nbsp;
         <span
           className="button button--sm button--primary"
           onClick={() => setFeedbackAnswer('yes')}>

@@ -103,7 +103,8 @@ function Features({features}) {
   return (
     <section className={styles.features}>
       <div className="container">
-        <AnchoredH2 id="features">How can we help you?</AnchoredH2>
+      <span><img src="/img/defaultPic.png" /></span>
+        <AnchoredH2 id="features">Hi, I'm Joe. How can I help you?</AnchoredH2>
         {rows}
       </div>
     </section>

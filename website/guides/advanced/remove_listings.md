@@ -1,8 +1,8 @@
 ---
 last_modified_on: "2020-04-19"
 $schema: "/.meta/.schemas/guides.json"
-title: Setup your calendar
-description: Block your dates or set your times. All in one place.
+title: Remove Your Listing
+description: Listing and how to remove it!
 tags: ["type: guide", "domain: listing"]
 ---
 
@@ -27,10 +27,9 @@ In order to complete the below steps, you need to be logged in. Log in to your <
 
 
 
-### Locate your listing
+### Find your Listing
 
 At the top or from the side menu, select Listing. Alternatively, once you are logged in, go to your <a href={"https://www.shiftm.com/jobs"}>Your Shifts</a>.
-Select the listing you want to change your calendar for.
 
 <SVG src="/img/add-listing.svg" />
 
@@ -38,28 +37,16 @@ Select the listing you want to change your calendar for.
 <li>
 
 
-### Select Step 3
+### Remove your listing
 
-Select Step 3 from the list of options, to navigate to the calendar.
+When you no longer want to have your listing visible, simply select the listing you want and select Unpublish.
 
-<SVG src="/img/step3.svg" />
+<SVG src="/img/unpublish.svg" />
 
-</li>
-<li>
-
-
-### Update your calendar
-
-If you want to block, unblock or make available certain days, simply click on the day you want and select "Available" or "Block".
-
-If you want to do this for a range of dates, then select the start date and fill in the end date.
-
-<SVG src="/img/calendar.svg" />
-
-Click on Save to save your changes.
+Changes are saved automatically and will effective immediately.
 
 </li>
+
+
 </ol>
-
-
 </Steps>

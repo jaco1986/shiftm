@@ -42,7 +42,7 @@ async function generateGuides(guideDir, { siteConfig, siteDir }, options) {
             let description = null;
             switch (name) {
                 case 'advanced':
-                    description = 'Go beyond the basics, become a Vector pro, and extract the full potential of Vector.';
+                    description = "Go beyond the basics, become a Shift'M pro, and extract the full potential of Shift'M.";
                     break;
                 case 'getting-started':
                     description = 'Simple step-by-step profile guides.';
