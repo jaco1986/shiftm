@@ -24,4 +24,4 @@ To find all your future bookings/shifts and receipts:
 You can then download or print the receipt for your records.
 
 
-Jump to="/guides/advanced/notifications/">Tutorial: Reports on future earnings</Jump>
+<Jump to="/guides/advanced/notifications/">Tutorial: Reports on future earnings</Jump>

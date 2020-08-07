@@ -33,4 +33,4 @@ To find all your previous bookings/shifts:
 * Select Previous Shifts
 
 
-Jump to="/guides/advanced/listings/">Tutorial: Create your listing</Jump>
+<Jump to="/guides/advanced/listings/">Tutorial: Create your listing</Jump>

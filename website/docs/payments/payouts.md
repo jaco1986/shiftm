@@ -32,4 +32,4 @@ For each booking, the gross earning amount is the price of the payout total befo
 #### Exporting to a spreadsheet
 You can click Download CSV to download a .csv file of your transactions from any tab. The CSV file can be opened by any standard spreadsheet program (like Microsoft Excel, Google Docs, or Apple Numbers) to give you a display of the data.
 
-Jump to="/guides/advanced/payments/">Tutorial: Payouts</Jump>
+<Jump to="/guides/advanced/payments/">Tutorial: Payouts</Jump>

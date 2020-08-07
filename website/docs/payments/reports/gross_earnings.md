@@ -28,4 +28,4 @@ To generate a report:
 
 Your export will be available in your browser or accessible from your Downloads folder on your local machine.
 
-Jump to="/guides/advanced/notifications/">Tutorial: Gross Earnings</Jump>
+<Jump to="/guides/advanced/notifications/">Tutorial: Gross Earnings</Jump>

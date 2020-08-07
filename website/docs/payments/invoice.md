@@ -25,4 +25,4 @@ To find all your future bookings/shifts and receipts:
 * Click the Receipts button
 
 
-Jump to="/guides/advanced/notifications/">Tutorial: Earnings</Jump>
+<Jump to="/guides/advanced/notifications/">Tutorial: Earnings</Jump>

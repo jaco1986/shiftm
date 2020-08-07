@@ -17,7 +17,7 @@ To make your listing public in search results and on your profile page:
 
 If you don’t want to receive any inquiries or requests, you can unpublish your listing.
 
-Jump to="/guides/advanced/listings/">Tutorial: Create your listing</Jump>
+<Jump to="/guides/advanced/listings/">Tutorial: Create your listing</Jump>
 
 #### How do I de-activate my listing?
 To temporarily remove or completely remove your listing public in search results and on your profile page:
@@ -26,7 +26,7 @@ To temporarily remove or completely remove your listing public in search results
 * Select your Listing
 * At the bottom of the screen, you can select unpublish your listing
 
-Jump to="/guides/advanced/remove_listing/">Tutorial: Remove your listing</Jump>
+<Jump to="/guides/advanced/remove_listing/">Tutorial: Remove your listing</Jump>
 
 
 #### How do I know if a listing is available?
@@ -35,4 +35,4 @@ As long as you enter your required profession, Shift dates, and times when searc
 While we strongly encourage all locums to keep their calendars up to date, consider sending a message to locums to double check that they are still available.
 
 
-Jump to="/guides/advanced/listings/">Tutorial: Create your listing</Jump>
+<Jump to="/guides/advanced/listings/">Tutorial: Create your listing</Jump>

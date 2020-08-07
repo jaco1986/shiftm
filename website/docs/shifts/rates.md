@@ -31,4 +31,4 @@ Clients pay a service fee to Shift'M in addition to the cost of your listing, wh
 No, you cannot change the rate. All bookings that have been accepted would already have been settled with Shift'M.
 
 
-Jump to="/guides/advanced/listings/">Tutorial: Create your listing</Jump>
+<Jump to="/guides/advanced/listings/">Tutorial: Create your listing</Jump>

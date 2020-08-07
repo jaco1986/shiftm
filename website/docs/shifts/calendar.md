@@ -45,4 +45,4 @@ If you pre-approve an inquiry and allow clients to book instantly, you have the 
 
 
 
-Jump to="/guides/advanced/calendar/">Tutorial: Your Calendar</Jump>
+<Jump to="/guides/advanced/calendar/">Tutorial: Your Calendar</Jump>

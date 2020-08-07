@@ -30,4 +30,4 @@ Edits only apply to reservations booked after you make the changes; they don't a
 While you edit, your changes will be automatically saved.
 
 
-Jump to="/guides/advanced/listings/">Tutorial: Edit your listing</Jump>
+<Jump to="/guides/advanced/listings/">Tutorial: Edit your listing</Jump>
