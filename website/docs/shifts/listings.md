@@ -39,3 +39,5 @@ Step 3:
 
 #### What if i can practice as 2 different professions?
 You can create a listing for each profession you can work as. For instance, if you're a Doctor who specialises and you function as a General Practitioner, then you can create a listing for both of these professions, as clients will be searching for you based on their profession.
+
+Jump to="/guides/advanced/listings/">Tutorial: Create your listing</Jump>
