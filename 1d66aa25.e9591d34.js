@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[104],{218:function(s){s.exports=JSON.parse('{"allTagsPath":"/guides/tags","slug":"sink-prometheus","name":"sink: prometheus","count":3,"permalink":"/guides/tags/sink-prometheus"}')}}]);

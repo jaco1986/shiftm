@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[470],{582:function(a){a.exports=JSON.parse('{"allTagsPath":"/guides/tags","slug":"sink-kafka","name":"sink: kafka","count":10,"permalink":"/guides/tags/sink-kafka"}')}}]);

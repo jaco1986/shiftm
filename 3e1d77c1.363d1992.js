@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[209],{322:function(e){e.exports=JSON.parse('{"category":{"name":"advanced","title":"Advanced","description":"Go beyond the basics, become a Shift\'M pro, and extract the full potential of Shift\'M.","permalink":"/guides/advanced"}}')}}]);
