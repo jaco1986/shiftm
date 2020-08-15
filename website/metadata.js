@@ -29213,7 +29213,7 @@ module.exports = {
       "avatar": "https://github.com/vector-vic.png",
       "github": "https://github.com/vector-vic",
       "id": "vic",
-      "name": "Vic"
+      "name": "Joe"
     }
   ],
   "transforms": {
